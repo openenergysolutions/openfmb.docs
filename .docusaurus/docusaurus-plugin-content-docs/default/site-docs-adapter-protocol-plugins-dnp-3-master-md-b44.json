@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/protocol-plugins/dnp3/master",
+  "id": "adapter/protocol-plugins/dnp3/master",
+  "isDocsHomePage": false,
+  "title": "DNP3 Master",
+  "description": "The dnp3-master plugin acquires measurement data and sends controls to DNP3",
+  "source": "@site/docs/adapter/protocol-plugins/dnp3/master.md",
+  "sourceDirName": "adapter/protocol-plugins/dnp3",
+  "slug": "/adapter/protocol-plugins/dnp3/master",
+  "permalink": "/docs/adapter/protocol-plugins/dnp3/master",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/dnp3/master.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Log plugin",
+    "permalink": "/docs/adapter/other-plugins/log"
+  },
+  "next": {
+    "title": "DNP3 Outstation",
+    "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
+  }
+}

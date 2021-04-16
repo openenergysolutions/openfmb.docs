@@ -12,6 +12,145 @@
       },
       {
         "type": "category",
+        "label": "Adapter",
+        "items": [
+          {
+            "type": "link",
+            "label": "CLI",
+            "href": "/docs/adapter/cli"
+          },
+          {
+            "type": "link",
+            "label": "Configuration",
+            "href": "/docs/adapter/config"
+          },
+          {
+            "type": "link",
+            "label": "Creating a new plugin",
+            "href": "/docs/adapter/extending"
+          },
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/adapter/index"
+          },
+          {
+            "type": "category",
+            "label": "misc",
+            "items": [
+              {
+                "type": "link",
+                "label": "Scheduling",
+                "href": "/docs/adapter/misc/scheduling"
+              },
+              {
+                "type": "link",
+                "label": "Self-signed certificates",
+                "href": "/docs/adapter/misc/self-signed"
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "category",
+            "label": "native-plugins",
+            "items": [
+              {
+                "type": "link",
+                "label": "DDS",
+                "href": "/docs/adapter/native-plugins/dds"
+              },
+              {
+                "type": "link",
+                "label": "MQTT",
+                "href": "/docs/adapter/native-plugins/mqtt"
+              },
+              {
+                "type": "link",
+                "label": "NATS",
+                "href": "/docs/adapter/native-plugins/nats"
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "category",
+            "label": "other-plugins",
+            "items": [
+              {
+                "type": "link",
+                "label": "Capture and Replay plugins",
+                "href": "/docs/adapter/other-plugins/capture-replay"
+              },
+              {
+                "type": "link",
+                "label": "Log plugin",
+                "href": "/docs/adapter/other-plugins/log"
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "category",
+            "label": "protocol-plugins",
+            "items": [
+              {
+                "type": "category",
+                "label": "dnp3",
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "DNP3 Master",
+                    "href": "/docs/adapter/protocol-plugins/dnp3/master"
+                  },
+                  {
+                    "type": "link",
+                    "label": "DNP3 Outstation",
+                    "href": "/docs/adapter/protocol-plugins/dnp3/outstation"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "link",
+                "label": "GOOSE",
+                "href": "/docs/adapter/protocol-plugins/goose"
+              },
+              {
+                "type": "category",
+                "label": "modbus",
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Modbus Master",
+                    "href": "/docs/adapter/protocol-plugins/modbus/master"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Modbus Outstation",
+                    "href": "/docs/adapter/protocol-plugins/modbus/outstation"
+                  }
+                ],
+                "collapsed": true
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "type": "link",
+            "label": "Protos",
+            "href": "/docs/adapter/protos"
+          },
+          {
+            "type": "link",
+            "label": "Schemas",
+            "href": "/docs/adapter/schemas"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
         "label": "Tutorial - Basics",
         "items": [
           {
@@ -67,6 +206,24 @@
     ]
   },
   "permalinkToSidebar": {
+    "/docs/adapter/cli": "tutorialSidebar",
+    "/docs/adapter/config": "tutorialSidebar",
+    "/docs/adapter/extending": "tutorialSidebar",
+    "/docs/adapter/index": "tutorialSidebar",
+    "/docs/adapter/misc/scheduling": "tutorialSidebar",
+    "/docs/adapter/misc/self-signed": "tutorialSidebar",
+    "/docs/adapter/native-plugins/dds": "tutorialSidebar",
+    "/docs/adapter/native-plugins/mqtt": "tutorialSidebar",
+    "/docs/adapter/native-plugins/nats": "tutorialSidebar",
+    "/docs/adapter/other-plugins/capture-replay": "tutorialSidebar",
+    "/docs/adapter/other-plugins/log": "tutorialSidebar",
+    "/docs/adapter/protocol-plugins/dnp3/master": "tutorialSidebar",
+    "/docs/adapter/protocol-plugins/dnp3/outstation": "tutorialSidebar",
+    "/docs/adapter/protocol-plugins/goose": "tutorialSidebar",
+    "/docs/adapter/protocol-plugins/modbus/master": "tutorialSidebar",
+    "/docs/adapter/protocol-plugins/modbus/outstation": "tutorialSidebar",
+    "/docs/adapter/protos": "tutorialSidebar",
+    "/docs/adapter/schemas": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
     "/docs/tutorial-basics/congratulations": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",

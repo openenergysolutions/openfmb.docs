@@ -11,6 +11,96 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "adapter/cli",
+              "path": "/docs/adapter/cli",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/config",
+              "path": "/docs/adapter/config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/extending",
+              "path": "/docs/adapter/extending",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/index",
+              "path": "/docs/adapter/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/misc/scheduling",
+              "path": "/docs/adapter/misc/scheduling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/misc/self-signed",
+              "path": "/docs/adapter/misc/self-signed",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/native-plugins/dds",
+              "path": "/docs/adapter/native-plugins/dds",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/native-plugins/mqtt",
+              "path": "/docs/adapter/native-plugins/mqtt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/native-plugins/nats",
+              "path": "/docs/adapter/native-plugins/nats",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/other-plugins/capture-replay",
+              "path": "/docs/adapter/other-plugins/capture-replay",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/other-plugins/log",
+              "path": "/docs/adapter/other-plugins/log",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/protocol-plugins/dnp3/master",
+              "path": "/docs/adapter/protocol-plugins/dnp3/master",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/protocol-plugins/dnp3/outstation",
+              "path": "/docs/adapter/protocol-plugins/dnp3/outstation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/protocol-plugins/goose",
+              "path": "/docs/adapter/protocol-plugins/goose",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/protocol-plugins/modbus/master",
+              "path": "/docs/adapter/protocol-plugins/modbus/master",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/protocol-plugins/modbus/outstation",
+              "path": "/docs/adapter/protocol-plugins/modbus/outstation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/protos",
+              "path": "/docs/adapter/protos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter/schemas",
+              "path": "/docs/adapter/schemas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

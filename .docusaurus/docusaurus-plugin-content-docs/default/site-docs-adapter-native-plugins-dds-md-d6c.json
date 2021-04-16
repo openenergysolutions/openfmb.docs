@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/native-plugins/dds",
+  "id": "adapter/native-plugins/dds",
+  "isDocsHomePage": false,
+  "title": "DDS",
+  "description": "DDS is a standard protocol providing",
+  "source": "@site/docs/adapter/native-plugins/dds.md",
+  "sourceDirName": "adapter/native-plugins",
+  "slug": "/adapter/native-plugins/dds",
+  "permalink": "/docs/adapter/native-plugins/dds",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/dds.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Self-signed certificates",
+    "permalink": "/docs/adapter/misc/self-signed"
+  },
+  "next": {
+    "title": "MQTT",
+    "permalink": "/docs/adapter/native-plugins/mqtt"
+  }
+}

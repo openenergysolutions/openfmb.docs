@@ -4,42 +4,47 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Unified Datamodel',
+    img: require('@site/static/img/openfmb_logo.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Unified and open datamodel with OpenFMB.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Adapter for Existing Protocols',
+    img: require('../../static/img/universal_converter_box.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Adapter software to communicate with common existing protocols such
+        as Modbus and DNP3.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Open Source Approved License ',
+    Svg: require('../../static/img/osi_logo.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Licensed under Apache 2.0, an OSI Approved license..
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({img, Svg, title, description}) {
+  var splash;
+  if(img != null) {
+    splash = <img src={img} />
+  } else {
+    splash = <Svg className={styles.featureSvg} alt={title} />
+  }
+
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        {splash}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

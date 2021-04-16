@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/other-plugins/log",
+  "id": "adapter/other-plugins/log",
+  "isDocsHomePage": false,
+  "title": "Log plugin",
+  "description": "The log plugin enables the user to monitor the messages that are sent to the",
+  "source": "@site/docs/adapter/other-plugins/log.md",
+  "sourceDirName": "adapter/other-plugins",
+  "slug": "/adapter/other-plugins/log",
+  "permalink": "/docs/adapter/other-plugins/log",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/other-plugins/log.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Capture and Replay plugins",
+    "permalink": "/docs/adapter/other-plugins/capture-replay"
+  },
+  "next": {
+    "title": "DNP3 Master",
+    "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+  }
+}

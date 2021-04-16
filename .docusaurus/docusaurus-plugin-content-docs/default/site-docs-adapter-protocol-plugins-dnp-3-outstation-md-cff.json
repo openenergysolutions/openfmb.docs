@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/protocol-plugins/dnp3/outstation",
+  "id": "adapter/protocol-plugins/dnp3/outstation",
+  "isDocsHomePage": false,
+  "title": "DNP3 Outstation",
+  "description": "The dnp3-outstation plugin exposes OpenFMB measurements as a DNP3 outstation",
+  "source": "@site/docs/adapter/protocol-plugins/dnp3/outstation.md",
+  "sourceDirName": "adapter/protocol-plugins/dnp3",
+  "slug": "/adapter/protocol-plugins/dnp3/outstation",
+  "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/dnp3/outstation.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DNP3 Master",
+    "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+  },
+  "next": {
+    "title": "GOOSE",
+    "permalink": "/docs/adapter/protocol-plugins/goose"
+  }
+}

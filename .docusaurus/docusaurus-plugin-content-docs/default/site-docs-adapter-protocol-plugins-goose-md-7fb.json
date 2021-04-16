@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/protocol-plugins/goose",
+  "id": "adapter/protocol-plugins/goose",
+  "isDocsHomePage": false,
+  "title": "GOOSE",
+  "description": "GOOSE (Generic Object Oriented Substation Events) is a control model defined in",
+  "source": "@site/docs/adapter/protocol-plugins/goose.md",
+  "sourceDirName": "adapter/protocol-plugins",
+  "slug": "/adapter/protocol-plugins/goose",
+  "permalink": "/docs/adapter/protocol-plugins/goose",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/goose.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DNP3 Outstation",
+    "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
+  },
+  "next": {
+    "title": "Modbus Master",
+    "permalink": "/docs/adapter/protocol-plugins/modbus/master"
+  }
+}

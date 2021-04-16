@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/index",
+  "id": "adapter/index",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "The OpenFMB Adapter is a portable C++ application which can both translate",
+  "source": "@site/docs/adapter/index.md",
+  "sourceDirName": "adapter",
+  "slug": "/adapter/index",
+  "permalink": "/docs/adapter/index",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/index.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating a new plugin",
+    "permalink": "/docs/adapter/extending"
+  },
+  "next": {
+    "title": "Scheduling",
+    "permalink": "/docs/adapter/misc/scheduling"
+  }
+}

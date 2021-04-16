@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/misc/self-signed",
+  "id": "adapter/misc/self-signed",
+  "isDocsHomePage": false,
+  "title": "Self-signed certificates",
+  "description": "Client certificate",
+  "source": "@site/docs/adapter/misc/self-signed.md",
+  "sourceDirName": "adapter/misc",
+  "slug": "/adapter/misc/self-signed",
+  "permalink": "/docs/adapter/misc/self-signed",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/misc/self-signed.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scheduling",
+    "permalink": "/docs/adapter/misc/scheduling"
+  },
+  "next": {
+    "title": "DDS",
+    "permalink": "/docs/adapter/native-plugins/dds"
+  }
+}

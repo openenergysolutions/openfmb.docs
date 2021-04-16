@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/cli",
+  "id": "adapter/cli",
+  "isDocsHomePage": false,
+  "title": "CLI",
+  "description": "The command-line interface (CLI) to the adapter provides some helpful commands including:",
+  "source": "@site/docs/adapter/cli.md",
+  "sourceDirName": "adapter",
+  "slug": "/adapter/cli",
+  "permalink": "/docs/adapter/cli",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/cli.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/adapter/config"
+  }
+}

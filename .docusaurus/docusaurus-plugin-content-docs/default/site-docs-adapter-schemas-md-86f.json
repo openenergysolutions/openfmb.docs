@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/schemas",
+  "id": "adapter/schemas",
+  "isDocsHomePage": false,
+  "title": "Schemas",
+  "description": "Introduction",
+  "source": "@site/docs/adapter/schemas.md",
+  "sourceDirName": "adapter",
+  "slug": "/adapter/schemas",
+  "permalink": "/docs/adapter/schemas",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/schemas.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Protos",
+    "permalink": "/docs/adapter/protos"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
+  }
+}

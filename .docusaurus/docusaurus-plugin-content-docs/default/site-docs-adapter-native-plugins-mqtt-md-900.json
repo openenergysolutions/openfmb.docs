@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/native-plugins/mqtt",
+  "id": "adapter/native-plugins/mqtt",
+  "isDocsHomePage": false,
+  "title": "MQTT",
+  "description": "MQTT is a lightweight m2m pub/sub messaging protocol mainly",
+  "source": "@site/docs/adapter/native-plugins/mqtt.md",
+  "sourceDirName": "adapter/native-plugins",
+  "slug": "/adapter/native-plugins/mqtt",
+  "permalink": "/docs/adapter/native-plugins/mqtt",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/mqtt.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DDS",
+    "permalink": "/docs/adapter/native-plugins/dds"
+  },
+  "next": {
+    "title": "NATS",
+    "permalink": "/docs/adapter/native-plugins/nats"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/config",
+  "id": "adapter/config",
+  "isDocsHomePage": false,
+  "title": "Configuration",
+  "description": "When the adapter application is started, the top level configuration file is",
+  "source": "@site/docs/adapter/config.md",
+  "sourceDirName": "adapter",
+  "slug": "/adapter/config",
+  "permalink": "/docs/adapter/config",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/config.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CLI",
+    "permalink": "/docs/adapter/cli"
+  },
+  "next": {
+    "title": "Creating a new plugin",
+    "permalink": "/docs/adapter/extending"
+  }
+}

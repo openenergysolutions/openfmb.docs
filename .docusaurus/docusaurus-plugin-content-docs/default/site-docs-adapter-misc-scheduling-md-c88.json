@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/misc/scheduling",
+  "id": "adapter/misc/scheduling",
+  "isDocsHomePage": false,
+  "title": "Scheduling",
+  "description": "Control profiles have schedule points that needs to be executed in the future",
+  "source": "@site/docs/adapter/misc/scheduling.md",
+  "sourceDirName": "adapter/misc",
+  "slug": "/adapter/misc/scheduling",
+  "permalink": "/docs/adapter/misc/scheduling",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/misc/scheduling.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/adapter/index"
+  },
+  "next": {
+    "title": "Self-signed certificates",
+    "permalink": "/docs/adapter/misc/self-signed"
+  }
+}

@@ -1,19 +1,19 @@
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "OpenFMB",
+  "tagline": "OpenFMB from Open Energy Solutions",
+  "url": "https://openenergysolutions.com/openfmb",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "openenergysolutions",
+  "projectName": "openfmb.docs",
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "OpenFMB",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Open Energy Solutions Inc - OpenFMB",
+        "src": "img/logo.png"
       },
       "items": [
         {
@@ -53,7 +53,7 @@ export default {
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://stackoverflow.com/questions/tagged/openfmb"
             },
             {
               "label": "Discord",
@@ -74,12 +74,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/openenergysolutions/openfmb.docs"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021 Open Energy Solutions, Inc. Built with Docusaurus."
     },
     "colorMode": {
       "defaultMode": "light",
@@ -107,11 +107,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/code/tburdick/src/openfmb.docs/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/"
         },
         "theme": {
           "customCss": "/code/tburdick/src/openfmb.docs/src/css/custom.css"

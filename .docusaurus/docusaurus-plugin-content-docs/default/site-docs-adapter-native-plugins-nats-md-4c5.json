@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/native-plugins/nats",
+  "id": "adapter/native-plugins/nats",
+  "isDocsHomePage": false,
+  "title": "NATS",
+  "description": "NATS is a lightweight messaging protocol that can used can",
+  "source": "@site/docs/adapter/native-plugins/nats.md",
+  "sourceDirName": "adapter/native-plugins",
+  "slug": "/adapter/native-plugins/nats",
+  "permalink": "/docs/adapter/native-plugins/nats",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/nats.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MQTT",
+    "permalink": "/docs/adapter/native-plugins/mqtt"
+  },
+  "next": {
+    "title": "Capture and Replay plugins",
+    "permalink": "/docs/adapter/other-plugins/capture-replay"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/extending",
+  "id": "adapter/extending",
+  "isDocsHomePage": false,
+  "title": "Creating a new plugin",
+  "description": "Internal architecture",
+  "source": "@site/docs/adapter/extending.md",
+  "sourceDirName": "adapter",
+  "slug": "/adapter/extending",
+  "permalink": "/docs/adapter/extending",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/extending.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/docs/adapter/config"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/adapter/index"
+  }
+}

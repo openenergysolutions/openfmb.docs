@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/protocol-plugins/modbus/outstation",
+  "id": "adapter/protocol-plugins/modbus/outstation",
+  "isDocsHomePage": false,
+  "title": "Modbus Outstation",
+  "description": "The modbus-outstation plugin exposes OpenFMB measurements as a Modbus slave",
+  "source": "@site/docs/adapter/protocol-plugins/modbus/outstation.md",
+  "sourceDirName": "adapter/protocol-plugins/modbus",
+  "slug": "/adapter/protocol-plugins/modbus/outstation",
+  "permalink": "/docs/adapter/protocol-plugins/modbus/outstation",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/modbus/outstation.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modbus Master",
+    "permalink": "/docs/adapter/protocol-plugins/modbus/master"
+  },
+  "next": {
+    "title": "Protos",
+    "permalink": "/docs/adapter/protos"
+  }
+}

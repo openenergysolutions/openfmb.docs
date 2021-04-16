@@ -1,0 +1,23 @@
+{
+  "unversionedId": "adapter/protocol-plugins/modbus/master",
+  "id": "adapter/protocol-plugins/modbus/master",
+  "isDocsHomePage": false,
+  "title": "Modbus Master",
+  "description": "The modbus-master plugin acts as a Modbus client (master) that can read and",
+  "source": "@site/docs/adapter/protocol-plugins/modbus/master.md",
+  "sourceDirName": "adapter/protocol-plugins/modbus",
+  "slug": "/adapter/protocol-plugins/modbus/master",
+  "permalink": "/docs/adapter/protocol-plugins/modbus/master",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/modbus/master.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GOOSE",
+    "permalink": "/docs/adapter/protocol-plugins/goose"
+  },
+  "next": {
+    "title": "Modbus Outstation",
+    "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+  }
+}

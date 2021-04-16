@@ -6,8 +6,8 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs",
+          "versionEditUrlLocalized": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/code/tburdick/src/openfmb.docs/sidebars.js",
@@ -19,6 +19,127 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Adapter",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "adapter/cli"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter/config"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter/extending"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "misc",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "adapter/misc/scheduling"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "adapter/misc/self-signed"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "native-plugins",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "adapter/native-plugins/dds"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "adapter/native-plugins/mqtt"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "adapter/native-plugins/nats"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "other-plugins",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "adapter/other-plugins/capture-replay"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "adapter/other-plugins/log"
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "protocol-plugins",
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "dnp3",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "adapter/protocol-plugins/dnp3/master"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "adapter/protocol-plugins/dnp3/outstation"
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "adapter/protocol-plugins/goose"
+                      },
+                      {
+                        "type": "category",
+                        "label": "modbus",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "adapter/protocol-plugins/modbus/master"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "adapter/protocol-plugins/modbus/outstation"
+                          }
+                        ],
+                        "collapsed": true
+                      }
+                    ],
+                    "collapsed": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter/protos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter/schemas"
+                  }
+                ],
+                "collapsed": true
               },
               {
                 "type": "category",
@@ -69,6 +190,24 @@
             ]
           },
           "permalinkToSidebar": {
+            "/docs/adapter/cli": "tutorialSidebar",
+            "/docs/adapter/config": "tutorialSidebar",
+            "/docs/adapter/extending": "tutorialSidebar",
+            "/docs/adapter/index": "tutorialSidebar",
+            "/docs/adapter/misc/scheduling": "tutorialSidebar",
+            "/docs/adapter/misc/self-signed": "tutorialSidebar",
+            "/docs/adapter/native-plugins/dds": "tutorialSidebar",
+            "/docs/adapter/native-plugins/mqtt": "tutorialSidebar",
+            "/docs/adapter/native-plugins/nats": "tutorialSidebar",
+            "/docs/adapter/other-plugins/capture-replay": "tutorialSidebar",
+            "/docs/adapter/other-plugins/log": "tutorialSidebar",
+            "/docs/adapter/protocol-plugins/dnp3/master": "tutorialSidebar",
+            "/docs/adapter/protocol-plugins/dnp3/outstation": "tutorialSidebar",
+            "/docs/adapter/protocol-plugins/goose": "tutorialSidebar",
+            "/docs/adapter/protocol-plugins/modbus/master": "tutorialSidebar",
+            "/docs/adapter/protocol-plugins/modbus/outstation": "tutorialSidebar",
+            "/docs/adapter/protos": "tutorialSidebar",
+            "/docs/adapter/schemas": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
             "/docs/tutorial-basics/congratulations": "tutorialSidebar",
             "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
@@ -81,6 +220,420 @@
           },
           "docs": [
             {
+              "unversionedId": "adapter/cli",
+              "id": "adapter/cli",
+              "isDocsHomePage": false,
+              "title": "CLI",
+              "description": "The command-line interface (CLI) to the adapter provides some helpful commands including:",
+              "source": "@site/docs/adapter/cli.md",
+              "sourceDirName": "adapter",
+              "slug": "/adapter/cli",
+              "permalink": "/docs/adapter/cli",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/cli.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Configuration",
+                "permalink": "/docs/adapter/config"
+              }
+            },
+            {
+              "unversionedId": "adapter/config",
+              "id": "adapter/config",
+              "isDocsHomePage": false,
+              "title": "Configuration",
+              "description": "When the adapter application is started, the top level configuration file is",
+              "source": "@site/docs/adapter/config.md",
+              "sourceDirName": "adapter",
+              "slug": "/adapter/config",
+              "permalink": "/docs/adapter/config",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/config.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CLI",
+                "permalink": "/docs/adapter/cli"
+              },
+              "next": {
+                "title": "Creating a new plugin",
+                "permalink": "/docs/adapter/extending"
+              }
+            },
+            {
+              "unversionedId": "adapter/extending",
+              "id": "adapter/extending",
+              "isDocsHomePage": false,
+              "title": "Creating a new plugin",
+              "description": "Internal architecture",
+              "source": "@site/docs/adapter/extending.md",
+              "sourceDirName": "adapter",
+              "slug": "/adapter/extending",
+              "permalink": "/docs/adapter/extending",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/extending.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuration",
+                "permalink": "/docs/adapter/config"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/adapter/index"
+              }
+            },
+            {
+              "unversionedId": "adapter/index",
+              "id": "adapter/index",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "The OpenFMB Adapter is a portable C++ application which can both translate",
+              "source": "@site/docs/adapter/index.md",
+              "sourceDirName": "adapter",
+              "slug": "/adapter/index",
+              "permalink": "/docs/adapter/index",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/index.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Creating a new plugin",
+                "permalink": "/docs/adapter/extending"
+              },
+              "next": {
+                "title": "Scheduling",
+                "permalink": "/docs/adapter/misc/scheduling"
+              }
+            },
+            {
+              "unversionedId": "adapter/misc/scheduling",
+              "id": "adapter/misc/scheduling",
+              "isDocsHomePage": false,
+              "title": "Scheduling",
+              "description": "Control profiles have schedule points that needs to be executed in the future",
+              "source": "@site/docs/adapter/misc/scheduling.md",
+              "sourceDirName": "adapter/misc",
+              "slug": "/adapter/misc/scheduling",
+              "permalink": "/docs/adapter/misc/scheduling",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/misc/scheduling.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/adapter/index"
+              },
+              "next": {
+                "title": "Self-signed certificates",
+                "permalink": "/docs/adapter/misc/self-signed"
+              }
+            },
+            {
+              "unversionedId": "adapter/misc/self-signed",
+              "id": "adapter/misc/self-signed",
+              "isDocsHomePage": false,
+              "title": "Self-signed certificates",
+              "description": "Client certificate",
+              "source": "@site/docs/adapter/misc/self-signed.md",
+              "sourceDirName": "adapter/misc",
+              "slug": "/adapter/misc/self-signed",
+              "permalink": "/docs/adapter/misc/self-signed",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/misc/self-signed.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Scheduling",
+                "permalink": "/docs/adapter/misc/scheduling"
+              },
+              "next": {
+                "title": "DDS",
+                "permalink": "/docs/adapter/native-plugins/dds"
+              }
+            },
+            {
+              "unversionedId": "adapter/native-plugins/dds",
+              "id": "adapter/native-plugins/dds",
+              "isDocsHomePage": false,
+              "title": "DDS",
+              "description": "DDS is a standard protocol providing",
+              "source": "@site/docs/adapter/native-plugins/dds.md",
+              "sourceDirName": "adapter/native-plugins",
+              "slug": "/adapter/native-plugins/dds",
+              "permalink": "/docs/adapter/native-plugins/dds",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/dds.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Self-signed certificates",
+                "permalink": "/docs/adapter/misc/self-signed"
+              },
+              "next": {
+                "title": "MQTT",
+                "permalink": "/docs/adapter/native-plugins/mqtt"
+              }
+            },
+            {
+              "unversionedId": "adapter/native-plugins/mqtt",
+              "id": "adapter/native-plugins/mqtt",
+              "isDocsHomePage": false,
+              "title": "MQTT",
+              "description": "MQTT is a lightweight m2m pub/sub messaging protocol mainly",
+              "source": "@site/docs/adapter/native-plugins/mqtt.md",
+              "sourceDirName": "adapter/native-plugins",
+              "slug": "/adapter/native-plugins/mqtt",
+              "permalink": "/docs/adapter/native-plugins/mqtt",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/mqtt.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "DDS",
+                "permalink": "/docs/adapter/native-plugins/dds"
+              },
+              "next": {
+                "title": "NATS",
+                "permalink": "/docs/adapter/native-plugins/nats"
+              }
+            },
+            {
+              "unversionedId": "adapter/native-plugins/nats",
+              "id": "adapter/native-plugins/nats",
+              "isDocsHomePage": false,
+              "title": "NATS",
+              "description": "NATS is a lightweight messaging protocol that can used can",
+              "source": "@site/docs/adapter/native-plugins/nats.md",
+              "sourceDirName": "adapter/native-plugins",
+              "slug": "/adapter/native-plugins/nats",
+              "permalink": "/docs/adapter/native-plugins/nats",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/nats.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MQTT",
+                "permalink": "/docs/adapter/native-plugins/mqtt"
+              },
+              "next": {
+                "title": "Capture and Replay plugins",
+                "permalink": "/docs/adapter/other-plugins/capture-replay"
+              }
+            },
+            {
+              "unversionedId": "adapter/other-plugins/capture-replay",
+              "id": "adapter/other-plugins/capture-replay",
+              "isDocsHomePage": false,
+              "title": "Capture and Replay plugins",
+              "description": "The capture plugin saves all the messages sent to the internal message bus to a",
+              "source": "@site/docs/adapter/other-plugins/capture-replay.md",
+              "sourceDirName": "adapter/other-plugins",
+              "slug": "/adapter/other-plugins/capture-replay",
+              "permalink": "/docs/adapter/other-plugins/capture-replay",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/other-plugins/capture-replay.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "NATS",
+                "permalink": "/docs/adapter/native-plugins/nats"
+              },
+              "next": {
+                "title": "Log plugin",
+                "permalink": "/docs/adapter/other-plugins/log"
+              }
+            },
+            {
+              "unversionedId": "adapter/other-plugins/log",
+              "id": "adapter/other-plugins/log",
+              "isDocsHomePage": false,
+              "title": "Log plugin",
+              "description": "The log plugin enables the user to monitor the messages that are sent to the",
+              "source": "@site/docs/adapter/other-plugins/log.md",
+              "sourceDirName": "adapter/other-plugins",
+              "slug": "/adapter/other-plugins/log",
+              "permalink": "/docs/adapter/other-plugins/log",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/other-plugins/log.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Capture and Replay plugins",
+                "permalink": "/docs/adapter/other-plugins/capture-replay"
+              },
+              "next": {
+                "title": "DNP3 Master",
+                "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+              }
+            },
+            {
+              "unversionedId": "adapter/protocol-plugins/dnp3/master",
+              "id": "adapter/protocol-plugins/dnp3/master",
+              "isDocsHomePage": false,
+              "title": "DNP3 Master",
+              "description": "The dnp3-master plugin acquires measurement data and sends controls to DNP3",
+              "source": "@site/docs/adapter/protocol-plugins/dnp3/master.md",
+              "sourceDirName": "adapter/protocol-plugins/dnp3",
+              "slug": "/adapter/protocol-plugins/dnp3/master",
+              "permalink": "/docs/adapter/protocol-plugins/dnp3/master",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/dnp3/master.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Log plugin",
+                "permalink": "/docs/adapter/other-plugins/log"
+              },
+              "next": {
+                "title": "DNP3 Outstation",
+                "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
+              }
+            },
+            {
+              "unversionedId": "adapter/protocol-plugins/dnp3/outstation",
+              "id": "adapter/protocol-plugins/dnp3/outstation",
+              "isDocsHomePage": false,
+              "title": "DNP3 Outstation",
+              "description": "The dnp3-outstation plugin exposes OpenFMB measurements as a DNP3 outstation",
+              "source": "@site/docs/adapter/protocol-plugins/dnp3/outstation.md",
+              "sourceDirName": "adapter/protocol-plugins/dnp3",
+              "slug": "/adapter/protocol-plugins/dnp3/outstation",
+              "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/dnp3/outstation.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "DNP3 Master",
+                "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+              },
+              "next": {
+                "title": "GOOSE",
+                "permalink": "/docs/adapter/protocol-plugins/goose"
+              }
+            },
+            {
+              "unversionedId": "adapter/protocol-plugins/goose",
+              "id": "adapter/protocol-plugins/goose",
+              "isDocsHomePage": false,
+              "title": "GOOSE",
+              "description": "GOOSE (Generic Object Oriented Substation Events) is a control model defined in",
+              "source": "@site/docs/adapter/protocol-plugins/goose.md",
+              "sourceDirName": "adapter/protocol-plugins",
+              "slug": "/adapter/protocol-plugins/goose",
+              "permalink": "/docs/adapter/protocol-plugins/goose",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/goose.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "DNP3 Outstation",
+                "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
+              },
+              "next": {
+                "title": "Modbus Master",
+                "permalink": "/docs/adapter/protocol-plugins/modbus/master"
+              }
+            },
+            {
+              "unversionedId": "adapter/protocol-plugins/modbus/master",
+              "id": "adapter/protocol-plugins/modbus/master",
+              "isDocsHomePage": false,
+              "title": "Modbus Master",
+              "description": "The modbus-master plugin acts as a Modbus client (master) that can read and",
+              "source": "@site/docs/adapter/protocol-plugins/modbus/master.md",
+              "sourceDirName": "adapter/protocol-plugins/modbus",
+              "slug": "/adapter/protocol-plugins/modbus/master",
+              "permalink": "/docs/adapter/protocol-plugins/modbus/master",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/modbus/master.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GOOSE",
+                "permalink": "/docs/adapter/protocol-plugins/goose"
+              },
+              "next": {
+                "title": "Modbus Outstation",
+                "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+              }
+            },
+            {
+              "unversionedId": "adapter/protocol-plugins/modbus/outstation",
+              "id": "adapter/protocol-plugins/modbus/outstation",
+              "isDocsHomePage": false,
+              "title": "Modbus Outstation",
+              "description": "The modbus-outstation plugin exposes OpenFMB measurements as a Modbus slave",
+              "source": "@site/docs/adapter/protocol-plugins/modbus/outstation.md",
+              "sourceDirName": "adapter/protocol-plugins/modbus",
+              "slug": "/adapter/protocol-plugins/modbus/outstation",
+              "permalink": "/docs/adapter/protocol-plugins/modbus/outstation",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/modbus/outstation.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Modbus Master",
+                "permalink": "/docs/adapter/protocol-plugins/modbus/master"
+              },
+              "next": {
+                "title": "Protos",
+                "permalink": "/docs/adapter/protos"
+              }
+            },
+            {
+              "unversionedId": "adapter/protos",
+              "id": "adapter/protos",
+              "isDocsHomePage": false,
+              "title": "Protos",
+              "description": "The protos used in this adapter are those defined in this repository:",
+              "source": "@site/docs/adapter/protos.md",
+              "sourceDirName": "adapter",
+              "slug": "/adapter/protos",
+              "permalink": "/docs/adapter/protos",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protos.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Modbus Outstation",
+                "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+              },
+              "next": {
+                "title": "Schemas",
+                "permalink": "/docs/adapter/schemas"
+              }
+            },
+            {
+              "unversionedId": "adapter/schemas",
+              "id": "adapter/schemas",
+              "isDocsHomePage": false,
+              "title": "Schemas",
+              "description": "Introduction",
+              "source": "@site/docs/adapter/schemas.md",
+              "sourceDirName": "adapter",
+              "slug": "/adapter/schemas",
+              "permalink": "/docs/adapter/schemas",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/schemas.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Protos",
+                "permalink": "/docs/adapter/protos"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "isDocsHomePage": false,
@@ -90,7 +643,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/intro.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -98,8 +651,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "CLI",
+                "permalink": "/docs/adapter/cli"
               }
             },
             {
@@ -112,7 +665,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
               "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/congratulations.md",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/congratulations.md",
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
@@ -138,7 +691,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
               "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-blog-post.md",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/create-a-blog-post.md",
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
@@ -164,7 +717,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-document.md",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/create-a-document.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -190,7 +743,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-page.md",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/create-a-page.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -198,8 +751,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "title": "Schemas",
+                "permalink": "/docs/adapter/schemas"
               },
               "next": {
                 "title": "Create a Document",
@@ -216,7 +769,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
               "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/deploy-your-site.md",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/deploy-your-site.md",
               "version": "current",
               "sidebarPosition": 5,
               "frontMatter": {
@@ -242,7 +795,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/markdown-features.mdx",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/markdown-features.mdx",
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
@@ -268,7 +821,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-extras/manage-docs-versions.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -294,7 +847,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-extras/translate-your-site.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -318,7 +871,7 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
+            "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/blog/2019-05-30-welcome.md",
             "source": "@site/blog/2019-05-30-welcome.md",
             "title": "Welcome",
             "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
@@ -350,7 +903,7 @@
           "id": "hello-world",
           "metadata": {
             "permalink": "/blog/hello-world",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
+            "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/blog/2019-05-29-hello-world.md",
             "source": "@site/blog/2019-05-29-hello-world.md",
             "title": "Hello",
             "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
@@ -382,7 +935,7 @@
           "id": "hola",
           "metadata": {
             "permalink": "/blog/hola",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
+            "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/blog/2019-05-28-hola.md",
             "source": "@site/blog/2019-05-28-hola.md",
             "title": "Hola",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",

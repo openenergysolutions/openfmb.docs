@@ -94,9 +94,99 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','18a'),
+  component: ComponentCreator('/docs','b3c'),
   
   routes: [
+{
+  path: '/docs/adapter/cli',
+  component: ComponentCreator('/docs/adapter/cli','43a'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/config',
+  component: ComponentCreator('/docs/adapter/config','347'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/extending',
+  component: ComponentCreator('/docs/adapter/extending','f43'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/index',
+  component: ComponentCreator('/docs/adapter/index','211'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/misc/scheduling',
+  component: ComponentCreator('/docs/adapter/misc/scheduling','364'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/misc/self-signed',
+  component: ComponentCreator('/docs/adapter/misc/self-signed','e22'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/native-plugins/dds',
+  component: ComponentCreator('/docs/adapter/native-plugins/dds','6e0'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/native-plugins/mqtt',
+  component: ComponentCreator('/docs/adapter/native-plugins/mqtt','9cd'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/native-plugins/nats',
+  component: ComponentCreator('/docs/adapter/native-plugins/nats','b81'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/other-plugins/capture-replay',
+  component: ComponentCreator('/docs/adapter/other-plugins/capture-replay','a01'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/other-plugins/log',
+  component: ComponentCreator('/docs/adapter/other-plugins/log','828'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/protocol-plugins/dnp3/master',
+  component: ComponentCreator('/docs/adapter/protocol-plugins/dnp3/master','222'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/protocol-plugins/dnp3/outstation',
+  component: ComponentCreator('/docs/adapter/protocol-plugins/dnp3/outstation','532'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/protocol-plugins/goose',
+  component: ComponentCreator('/docs/adapter/protocol-plugins/goose','15e'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/protocol-plugins/modbus/master',
+  component: ComponentCreator('/docs/adapter/protocol-plugins/modbus/master','0a5'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/protocol-plugins/modbus/outstation',
+  component: ComponentCreator('/docs/adapter/protocol-plugins/modbus/outstation','af2'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/protos',
+  component: ComponentCreator('/docs/adapter/protos','256'),
+  exact: true,
+},
+{
+  path: '/docs/adapter/schemas',
+  component: ComponentCreator('/docs/adapter/schemas','434'),
+  exact: true,
+},
 {
   path: '/docs/intro',
   component: ComponentCreator('/docs/intro','e84'),
