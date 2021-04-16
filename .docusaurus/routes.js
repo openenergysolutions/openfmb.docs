@@ -94,7 +94,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','b3c'),
+  component: ComponentCreator('/docs','19c'),
   
   routes: [
 {
@@ -193,43 +193,33 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/tutorial-basics/congratulations',
-  component: ComponentCreator('/docs/tutorial-basics/congratulations','7ef'),
+  path: '/docs/tutorial/congratulations',
+  component: ComponentCreator('/docs/tutorial/congratulations','1f7'),
   exact: true,
 },
 {
-  path: '/docs/tutorial-basics/create-a-blog-post',
-  component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post','2c8'),
+  path: '/docs/tutorial/create-a-blog-post',
+  component: ComponentCreator('/docs/tutorial/create-a-blog-post','666'),
   exact: true,
 },
 {
-  path: '/docs/tutorial-basics/create-a-document',
-  component: ComponentCreator('/docs/tutorial-basics/create-a-document','f0d'),
+  path: '/docs/tutorial/create-a-document',
+  component: ComponentCreator('/docs/tutorial/create-a-document','2a7'),
   exact: true,
 },
 {
-  path: '/docs/tutorial-basics/create-a-page',
-  component: ComponentCreator('/docs/tutorial-basics/create-a-page','ca5'),
+  path: '/docs/tutorial/create-a-page',
+  component: ComponentCreator('/docs/tutorial/create-a-page','aba'),
   exact: true,
 },
 {
-  path: '/docs/tutorial-basics/deploy-your-site',
-  component: ComponentCreator('/docs/tutorial-basics/deploy-your-site','508'),
+  path: '/docs/tutorial/deploy-your-site',
+  component: ComponentCreator('/docs/tutorial/deploy-your-site','613'),
   exact: true,
 },
 {
-  path: '/docs/tutorial-basics/markdown-features',
-  component: ComponentCreator('/docs/tutorial-basics/markdown-features','f90'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-extras/manage-docs-versions',
-  component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions','d64'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-extras/translate-your-site',
-  component: ComponentCreator('/docs/tutorial-extras/translate-your-site','16a'),
+  path: '/docs/tutorial/markdown-features',
+  component: ComponentCreator('/docs/tutorial/markdown-features','4f3'),
   exact: true,
 },
 ]

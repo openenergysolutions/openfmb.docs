@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # NATS
 
 [NATS](https://nats.io/) is a lightweight messaging protocol that can used can

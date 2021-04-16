@@ -22,46 +22,66 @@
               },
               {
                 "type": "category",
+                "label": "Tutorial",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial/create-a-page"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/create-a-document"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/create-a-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/markdown-features"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/deploy-your-site"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/congratulations"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
                 "label": "Adapter",
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "adapter/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter/protos"
+                  },
                   {
                     "type": "doc",
                     "id": "adapter/cli"
                   },
                   {
                     "type": "doc",
+                    "id": "adapter/schemas"
+                  },
+                  {
+                    "type": "doc",
                     "id": "adapter/config"
                   },
                   {
-                    "type": "doc",
-                    "id": "adapter/extending"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "adapter/index"
-                  },
-                  {
                     "type": "category",
-                    "label": "misc",
+                    "label": "Native Plugins",
                     "items": [
                       {
                         "type": "doc",
-                        "id": "adapter/misc/scheduling"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "adapter/misc/self-signed"
-                      }
-                    ],
-                    "collapsed": true
-                  },
-                  {
-                    "type": "category",
-                    "label": "native-plugins",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "adapter/native-plugins/dds"
+                        "id": "adapter/native-plugins/nats"
                       },
                       {
                         "type": "doc",
@@ -69,29 +89,14 @@
                       },
                       {
                         "type": "doc",
-                        "id": "adapter/native-plugins/nats"
+                        "id": "adapter/native-plugins/dds"
                       }
                     ],
                     "collapsed": true
                   },
                   {
                     "type": "category",
-                    "label": "other-plugins",
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "adapter/other-plugins/capture-replay"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "adapter/other-plugins/log"
-                      }
-                    ],
-                    "collapsed": true
-                  },
-                  {
-                    "type": "category",
-                    "label": "protocol-plugins",
+                    "label": "Protocol Plugins",
                     "items": [
                       {
                         "type": "category",
@@ -131,58 +136,39 @@
                     "collapsed": true
                   },
                   {
-                    "type": "doc",
-                    "id": "adapter/protos"
+                    "type": "category",
+                    "label": "Other Plugins",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "adapter/other-plugins/capture-replay"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "adapter/other-plugins/log"
+                      }
+                    ],
+                    "collapsed": true
                   },
                   {
                     "type": "doc",
-                    "id": "adapter/schemas"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "category",
-                "label": "Tutorial - Basics",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
+                    "id": "adapter/extending",
+                    "label": "Extending"
                   },
                   {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/congratulations"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "category",
-                "label": "Tutorial - Extras",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
+                    "type": "category",
+                    "label": "Advanced Configuration",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "adapter/misc/scheduling"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "adapter/misc/self-signed"
+                      }
+                    ],
+                    "collapsed": true
                   }
                 ],
                 "collapsed": true
@@ -209,14 +195,12 @@
             "/docs/adapter/protos": "tutorialSidebar",
             "/docs/adapter/schemas": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
-            "/docs/tutorial-basics/congratulations": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
-            "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
-            "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
-            "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
-            "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+            "/docs/tutorial/congratulations": "tutorialSidebar",
+            "/docs/tutorial/create-a-blog-post": "tutorialSidebar",
+            "/docs/tutorial/create-a-document": "tutorialSidebar",
+            "/docs/tutorial/create-a-page": "tutorialSidebar",
+            "/docs/tutorial/deploy-your-site": "tutorialSidebar",
+            "/docs/tutorial/markdown-features": "tutorialSidebar"
           },
           "docs": [
             {
@@ -231,15 +215,18 @@
               "permalink": "/docs/adapter/cli",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/cli.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "title": "Protos",
+                "permalink": "/docs/adapter/protos"
               },
               "next": {
-                "title": "Configuration",
-                "permalink": "/docs/adapter/config"
+                "title": "Schemas",
+                "permalink": "/docs/adapter/schemas"
               }
             },
             {
@@ -254,15 +241,18 @@
               "permalink": "/docs/adapter/config",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/config.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "CLI",
-                "permalink": "/docs/adapter/cli"
+                "title": "Schemas",
+                "permalink": "/docs/adapter/schemas"
               },
               "next": {
-                "title": "Creating a new plugin",
-                "permalink": "/docs/adapter/extending"
+                "title": "NATS",
+                "permalink": "/docs/adapter/native-plugins/nats"
               }
             },
             {
@@ -277,15 +267,20 @@
               "permalink": "/docs/adapter/extending",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/extending.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebar_label": "Extending",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_label": "Extending",
+                "sidebar_position": 9
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Configuration",
-                "permalink": "/docs/adapter/config"
+                "title": "Log plugin",
+                "permalink": "/docs/adapter/other-plugins/log"
               },
               "next": {
-                "title": "Introduction",
-                "permalink": "/docs/adapter/index"
+                "title": "Scheduling",
+                "permalink": "/docs/adapter/misc/scheduling"
               }
             },
             {
@@ -300,15 +295,18 @@
               "permalink": "/docs/adapter/index",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/index.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Creating a new plugin",
-                "permalink": "/docs/adapter/extending"
+                "title": "Congratulations!",
+                "permalink": "/docs/tutorial/congratulations"
               },
               "next": {
-                "title": "Scheduling",
-                "permalink": "/docs/adapter/misc/scheduling"
+                "title": "Protos",
+                "permalink": "/docs/adapter/protos"
               }
             },
             {
@@ -326,8 +324,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/adapter/index"
+                "title": "Creating a new plugin",
+                "permalink": "/docs/adapter/extending"
               },
               "next": {
                 "title": "Self-signed certificates",
@@ -351,10 +349,6 @@
               "previous": {
                 "title": "Scheduling",
                 "permalink": "/docs/adapter/misc/scheduling"
-              },
-              "next": {
-                "title": "DDS",
-                "permalink": "/docs/adapter/native-plugins/dds"
               }
             },
             {
@@ -369,15 +363,18 @@
               "permalink": "/docs/adapter/native-plugins/dds",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/dds.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Self-signed certificates",
-                "permalink": "/docs/adapter/misc/self-signed"
-              },
-              "next": {
                 "title": "MQTT",
                 "permalink": "/docs/adapter/native-plugins/mqtt"
+              },
+              "next": {
+                "title": "DNP3 Master",
+                "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
               }
             },
             {
@@ -392,15 +389,18 @@
               "permalink": "/docs/adapter/native-plugins/mqtt",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/mqtt.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "DDS",
-                "permalink": "/docs/adapter/native-plugins/dds"
-              },
-              "next": {
                 "title": "NATS",
                 "permalink": "/docs/adapter/native-plugins/nats"
+              },
+              "next": {
+                "title": "DDS",
+                "permalink": "/docs/adapter/native-plugins/dds"
               }
             },
             {
@@ -415,15 +415,18 @@
               "permalink": "/docs/adapter/native-plugins/nats",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/nats.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "MQTT",
-                "permalink": "/docs/adapter/native-plugins/mqtt"
+                "title": "Configuration",
+                "permalink": "/docs/adapter/config"
               },
               "next": {
-                "title": "Capture and Replay plugins",
-                "permalink": "/docs/adapter/other-plugins/capture-replay"
+                "title": "MQTT",
+                "permalink": "/docs/adapter/native-plugins/mqtt"
               }
             },
             {
@@ -441,8 +444,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "NATS",
-                "permalink": "/docs/adapter/native-plugins/nats"
+                "title": "Modbus Outstation",
+                "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
               },
               "next": {
                 "title": "Log plugin",
@@ -468,8 +471,8 @@
                 "permalink": "/docs/adapter/other-plugins/capture-replay"
               },
               "next": {
-                "title": "DNP3 Master",
-                "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+                "title": "Creating a new plugin",
+                "permalink": "/docs/adapter/extending"
               }
             },
             {
@@ -487,8 +490,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Log plugin",
-                "permalink": "/docs/adapter/other-plugins/log"
+                "title": "DDS",
+                "permalink": "/docs/adapter/native-plugins/dds"
               },
               "next": {
                 "title": "DNP3 Outstation",
@@ -583,8 +586,8 @@
                 "permalink": "/docs/adapter/protocol-plugins/modbus/master"
               },
               "next": {
-                "title": "Protos",
-                "permalink": "/docs/adapter/protos"
+                "title": "Capture and Replay plugins",
+                "permalink": "/docs/adapter/other-plugins/capture-replay"
               }
             },
             {
@@ -599,15 +602,18 @@
               "permalink": "/docs/adapter/protos",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protos.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Modbus Outstation",
-                "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+                "title": "Introduction",
+                "permalink": "/docs/adapter/index"
               },
               "next": {
-                "title": "Schemas",
-                "permalink": "/docs/adapter/schemas"
+                "title": "CLI",
+                "permalink": "/docs/adapter/cli"
               }
             },
             {
@@ -622,15 +628,18 @@
               "permalink": "/docs/adapter/schemas",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/schemas.md",
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Protos",
-                "permalink": "/docs/adapter/protos"
+                "title": "CLI",
+                "permalink": "/docs/adapter/cli"
               },
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "Configuration",
+                "permalink": "/docs/adapter/config"
               }
             },
             {
@@ -651,21 +660,21 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "CLI",
-                "permalink": "/docs/adapter/cli"
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial/create-a-page"
               }
             },
             {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
+              "unversionedId": "tutorial/congratulations",
+              "id": "tutorial/congratulations",
               "isDocsHomePage": false,
               "title": "Congratulations!",
               "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/congratulations.md",
+              "source": "@site/docs/tutorial/congratulations.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/congratulations",
+              "permalink": "/docs/tutorial/congratulations",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/congratulations.md",
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
@@ -674,24 +683,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/docs/tutorial/deploy-your-site"
               },
               "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "Introduction",
+                "permalink": "/docs/adapter/index"
               }
             },
             {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
+              "unversionedId": "tutorial/create-a-blog-post",
+              "id": "tutorial/create-a-blog-post",
               "isDocsHomePage": false,
               "title": "Create a Blog Post",
               "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/create-a-blog-post.md",
+              "source": "@site/docs/tutorial/create-a-blog-post.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/create-a-blog-post",
+              "permalink": "/docs/tutorial/create-a-blog-post",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/create-a-blog-post.md",
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
@@ -700,24 +709,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/docs/tutorial/create-a-document"
               },
               "next": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/docs/tutorial/markdown-features"
               }
             },
             {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
+              "unversionedId": "tutorial/create-a-document",
+              "id": "tutorial/create-a-document",
               "isDocsHomePage": false,
               "title": "Create a Document",
               "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/create-a-document.md",
+              "source": "@site/docs/tutorial/create-a-document.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/create-a-document",
+              "permalink": "/docs/tutorial/create-a-document",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/create-a-document.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -726,24 +735,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/tutorial/create-a-page"
               },
               "next": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docs/tutorial/create-a-blog-post"
               }
             },
             {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
+              "unversionedId": "tutorial/create-a-page",
+              "id": "tutorial/create-a-page",
               "isDocsHomePage": false,
               "title": "Create a Page",
               "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/create-a-page.md",
+              "source": "@site/docs/tutorial/create-a-page.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/create-a-page",
+              "permalink": "/docs/tutorial/create-a-page",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/create-a-page.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -751,25 +760,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Schemas",
-                "permalink": "/docs/adapter/schemas"
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/docs/tutorial/create-a-document"
               }
             },
             {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
+              "unversionedId": "tutorial/deploy-your-site",
+              "id": "tutorial/deploy-your-site",
               "isDocsHomePage": false,
               "title": "Deploy your site",
               "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/deploy-your-site.md",
+              "source": "@site/docs/tutorial/deploy-your-site.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/deploy-your-site",
+              "permalink": "/docs/tutorial/deploy-your-site",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/deploy-your-site.md",
               "version": "current",
               "sidebarPosition": 5,
               "frontMatter": {
@@ -778,24 +787,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/docs/tutorial/markdown-features"
               },
               "next": {
                 "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
+                "permalink": "/docs/tutorial/congratulations"
               }
             },
             {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
+              "unversionedId": "tutorial/markdown-features",
+              "id": "tutorial/markdown-features",
               "isDocsHomePage": false,
               "title": "Markdown Features",
               "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-basics/markdown-features.mdx",
+              "source": "@site/docs/tutorial/markdown-features.mdx",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/markdown-features",
+              "permalink": "/docs/tutorial/markdown-features",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/markdown-features.mdx",
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
@@ -804,59 +813,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docs/tutorial/create-a-blog-post"
               },
               "next": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "isDocsHomePage": false,
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-extras/manage-docs-versions.md",
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "isDocsHomePage": false,
-              "title": "Translate your site",
-              "description": "Let's translate docs/getting-started.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial-extras/translate-your-site.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docs/tutorial/deploy-your-site"
               }
             }
           ]

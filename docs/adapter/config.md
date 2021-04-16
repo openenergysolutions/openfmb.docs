@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Configuration
 
 When the adapter application is started, the top level configuration file is

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # DDS
 
 [DDS](https://www.dds-foundation.org/) is a standard protocol providing

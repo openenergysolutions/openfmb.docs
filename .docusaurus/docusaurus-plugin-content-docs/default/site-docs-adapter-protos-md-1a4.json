@@ -10,14 +10,17 @@
   "permalink": "/docs/adapter/protos",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protos.md",
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Modbus Outstation",
-    "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+    "title": "Introduction",
+    "permalink": "/docs/adapter/index"
   },
   "next": {
-    "title": "Schemas",
-    "permalink": "/docs/adapter/schemas"
+    "title": "CLI",
+    "permalink": "/docs/adapter/cli"
   }
 }

@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "NATS",
-    "permalink": "/docs/adapter/native-plugins/nats"
+    "title": "Modbus Outstation",
+    "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
   },
   "next": {
     "title": "Log plugin",

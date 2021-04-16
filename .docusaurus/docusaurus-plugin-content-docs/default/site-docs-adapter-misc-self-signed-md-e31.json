@@ -15,9 +15,5 @@
   "previous": {
     "title": "Scheduling",
     "permalink": "/docs/adapter/misc/scheduling"
-  },
-  "next": {
-    "title": "DDS",
-    "permalink": "/docs/adapter/native-plugins/dds"
   }
 }

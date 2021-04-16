@@ -24,12 +24,7 @@ export default {
           "activeSidebarClassName": "navbar__link--active"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/openenergysolutions/openfmb.docs",
           "label": "GitHub",
           "position": "right"
         }
@@ -68,10 +63,6 @@ export default {
         {
           "title": "More",
           "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
               "href": "https://github.com/openenergysolutions/openfmb.docs"

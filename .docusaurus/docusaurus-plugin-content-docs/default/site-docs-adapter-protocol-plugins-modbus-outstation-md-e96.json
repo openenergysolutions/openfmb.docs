@@ -17,7 +17,7 @@
     "permalink": "/docs/adapter/protocol-plugins/modbus/master"
   },
   "next": {
-    "title": "Protos",
-    "permalink": "/docs/adapter/protos"
+    "title": "Capture and Replay plugins",
+    "permalink": "/docs/adapter/other-plugins/capture-replay"
   }
 }

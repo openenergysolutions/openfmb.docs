@@ -10,14 +10,19 @@
   "permalink": "/docs/adapter/extending",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/extending.md",
   "version": "current",
-  "frontMatter": {},
+  "sidebar_label": "Extending",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_label": "Extending",
+    "sidebar_position": 9
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Configuration",
-    "permalink": "/docs/adapter/config"
+    "title": "Log plugin",
+    "permalink": "/docs/adapter/other-plugins/log"
   },
   "next": {
-    "title": "Introduction",
-    "permalink": "/docs/adapter/index"
+    "title": "Scheduling",
+    "permalink": "/docs/adapter/misc/scheduling"
   }
 }

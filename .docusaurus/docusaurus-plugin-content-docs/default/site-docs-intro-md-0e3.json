@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "CLI",
-    "permalink": "/docs/adapter/cli"
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial/create-a-page"
   }
 }

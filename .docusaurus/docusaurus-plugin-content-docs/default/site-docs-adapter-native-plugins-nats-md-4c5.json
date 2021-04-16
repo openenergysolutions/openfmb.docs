@@ -10,14 +10,17 @@
   "permalink": "/docs/adapter/native-plugins/nats",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/nats.md",
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "MQTT",
-    "permalink": "/docs/adapter/native-plugins/mqtt"
+    "title": "Configuration",
+    "permalink": "/docs/adapter/config"
   },
   "next": {
-    "title": "Capture and Replay plugins",
-    "permalink": "/docs/adapter/other-plugins/capture-replay"
+    "title": "MQTT",
+    "permalink": "/docs/adapter/native-plugins/mqtt"
   }
 }

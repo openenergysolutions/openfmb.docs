@@ -1,3 +1,8 @@
+---
+sidebar_label: Extending
+sidebar_position: 9
+---
+
 # Creating a new plugin
 
 ## Internal architecture

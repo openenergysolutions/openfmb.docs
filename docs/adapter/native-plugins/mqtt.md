@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # MQTT
 
 [MQTT](http://mqtt.org/) is a lightweight m2m pub/sub messaging protocol mainly

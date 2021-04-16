@@ -10,14 +10,17 @@
   "permalink": "/docs/adapter/config",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/config.md",
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "CLI",
-    "permalink": "/docs/adapter/cli"
+    "title": "Schemas",
+    "permalink": "/docs/adapter/schemas"
   },
   "next": {
-    "title": "Creating a new plugin",
-    "permalink": "/docs/adapter/extending"
+    "title": "NATS",
+    "permalink": "/docs/adapter/native-plugins/nats"
   }
 }

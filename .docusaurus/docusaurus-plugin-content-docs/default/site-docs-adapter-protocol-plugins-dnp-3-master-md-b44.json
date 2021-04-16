@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Log plugin",
-    "permalink": "/docs/adapter/other-plugins/log"
+    "title": "DDS",
+    "permalink": "/docs/adapter/native-plugins/dds"
   },
   "next": {
     "title": "DNP3 Outstation",

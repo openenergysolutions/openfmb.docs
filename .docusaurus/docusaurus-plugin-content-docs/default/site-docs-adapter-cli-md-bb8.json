@@ -10,14 +10,17 @@
   "permalink": "/docs/adapter/cli",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/cli.md",
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
+    "title": "Protos",
+    "permalink": "/docs/adapter/protos"
   },
   "next": {
-    "title": "Configuration",
-    "permalink": "/docs/adapter/config"
+    "title": "Schemas",
+    "permalink": "/docs/adapter/schemas"
   }
 }

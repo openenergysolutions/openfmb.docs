@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # CLI
 
 The command-line interface (CLI) to the adapter provides some helpful commands including:

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Protos
 
 The protos used in this adapter are those defined in this repository:

@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/docs/adapter/index"
+    "title": "Creating a new plugin",
+    "permalink": "/docs/adapter/extending"
   },
   "next": {
     "title": "Self-signed certificates",

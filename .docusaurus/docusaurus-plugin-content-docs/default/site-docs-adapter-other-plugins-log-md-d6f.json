@@ -17,7 +17,7 @@
     "permalink": "/docs/adapter/other-plugins/capture-replay"
   },
   "next": {
-    "title": "DNP3 Master",
-    "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+    "title": "Creating a new plugin",
+    "permalink": "/docs/adapter/extending"
   }
 }

@@ -10,14 +10,17 @@
   "permalink": "/docs/adapter/index",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/index.md",
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Creating a new plugin",
-    "permalink": "/docs/adapter/extending"
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial/congratulations"
   },
   "next": {
-    "title": "Scheduling",
-    "permalink": "/docs/adapter/misc/scheduling"
+    "title": "Protos",
+    "permalink": "/docs/adapter/protos"
   }
 }

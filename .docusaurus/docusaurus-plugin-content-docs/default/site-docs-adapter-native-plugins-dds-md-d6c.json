@@ -10,14 +10,17 @@
   "permalink": "/docs/adapter/native-plugins/dds",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/dds.md",
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Self-signed certificates",
-    "permalink": "/docs/adapter/misc/self-signed"
-  },
-  "next": {
     "title": "MQTT",
     "permalink": "/docs/adapter/native-plugins/mqtt"
+  },
+  "next": {
+    "title": "DNP3 Master",
+    "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
   }
 }
