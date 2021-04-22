@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{86:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/openfmb.docs/blog/welcome"},{"title":"Hello","permalink":"/openfmb.docs/blog/hello-world"},{"title":"Hola","permalink":"/openfmb.docs/blog/hola"}]}')}}]);
