@@ -11,6 +11,36 @@
           "mainDocId": "tutorial/intro",
           "docs": [
             {
+              "id": "adapter-config-tool/defs",
+              "path": "/openfmb.docs/docs/adapter-config-tool/defs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter-config-tool/download",
+              "path": "/openfmb.docs/docs/adapter-config-tool/download",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter-config-tool/index",
+              "path": "/openfmb.docs/docs/adapter-config-tool/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter-config-tool/install",
+              "path": "/openfmb.docs/docs/adapter-config-tool/install",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter-config-tool/quick-guide",
+              "path": "/openfmb.docs/docs/adapter-config-tool/quick-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "adapter-config-tool/source",
+              "path": "/openfmb.docs/docs/adapter-config-tool/source",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "adapter/cli",
               "path": "/openfmb.docs/docs/adapter/cli",
               "sidebar": "tutorialSidebar"
@@ -93,6 +123,31 @@
             {
               "id": "adapter/schemas",
               "path": "/openfmb.docs/docs/adapter/schemas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hmi/configuration",
+              "path": "/openfmb.docs/docs/hmi/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hmi/docker",
+              "path": "/openfmb.docs/docs/hmi/docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hmi/index",
+              "path": "/openfmb.docs/docs/hmi/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hmi/run",
+              "path": "/openfmb.docs/docs/hmi/run",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hmi/sld",
+              "path": "/openfmb.docs/docs/hmi/sld",
               "sidebar": "tutorialSidebar"
             },
             {

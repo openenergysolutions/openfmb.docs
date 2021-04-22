@@ -5,21 +5,17 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docs",
+          "versionPath": "/openfmb.docs/docs",
           "versionEditUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs",
           "versionEditUrlLocalized": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/code/tburdick/src/openfmb.docs/sidebars.js",
-          "contentPath": "/code/tburdick/src/openfmb.docs/docs",
-          "contentPathLocalized": "/code/tburdick/src/openfmb.docs/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
+          "sidebarFilePath": "C:\\Projects\\openfmb.docs\\sidebars.js",
+          "contentPath": "C:\\Projects\\openfmb.docs\\docs",
+          "contentPathLocalized": "C:\\Projects\\openfmb.docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "mainDocId": "tutorial/intro",
           "sidebars": {
             "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "intro"
-              },
               {
                 "type": "category",
                 "label": "Tutorial",
@@ -148,31 +144,255 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Adapter Config Tool",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "adapter-config-tool/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter-config-tool/download"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter-config-tool/install"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter-config-tool/source"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter-config-tool/quick-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "adapter-config-tool/defs"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Human Machine Interface",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "hmi/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hmi/docker"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hmi/configuration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hmi/run"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hmi/sld"
+                  }
+                ],
+                "collapsed": true
               }
             ]
           },
           "permalinkToSidebar": {
-            "/docs/adapter/cli": "tutorialSidebar",
-            "/docs/adapter/config": "tutorialSidebar",
-            "/docs/adapter/extending": "tutorialSidebar",
-            "/docs/adapter/index": "tutorialSidebar",
-            "/docs/adapter/misc/scheduling": "tutorialSidebar",
-            "/docs/adapter/misc/self-signed": "tutorialSidebar",
-            "/docs/adapter/native-plugins/dds": "tutorialSidebar",
-            "/docs/adapter/native-plugins/mqtt": "tutorialSidebar",
-            "/docs/adapter/native-plugins/nats": "tutorialSidebar",
-            "/docs/adapter/other-plugins/capture-replay": "tutorialSidebar",
-            "/docs/adapter/other-plugins/log": "tutorialSidebar",
-            "/docs/adapter/protocol-plugins/dnp3/master": "tutorialSidebar",
-            "/docs/adapter/protocol-plugins/dnp3/outstation": "tutorialSidebar",
-            "/docs/adapter/protocol-plugins/modbus/master": "tutorialSidebar",
-            "/docs/adapter/protocol-plugins/modbus/outstation": "tutorialSidebar",
-            "/docs/adapter/protos": "tutorialSidebar",
-            "/docs/adapter/schemas": "tutorialSidebar",
-            "/docs/intro": "tutorialSidebar",
-            "/docs/tutorial/intro": "tutorialSidebar"
+            "/openfmb.docs/docs/adapter-config-tool/defs": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter-config-tool/download": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter-config-tool/index": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter-config-tool/install": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter-config-tool/quick-guide": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter-config-tool/source": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/cli": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/config": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/extending": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/index": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/misc/scheduling": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/misc/self-signed": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/native-plugins/dds": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/native-plugins/mqtt": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/native-plugins/nats": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/other-plugins/capture-replay": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/other-plugins/log": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/master": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/protocol-plugins/modbus/master": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/protocol-plugins/modbus/outstation": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/protos": "tutorialSidebar",
+            "/openfmb.docs/docs/adapter/schemas": "tutorialSidebar",
+            "/openfmb.docs/docs/hmi/configuration": "tutorialSidebar",
+            "/openfmb.docs/docs/hmi/docker": "tutorialSidebar",
+            "/openfmb.docs/docs/hmi/index": "tutorialSidebar",
+            "/openfmb.docs/docs/hmi/run": "tutorialSidebar",
+            "/openfmb.docs/docs/hmi/sld": "tutorialSidebar",
+            "/openfmb.docs/docs/tutorial/intro": "tutorialSidebar"
           },
           "docs": [
+            {
+              "unversionedId": "adapter-config-tool/defs",
+              "id": "adapter-config-tool/defs",
+              "isDocsHomePage": false,
+              "title": "Terminology and Definitions",
+              "description": "| Term                                     | Description                                              |",
+              "source": "@site/docs/adapter-config-tool/defs.md",
+              "sourceDirName": "adapter-config-tool",
+              "slug": "/adapter-config-tool/defs",
+              "permalink": "/openfmb.docs/docs/adapter-config-tool/defs",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter-config-tool/defs.md",
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Quick Guide",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/quick-guide"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/openfmb.docs/docs/hmi/index"
+              }
+            },
+            {
+              "unversionedId": "adapter-config-tool/download",
+              "id": "adapter-config-tool/download",
+              "isDocsHomePage": false,
+              "title": "Download",
+              "description": "To download OpenFMB Adapter Configuration Tool, go to:",
+              "source": "@site/docs/adapter-config-tool/download.md",
+              "sourceDirName": "adapter-config-tool",
+              "slug": "/adapter-config-tool/download",
+              "permalink": "/openfmb.docs/docs/adapter-config-tool/download",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter-config-tool/download.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/index"
+              },
+              "next": {
+                "title": "Install",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/install"
+              }
+            },
+            {
+              "unversionedId": "adapter-config-tool/index",
+              "id": "adapter-config-tool/index",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "OpenFMB Adapter Configuration Tool (OACT) is a desktop application used to generate adapter configuration files (in YAML format), which direct how the adapter behaves at runtime and detail the mappings between legacy protocols to OpenFMB profile messages.",
+              "source": "@site/docs/adapter-config-tool/index.md",
+              "sourceDirName": "adapter-config-tool",
+              "slug": "/adapter-config-tool/index",
+              "permalink": "/openfmb.docs/docs/adapter-config-tool/index",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter-config-tool/index.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Self-signed certificates",
+                "permalink": "/openfmb.docs/docs/adapter/misc/self-signed"
+              },
+              "next": {
+                "title": "Download",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/download"
+              }
+            },
+            {
+              "unversionedId": "adapter-config-tool/install",
+              "id": "adapter-config-tool/install",
+              "isDocsHomePage": false,
+              "title": "Install",
+              "description": "After downloading OpenFMB Adapter Tool:",
+              "source": "@site/docs/adapter-config-tool/install.md",
+              "sourceDirName": "adapter-config-tool",
+              "slug": "/adapter-config-tool/install",
+              "permalink": "/openfmb.docs/docs/adapter-config-tool/install",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter-config-tool/install.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Download",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/download"
+              },
+              "next": {
+                "title": "Source Code",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/source"
+              }
+            },
+            {
+              "unversionedId": "adapter-config-tool/quick-guide",
+              "id": "adapter-config-tool/quick-guide",
+              "isDocsHomePage": false,
+              "title": "Quick Guide",
+              "description": "Follow these steps to configure your first OpenFMB Adapter",
+              "source": "@site/docs/adapter-config-tool/quick-guide.md",
+              "sourceDirName": "adapter-config-tool",
+              "slug": "/adapter-config-tool/quick-guide",
+              "permalink": "/openfmb.docs/docs/adapter-config-tool/quick-guide",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter-config-tool/quick-guide.md",
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Source Code",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/source"
+              },
+              "next": {
+                "title": "Terminology and Definitions",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/defs"
+              }
+            },
+            {
+              "unversionedId": "adapter-config-tool/source",
+              "id": "adapter-config-tool/source",
+              "isDocsHomePage": false,
+              "title": "Source Code",
+              "description": "Source code can be downloaded from:",
+              "source": "@site/docs/adapter-config-tool/source.md",
+              "sourceDirName": "adapter-config-tool",
+              "slug": "/adapter-config-tool/source",
+              "permalink": "/openfmb.docs/docs/adapter-config-tool/source",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter-config-tool/source.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Install",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/install"
+              },
+              "next": {
+                "title": "Quick Guide",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/quick-guide"
+              }
+            },
             {
               "unversionedId": "adapter/cli",
               "id": "adapter/cli",
@@ -182,7 +402,7 @@
               "source": "@site/docs/adapter/cli.md",
               "sourceDirName": "adapter",
               "slug": "/adapter/cli",
-              "permalink": "/docs/adapter/cli",
+              "permalink": "/openfmb.docs/docs/adapter/cli",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/cli.md",
               "version": "current",
               "sidebarPosition": 3,
@@ -192,11 +412,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Protos",
-                "permalink": "/docs/adapter/protos"
+                "permalink": "/openfmb.docs/docs/adapter/protos"
               },
               "next": {
                 "title": "Schemas",
-                "permalink": "/docs/adapter/schemas"
+                "permalink": "/openfmb.docs/docs/adapter/schemas"
               }
             },
             {
@@ -208,7 +428,7 @@
               "source": "@site/docs/adapter/config.md",
               "sourceDirName": "adapter",
               "slug": "/adapter/config",
-              "permalink": "/docs/adapter/config",
+              "permalink": "/openfmb.docs/docs/adapter/config",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/config.md",
               "version": "current",
               "sidebarPosition": 5,
@@ -218,11 +438,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Schemas",
-                "permalink": "/docs/adapter/schemas"
+                "permalink": "/openfmb.docs/docs/adapter/schemas"
               },
               "next": {
                 "title": "NATS",
-                "permalink": "/docs/adapter/native-plugins/nats"
+                "permalink": "/openfmb.docs/docs/adapter/native-plugins/nats"
               }
             },
             {
@@ -234,7 +454,7 @@
               "source": "@site/docs/adapter/extending.md",
               "sourceDirName": "adapter",
               "slug": "/adapter/extending",
-              "permalink": "/docs/adapter/extending",
+              "permalink": "/openfmb.docs/docs/adapter/extending",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/extending.md",
               "version": "current",
               "sidebar_label": "Extending",
@@ -246,11 +466,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Log plugin",
-                "permalink": "/docs/adapter/other-plugins/log"
+                "permalink": "/openfmb.docs/docs/adapter/other-plugins/log"
               },
               "next": {
                 "title": "Scheduling",
-                "permalink": "/docs/adapter/misc/scheduling"
+                "permalink": "/openfmb.docs/docs/adapter/misc/scheduling"
               }
             },
             {
@@ -262,7 +482,7 @@
               "source": "@site/docs/adapter/index.md",
               "sourceDirName": "adapter",
               "slug": "/adapter/index",
-              "permalink": "/docs/adapter/index",
+              "permalink": "/openfmb.docs/docs/adapter/index",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/index.md",
               "version": "current",
               "sidebarPosition": 1,
@@ -272,11 +492,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction to OpenFMB (Open Field Message Bus)",
-                "permalink": "/docs/tutorial/intro"
+                "permalink": "/openfmb.docs/docs/tutorial/intro"
               },
               "next": {
                 "title": "Protos",
-                "permalink": "/docs/adapter/protos"
+                "permalink": "/openfmb.docs/docs/adapter/protos"
               }
             },
             {
@@ -288,18 +508,18 @@
               "source": "@site/docs/adapter/misc/scheduling.md",
               "sourceDirName": "adapter/misc",
               "slug": "/adapter/misc/scheduling",
-              "permalink": "/docs/adapter/misc/scheduling",
+              "permalink": "/openfmb.docs/docs/adapter/misc/scheduling",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/misc/scheduling.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Creating a new plugin",
-                "permalink": "/docs/adapter/extending"
+                "permalink": "/openfmb.docs/docs/adapter/extending"
               },
               "next": {
                 "title": "Self-signed certificates",
-                "permalink": "/docs/adapter/misc/self-signed"
+                "permalink": "/openfmb.docs/docs/adapter/misc/self-signed"
               }
             },
             {
@@ -311,14 +531,18 @@
               "source": "@site/docs/adapter/misc/self-signed.md",
               "sourceDirName": "adapter/misc",
               "slug": "/adapter/misc/self-signed",
-              "permalink": "/docs/adapter/misc/self-signed",
+              "permalink": "/openfmb.docs/docs/adapter/misc/self-signed",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/misc/self-signed.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Scheduling",
-                "permalink": "/docs/adapter/misc/scheduling"
+                "permalink": "/openfmb.docs/docs/adapter/misc/scheduling"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/index"
               }
             },
             {
@@ -330,7 +554,7 @@
               "source": "@site/docs/adapter/native-plugins/dds.md",
               "sourceDirName": "adapter/native-plugins",
               "slug": "/adapter/native-plugins/dds",
-              "permalink": "/docs/adapter/native-plugins/dds",
+              "permalink": "/openfmb.docs/docs/adapter/native-plugins/dds",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/dds.md",
               "version": "current",
               "sidebarPosition": 3,
@@ -340,11 +564,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "MQTT",
-                "permalink": "/docs/adapter/native-plugins/mqtt"
+                "permalink": "/openfmb.docs/docs/adapter/native-plugins/mqtt"
               },
               "next": {
                 "title": "Modbus Master",
-                "permalink": "/docs/adapter/protocol-plugins/modbus/master"
+                "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/master"
               }
             },
             {
@@ -356,7 +580,7 @@
               "source": "@site/docs/adapter/native-plugins/mqtt.md",
               "sourceDirName": "adapter/native-plugins",
               "slug": "/adapter/native-plugins/mqtt",
-              "permalink": "/docs/adapter/native-plugins/mqtt",
+              "permalink": "/openfmb.docs/docs/adapter/native-plugins/mqtt",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/mqtt.md",
               "version": "current",
               "sidebarPosition": 2,
@@ -366,11 +590,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "NATS",
-                "permalink": "/docs/adapter/native-plugins/nats"
+                "permalink": "/openfmb.docs/docs/adapter/native-plugins/nats"
               },
               "next": {
                 "title": "DDS",
-                "permalink": "/docs/adapter/native-plugins/dds"
+                "permalink": "/openfmb.docs/docs/adapter/native-plugins/dds"
               }
             },
             {
@@ -382,7 +606,7 @@
               "source": "@site/docs/adapter/native-plugins/nats.md",
               "sourceDirName": "adapter/native-plugins",
               "slug": "/adapter/native-plugins/nats",
-              "permalink": "/docs/adapter/native-plugins/nats",
+              "permalink": "/openfmb.docs/docs/adapter/native-plugins/nats",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/nats.md",
               "version": "current",
               "sidebarPosition": 1,
@@ -392,11 +616,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Configuration",
-                "permalink": "/docs/adapter/config"
+                "permalink": "/openfmb.docs/docs/adapter/config"
               },
               "next": {
                 "title": "MQTT",
-                "permalink": "/docs/adapter/native-plugins/mqtt"
+                "permalink": "/openfmb.docs/docs/adapter/native-plugins/mqtt"
               }
             },
             {
@@ -408,18 +632,18 @@
               "source": "@site/docs/adapter/other-plugins/capture-replay.md",
               "sourceDirName": "adapter/other-plugins",
               "slug": "/adapter/other-plugins/capture-replay",
-              "permalink": "/docs/adapter/other-plugins/capture-replay",
+              "permalink": "/openfmb.docs/docs/adapter/other-plugins/capture-replay",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/other-plugins/capture-replay.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "DNP3 Outstation",
-                "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
+                "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation"
               },
               "next": {
                 "title": "Log plugin",
-                "permalink": "/docs/adapter/other-plugins/log"
+                "permalink": "/openfmb.docs/docs/adapter/other-plugins/log"
               }
             },
             {
@@ -431,18 +655,18 @@
               "source": "@site/docs/adapter/other-plugins/log.md",
               "sourceDirName": "adapter/other-plugins",
               "slug": "/adapter/other-plugins/log",
-              "permalink": "/docs/adapter/other-plugins/log",
+              "permalink": "/openfmb.docs/docs/adapter/other-plugins/log",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/other-plugins/log.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Capture and Replay plugins",
-                "permalink": "/docs/adapter/other-plugins/capture-replay"
+                "permalink": "/openfmb.docs/docs/adapter/other-plugins/capture-replay"
               },
               "next": {
                 "title": "Creating a new plugin",
-                "permalink": "/docs/adapter/extending"
+                "permalink": "/openfmb.docs/docs/adapter/extending"
               }
             },
             {
@@ -454,18 +678,18 @@
               "source": "@site/docs/adapter/protocol-plugins/dnp3/master.md",
               "sourceDirName": "adapter/protocol-plugins/dnp3",
               "slug": "/adapter/protocol-plugins/dnp3/master",
-              "permalink": "/docs/adapter/protocol-plugins/dnp3/master",
+              "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/master",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/dnp3/master.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Modbus Outstation",
-                "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+                "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/outstation"
               },
               "next": {
                 "title": "DNP3 Outstation",
-                "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
+                "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation"
               }
             },
             {
@@ -477,18 +701,18 @@
               "source": "@site/docs/adapter/protocol-plugins/dnp3/outstation.md",
               "sourceDirName": "adapter/protocol-plugins/dnp3",
               "slug": "/adapter/protocol-plugins/dnp3/outstation",
-              "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation",
+              "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/dnp3/outstation.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "DNP3 Master",
-                "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+                "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/master"
               },
               "next": {
                 "title": "Capture and Replay plugins",
-                "permalink": "/docs/adapter/other-plugins/capture-replay"
+                "permalink": "/openfmb.docs/docs/adapter/other-plugins/capture-replay"
               }
             },
             {
@@ -500,18 +724,18 @@
               "source": "@site/docs/adapter/protocol-plugins/modbus/master.md",
               "sourceDirName": "adapter/protocol-plugins/modbus",
               "slug": "/adapter/protocol-plugins/modbus/master",
-              "permalink": "/docs/adapter/protocol-plugins/modbus/master",
+              "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/master",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/modbus/master.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "DDS",
-                "permalink": "/docs/adapter/native-plugins/dds"
+                "permalink": "/openfmb.docs/docs/adapter/native-plugins/dds"
               },
               "next": {
                 "title": "Modbus Outstation",
-                "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+                "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/outstation"
               }
             },
             {
@@ -523,18 +747,18 @@
               "source": "@site/docs/adapter/protocol-plugins/modbus/outstation.md",
               "sourceDirName": "adapter/protocol-plugins/modbus",
               "slug": "/adapter/protocol-plugins/modbus/outstation",
-              "permalink": "/docs/adapter/protocol-plugins/modbus/outstation",
+              "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/outstation",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/modbus/outstation.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Modbus Master",
-                "permalink": "/docs/adapter/protocol-plugins/modbus/master"
+                "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/master"
               },
               "next": {
                 "title": "DNP3 Master",
-                "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+                "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/master"
               }
             },
             {
@@ -546,7 +770,7 @@
               "source": "@site/docs/adapter/protos.md",
               "sourceDirName": "adapter",
               "slug": "/adapter/protos",
-              "permalink": "/docs/adapter/protos",
+              "permalink": "/openfmb.docs/docs/adapter/protos",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protos.md",
               "version": "current",
               "sidebarPosition": 2,
@@ -556,11 +780,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/adapter/index"
+                "permalink": "/openfmb.docs/docs/adapter/index"
               },
               "next": {
                 "title": "CLI",
-                "permalink": "/docs/adapter/cli"
+                "permalink": "/openfmb.docs/docs/adapter/cli"
               }
             },
             {
@@ -572,7 +796,7 @@
               "source": "@site/docs/adapter/schemas.md",
               "sourceDirName": "adapter",
               "slug": "/adapter/schemas",
-              "permalink": "/docs/adapter/schemas",
+              "permalink": "/openfmb.docs/docs/adapter/schemas",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/schemas.md",
               "version": "current",
               "sidebarPosition": 4,
@@ -582,33 +806,137 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "CLI",
-                "permalink": "/docs/adapter/cli"
+                "permalink": "/openfmb.docs/docs/adapter/cli"
               },
               "next": {
                 "title": "Configuration",
-                "permalink": "/docs/adapter/config"
+                "permalink": "/openfmb.docs/docs/adapter/config"
               }
             },
             {
-              "unversionedId": "intro",
-              "id": "intro",
+              "unversionedId": "hmi/configuration",
+              "id": "hmi/configuration",
               "isDocsHomePage": false,
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/intro.md",
+              "title": "Setting up the HMI",
+              "description": "To setup the HMI, follow the following steps:",
+              "source": "@site/docs/hmi/configuration.md",
+              "sourceDirName": "hmi",
+              "slug": "/hmi/configuration",
+              "permalink": "/openfmb.docs/docs/hmi/configuration",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/hmi/configuration.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docker Image",
+                "permalink": "/openfmb.docs/docs/hmi/docker"
+              },
+              "next": {
+                "title": "Run the HMI",
+                "permalink": "/openfmb.docs/docs/hmi/run"
+              }
+            },
+            {
+              "unversionedId": "hmi/docker",
+              "id": "hmi/docker",
+              "isDocsHomePage": false,
+              "title": "Docker Image",
+              "description": "OpenFMB Docker image can be pulled from Docker Hub",
+              "source": "@site/docs/hmi/docker.md",
+              "sourceDirName": "hmi",
+              "slug": "/hmi/docker",
+              "permalink": "/openfmb.docs/docs/hmi/docker",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/hmi/docker.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/openfmb.docs/docs/hmi/index"
+              },
+              "next": {
+                "title": "Setting up the HMI",
+                "permalink": "/openfmb.docs/docs/hmi/configuration"
+              }
+            },
+            {
+              "unversionedId": "hmi/index",
+              "id": "hmi/index",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "OpenFMB HMI is a Human Machine Interface web-based application used to design single-line diagrams with control and monitor capabilities.",
+              "source": "@site/docs/hmi/index.md",
+              "sourceDirName": "hmi",
+              "slug": "/hmi/index",
+              "permalink": "/openfmb.docs/docs/hmi/index",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/hmi/index.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Terminology and Definitions",
+                "permalink": "/openfmb.docs/docs/adapter-config-tool/defs"
+              },
               "next": {
-                "title": "Introduction to OpenFMB (Open Field Message Bus)",
-                "permalink": "/docs/tutorial/intro"
+                "title": "Docker Image",
+                "permalink": "/openfmb.docs/docs/hmi/docker"
+              }
+            },
+            {
+              "unversionedId": "hmi/run",
+              "id": "hmi/run",
+              "isDocsHomePage": false,
+              "title": "Run the HMI",
+              "description": "To run the OpenFMB HMI Docker image, we need to pass in two environment variables:",
+              "source": "@site/docs/hmi/run.md",
+              "sourceDirName": "hmi",
+              "slug": "/hmi/run",
+              "permalink": "/openfmb.docs/docs/hmi/run",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/hmi/run.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setting up the HMI",
+                "permalink": "/openfmb.docs/docs/hmi/configuration"
+              },
+              "next": {
+                "title": "Single-Line Diagram",
+                "permalink": "/openfmb.docs/docs/hmi/sld"
+              }
+            },
+            {
+              "unversionedId": "hmi/sld",
+              "id": "hmi/sld",
+              "isDocsHomePage": false,
+              "title": "Single-Line Diagram",
+              "description": "A single-line diagram, also sometimes called one-line diagram, gives you an overview or part of an electrical power system.  In this section, you'll learn how to use OpenFMB HMI tool to build a single-line diagram that represents a very simple micrgrid.",
+              "source": "@site/docs/hmi/sld.md",
+              "sourceDirName": "hmi",
+              "slug": "/hmi/sld",
+              "permalink": "/openfmb.docs/docs/hmi/sld",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/hmi/sld.md",
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Run the HMI",
+                "permalink": "/openfmb.docs/docs/hmi/run"
               }
             },
             {
@@ -620,7 +948,7 @@
               "source": "@site/docs/tutorial/intro.md",
               "sourceDirName": "tutorial",
               "slug": "/tutorial/intro",
-              "permalink": "/docs/tutorial/intro",
+              "permalink": "/openfmb.docs/docs/tutorial/intro",
               "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/intro.md",
               "version": "current",
               "sidebarPosition": 1,
@@ -628,13 +956,9 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
-              },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/adapter/index"
+                "permalink": "/openfmb.docs/docs/adapter/index"
               }
             }
           ]
@@ -648,7 +972,7 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/blog/welcome",
+            "permalink": "/openfmb.docs/blog/welcome",
             "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/blog/2019-05-30-welcome.md",
             "source": "@site/blog/2019-05-30-welcome.md",
             "title": "Welcome",
@@ -658,29 +982,29 @@
             "tags": [
               {
                 "label": "facebook",
-                "permalink": "/blog/tags/facebook"
+                "permalink": "/openfmb.docs/blog/tags/facebook"
               },
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/openfmb.docs/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/openfmb.docs/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.175,
             "truncated": false,
             "nextItem": {
               "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "permalink": "/openfmb.docs/blog/hello-world"
             }
           }
         },
         {
           "id": "hello-world",
           "metadata": {
-            "permalink": "/blog/hello-world",
+            "permalink": "/openfmb.docs/blog/hello-world",
             "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/blog/2019-05-29-hello-world.md",
             "source": "@site/blog/2019-05-29-hello-world.md",
             "title": "Hello",
@@ -690,29 +1014,29 @@
             "tags": [
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/openfmb.docs/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/openfmb.docs/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.12,
             "truncated": true,
             "prevItem": {
               "title": "Welcome",
-              "permalink": "/blog/welcome"
+              "permalink": "/openfmb.docs/blog/welcome"
             },
             "nextItem": {
               "title": "Hola",
-              "permalink": "/blog/hola"
+              "permalink": "/openfmb.docs/blog/hola"
             }
           }
         },
         {
           "id": "hola",
           "metadata": {
-            "permalink": "/blog/hola",
+            "permalink": "/openfmb.docs/blog/hola",
             "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/blog/2019-05-28-hola.md",
             "source": "@site/blog/2019-05-28-hola.md",
             "title": "Hola",
@@ -722,18 +1046,18 @@
             "tags": [
               {
                 "label": "hola",
-                "permalink": "/blog/tags/hola"
+                "permalink": "/openfmb.docs/blog/tags/hola"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/openfmb.docs/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.12,
             "truncated": false,
             "prevItem": {
               "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "permalink": "/openfmb.docs/blog/hello-world"
             }
           }
         }
@@ -741,7 +1065,7 @@
       "blogListPaginated": [
         {
           "metadata": {
-            "permalink": "/blog",
+            "permalink": "/openfmb.docs/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -764,7 +1088,7 @@
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/facebook"
+          "permalink": "/openfmb.docs/blog/tags/facebook"
         },
         "hello": {
           "name": "hello",
@@ -772,7 +1096,7 @@
             "welcome",
             "hello-world"
           ],
-          "permalink": "/blog/tags/hello"
+          "permalink": "/openfmb.docs/blog/tags/hello"
         },
         "docusaurus": {
           "name": "docusaurus",
@@ -781,29 +1105,29 @@
             "hello-world",
             "hola"
           ],
-          "permalink": "/blog/tags/docusaurus"
+          "permalink": "/openfmb.docs/blog/tags/docusaurus"
         },
         "hola": {
           "name": "hola",
           "items": [
             "hola"
           ],
-          "permalink": "/blog/tags/hola"
+          "permalink": "/openfmb.docs/blog/tags/hola"
         }
       },
-      "blogTagsListPath": "/blog/tags"
+      "blogTagsListPath": "/openfmb.docs/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/openfmb.docs/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/markdown-page",
+        "permalink": "/openfmb.docs/markdown-page",
         "source": "@site/src/pages/markdown-page.md"
       }
     ]

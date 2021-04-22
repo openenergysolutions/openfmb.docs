@@ -8,48 +8,83 @@ export default [
   exact: true,
 },
 {
+  path: '/openfmb.docs/__docusaurus/debug',
+  component: ComponentCreator('/openfmb.docs/__docusaurus/debug','064'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/__docusaurus/debug/config',
+  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/config','939'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/__docusaurus/debug/content',
+  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/content','73c'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/__docusaurus/debug/globalData',
+  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/globalData','613'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/__docusaurus/debug/metadata',
+  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/metadata','ef4'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/__docusaurus/debug/registry',
+  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/registry','a6c'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/__docusaurus/debug/routes',
+  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/routes','2c5'),
+  exact: true,
+},
+{
   path: '/openfmb.docs/blog',
-  component: ComponentCreator('/openfmb.docs/blog','d08'),
+  component: ComponentCreator('/openfmb.docs/blog','dfa'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/hello-world',
-  component: ComponentCreator('/openfmb.docs/blog/hello-world','903'),
+  component: ComponentCreator('/openfmb.docs/blog/hello-world','c8d'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/hola',
-  component: ComponentCreator('/openfmb.docs/blog/hola','a8b'),
+  component: ComponentCreator('/openfmb.docs/blog/hola','a48'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags',
-  component: ComponentCreator('/openfmb.docs/blog/tags','125'),
+  component: ComponentCreator('/openfmb.docs/blog/tags','6ce'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags/docusaurus',
-  component: ComponentCreator('/openfmb.docs/blog/tags/docusaurus','b89'),
+  component: ComponentCreator('/openfmb.docs/blog/tags/docusaurus','086'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags/facebook',
-  component: ComponentCreator('/openfmb.docs/blog/tags/facebook','227'),
+  component: ComponentCreator('/openfmb.docs/blog/tags/facebook','eef'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags/hello',
-  component: ComponentCreator('/openfmb.docs/blog/tags/hello','ac0'),
+  component: ComponentCreator('/openfmb.docs/blog/tags/hello','e7c'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags/hola',
-  component: ComponentCreator('/openfmb.docs/blog/tags/hola','1dc'),
+  component: ComponentCreator('/openfmb.docs/blog/tags/hola','ce5'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/welcome',
-  component: ComponentCreator('/openfmb.docs/blog/welcome','2b9'),
+  component: ComponentCreator('/openfmb.docs/blog/welcome','259'),
   exact: true,
 },
 {
@@ -59,9 +94,39 @@ export default [
 },
 {
   path: '/openfmb.docs/docs',
-  component: ComponentCreator('/openfmb.docs/docs','33f'),
+  component: ComponentCreator('/openfmb.docs/docs','0fc'),
   
   routes: [
+{
+  path: '/openfmb.docs/docs/adapter-config-tool/defs',
+  component: ComponentCreator('/openfmb.docs/docs/adapter-config-tool/defs','f92'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/adapter-config-tool/download',
+  component: ComponentCreator('/openfmb.docs/docs/adapter-config-tool/download','9d1'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/adapter-config-tool/index',
+  component: ComponentCreator('/openfmb.docs/docs/adapter-config-tool/index','4f9'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/adapter-config-tool/install',
+  component: ComponentCreator('/openfmb.docs/docs/adapter-config-tool/install','676'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/adapter-config-tool/quick-guide',
+  component: ComponentCreator('/openfmb.docs/docs/adapter-config-tool/quick-guide','fea'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/adapter-config-tool/source',
+  component: ComponentCreator('/openfmb.docs/docs/adapter-config-tool/source','bd5'),
+  exact: true,
+},
 {
   path: '/openfmb.docs/docs/adapter/cli',
   component: ComponentCreator('/openfmb.docs/docs/adapter/cli','20e'),
@@ -145,6 +210,31 @@ export default [
 {
   path: '/openfmb.docs/docs/adapter/schemas',
   component: ComponentCreator('/openfmb.docs/docs/adapter/schemas','007'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/hmi/configuration',
+  component: ComponentCreator('/openfmb.docs/docs/hmi/configuration','a9c'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/hmi/docker',
+  component: ComponentCreator('/openfmb.docs/docs/hmi/docker','cab'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/hmi/index',
+  component: ComponentCreator('/openfmb.docs/docs/hmi/index','a0e'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/hmi/run',
+  component: ComponentCreator('/openfmb.docs/docs/hmi/run','946'),
+  exact: true,
+},
+{
+  path: '/openfmb.docs/docs/hmi/sld',
+  component: ComponentCreator('/openfmb.docs/docs/hmi/sld','9d2'),
   exact: true,
 },
 {

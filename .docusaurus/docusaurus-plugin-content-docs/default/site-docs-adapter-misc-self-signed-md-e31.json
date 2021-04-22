@@ -15,5 +15,9 @@
   "previous": {
     "title": "Scheduling",
     "permalink": "/openfmb.docs/docs/adapter/misc/scheduling"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/openfmb.docs/docs/adapter-config-tool/index"
   }
 }

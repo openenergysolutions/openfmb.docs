@@ -1,0 +1,26 @@
+{
+  "unversionedId": "adapter-config-tool/index",
+  "id": "adapter-config-tool/index",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "OpenFMB Adapter Configuration Tool (OACT) is a desktop application used to generate adapter configuration files (in YAML format), which direct how the adapter behaves at runtime and detail the mappings between legacy protocols to OpenFMB profile messages.",
+  "source": "@site/docs/adapter-config-tool/index.md",
+  "sourceDirName": "adapter-config-tool",
+  "slug": "/adapter-config-tool/index",
+  "permalink": "/openfmb.docs/docs/adapter-config-tool/index",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter-config-tool/index.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Self-signed certificates",
+    "permalink": "/openfmb.docs/docs/adapter/misc/self-signed"
+  },
+  "next": {
+    "title": "Download",
+    "permalink": "/openfmb.docs/docs/adapter-config-tool/download"
+  }
+}

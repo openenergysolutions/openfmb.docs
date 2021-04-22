@@ -104,7 +104,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/code/tburdick/src/openfmb.docs/sidebars.js",
+          "sidebarPath": "C:\\Projects\\openfmb.docs\\sidebars.js",
           "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/"
         },
         "blog": {
@@ -112,7 +112,7 @@ export default {
           "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/"
         },
         "theme": {
-          "customCss": "/code/tburdick/src/openfmb.docs/src/css/custom.css"
+          "customCss": "C:\\Projects\\openfmb.docs\\src\\css\\custom.css"
         }
       }
     ]

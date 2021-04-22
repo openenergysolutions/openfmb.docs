@@ -1,0 +1,26 @@
+{
+  "unversionedId": "hmi/run",
+  "id": "hmi/run",
+  "isDocsHomePage": false,
+  "title": "Run the HMI",
+  "description": "To run the OpenFMB HMI Docker image, we need to pass in two environment variables:",
+  "source": "@site/docs/hmi/run.md",
+  "sourceDirName": "hmi",
+  "slug": "/hmi/run",
+  "permalink": "/openfmb.docs/docs/hmi/run",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/hmi/run.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setting up the HMI",
+    "permalink": "/openfmb.docs/docs/hmi/configuration"
+  },
+  "next": {
+    "title": "Single-Line Diagram",
+    "permalink": "/openfmb.docs/docs/hmi/sld"
+  }
+}

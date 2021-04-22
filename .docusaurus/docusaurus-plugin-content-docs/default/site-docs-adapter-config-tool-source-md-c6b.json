@@ -1,0 +1,26 @@
+{
+  "unversionedId": "adapter-config-tool/source",
+  "id": "adapter-config-tool/source",
+  "isDocsHomePage": false,
+  "title": "Source Code",
+  "description": "Source code can be downloaded from:",
+  "source": "@site/docs/adapter-config-tool/source.md",
+  "sourceDirName": "adapter-config-tool",
+  "slug": "/adapter-config-tool/source",
+  "permalink": "/openfmb.docs/docs/adapter-config-tool/source",
+  "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter-config-tool/source.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Install",
+    "permalink": "/openfmb.docs/docs/adapter-config-tool/install"
+  },
+  "next": {
+    "title": "Quick Guide",
+    "permalink": "/openfmb.docs/docs/adapter-config-tool/quick-guide"
+  }
+}
