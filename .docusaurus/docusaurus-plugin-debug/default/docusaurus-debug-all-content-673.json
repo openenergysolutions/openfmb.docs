@@ -26,27 +26,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial/create-a-page"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial/congratulations"
+                    "id": "tutorial/intro"
                   }
                 ],
                 "collapsed": true
@@ -100,26 +80,7 @@
                     "items": [
                       {
                         "type": "category",
-                        "label": "dnp3",
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "adapter/protocol-plugins/dnp3/master"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "adapter/protocol-plugins/dnp3/outstation"
-                          }
-                        ],
-                        "collapsed": true
-                      },
-                      {
-                        "type": "doc",
-                        "id": "adapter/protocol-plugins/goose"
-                      },
-                      {
-                        "type": "category",
-                        "label": "modbus",
+                        "label": "Modbus",
                         "items": [
                           {
                             "type": "doc",
@@ -128,6 +89,21 @@
                           {
                             "type": "doc",
                             "id": "adapter/protocol-plugins/modbus/outstation"
+                          }
+                        ],
+                        "collapsed": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "DNP3",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "adapter/protocol-plugins/dnp3/master"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "adapter/protocol-plugins/dnp3/outstation"
                           }
                         ],
                         "collapsed": true
@@ -189,18 +165,12 @@
             "/docs/adapter/other-plugins/log": "tutorialSidebar",
             "/docs/adapter/protocol-plugins/dnp3/master": "tutorialSidebar",
             "/docs/adapter/protocol-plugins/dnp3/outstation": "tutorialSidebar",
-            "/docs/adapter/protocol-plugins/goose": "tutorialSidebar",
             "/docs/adapter/protocol-plugins/modbus/master": "tutorialSidebar",
             "/docs/adapter/protocol-plugins/modbus/outstation": "tutorialSidebar",
             "/docs/adapter/protos": "tutorialSidebar",
             "/docs/adapter/schemas": "tutorialSidebar",
             "/docs/intro": "tutorialSidebar",
-            "/docs/tutorial/congratulations": "tutorialSidebar",
-            "/docs/tutorial/create-a-blog-post": "tutorialSidebar",
-            "/docs/tutorial/create-a-document": "tutorialSidebar",
-            "/docs/tutorial/create-a-page": "tutorialSidebar",
-            "/docs/tutorial/deploy-your-site": "tutorialSidebar",
-            "/docs/tutorial/markdown-features": "tutorialSidebar"
+            "/docs/tutorial/intro": "tutorialSidebar"
           },
           "docs": [
             {
@@ -301,8 +271,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial/congratulations"
+                "title": "Introduction to OpenFMB (Open Field Message Bus)",
+                "permalink": "/docs/tutorial/intro"
               },
               "next": {
                 "title": "Protos",
@@ -373,8 +343,8 @@
                 "permalink": "/docs/adapter/native-plugins/mqtt"
               },
               "next": {
-                "title": "DNP3 Master",
-                "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+                "title": "Modbus Master",
+                "permalink": "/docs/adapter/protocol-plugins/modbus/master"
               }
             },
             {
@@ -444,8 +414,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Modbus Outstation",
-                "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+                "title": "DNP3 Outstation",
+                "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
               },
               "next": {
                 "title": "Log plugin",
@@ -490,8 +460,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "DDS",
-                "permalink": "/docs/adapter/native-plugins/dds"
+                "title": "Modbus Outstation",
+                "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
               },
               "next": {
                 "title": "DNP3 Outstation",
@@ -517,31 +487,8 @@
                 "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
               },
               "next": {
-                "title": "GOOSE",
-                "permalink": "/docs/adapter/protocol-plugins/goose"
-              }
-            },
-            {
-              "unversionedId": "adapter/protocol-plugins/goose",
-              "id": "adapter/protocol-plugins/goose",
-              "isDocsHomePage": false,
-              "title": "GOOSE",
-              "description": "GOOSE (Generic Object Oriented Substation Events) is a control model defined in",
-              "source": "@site/docs/adapter/protocol-plugins/goose.md",
-              "sourceDirName": "adapter/protocol-plugins",
-              "slug": "/adapter/protocol-plugins/goose",
-              "permalink": "/docs/adapter/protocol-plugins/goose",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/goose.md",
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "DNP3 Outstation",
-                "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
-              },
-              "next": {
-                "title": "Modbus Master",
-                "permalink": "/docs/adapter/protocol-plugins/modbus/master"
+                "title": "Capture and Replay plugins",
+                "permalink": "/docs/adapter/other-plugins/capture-replay"
               }
             },
             {
@@ -559,8 +506,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "GOOSE",
-                "permalink": "/docs/adapter/protocol-plugins/goose"
+                "title": "DDS",
+                "permalink": "/docs/adapter/native-plugins/dds"
               },
               "next": {
                 "title": "Modbus Outstation",
@@ -586,8 +533,8 @@
                 "permalink": "/docs/adapter/protocol-plugins/modbus/master"
               },
               "next": {
-                "title": "Capture and Replay plugins",
-                "permalink": "/docs/adapter/other-plugins/capture-replay"
+                "title": "DNP3 Master",
+                "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
               }
             },
             {
@@ -660,99 +607,21 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial/create-a-page"
+                "title": "Introduction to OpenFMB (Open Field Message Bus)",
+                "permalink": "/docs/tutorial/intro"
               }
             },
             {
-              "unversionedId": "tutorial/congratulations",
-              "id": "tutorial/congratulations",
+              "unversionedId": "tutorial/intro",
+              "id": "tutorial/intro",
               "isDocsHomePage": false,
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial/congratulations.md",
+              "title": "Introduction to OpenFMB (Open Field Message Bus)",
+              "description": "OpenFMB is a data model which has its basis on a shared data model, several",
+              "source": "@site/docs/tutorial/intro.md",
               "sourceDirName": "tutorial",
-              "slug": "/tutorial/congratulations",
-              "permalink": "/docs/tutorial/congratulations",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/congratulations.md",
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial/deploy-your-site"
-              },
-              "next": {
-                "title": "Introduction",
-                "permalink": "/docs/adapter/index"
-              }
-            },
-            {
-              "unversionedId": "tutorial/create-a-blog-post",
-              "id": "tutorial/create-a-blog-post",
-              "isDocsHomePage": false,
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial/create-a-blog-post.md",
-              "sourceDirName": "tutorial",
-              "slug": "/tutorial/create-a-blog-post",
-              "permalink": "/docs/tutorial/create-a-blog-post",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/create-a-blog-post.md",
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial/create-a-document",
-              "id": "tutorial/create-a-document",
-              "isDocsHomePage": false,
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial/create-a-document.md",
-              "sourceDirName": "tutorial",
-              "slug": "/tutorial/create-a-document",
-              "permalink": "/docs/tutorial/create-a-document",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/create-a-document.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial/create-a-page",
-              "id": "tutorial/create-a-page",
-              "isDocsHomePage": false,
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial/create-a-page.md",
-              "sourceDirName": "tutorial",
-              "slug": "/tutorial/create-a-page",
-              "permalink": "/docs/tutorial/create-a-page",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/create-a-page.md",
+              "slug": "/tutorial/intro",
+              "permalink": "/docs/tutorial/intro",
+              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/intro.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -764,60 +633,8 @@
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial/deploy-your-site",
-              "id": "tutorial/deploy-your-site",
-              "isDocsHomePage": false,
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial/deploy-your-site.md",
-              "sourceDirName": "tutorial",
-              "slug": "/tutorial/deploy-your-site",
-              "permalink": "/docs/tutorial/deploy-your-site",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/deploy-your-site.md",
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial/markdown-features",
-              "id": "tutorial/markdown-features",
-              "isDocsHomePage": false,
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial/markdown-features.mdx",
-              "sourceDirName": "tutorial",
-              "slug": "/tutorial/markdown-features",
-              "permalink": "/docs/tutorial/markdown-features",
-              "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/tutorial/markdown-features.mdx",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial/deploy-your-site"
+                "title": "Introduction",
+                "permalink": "/docs/adapter/index"
               }
             }
           ]

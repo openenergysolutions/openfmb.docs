@@ -1,221 +1,175 @@
 {
   "/-deb": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---5-e-9-4f3"
-  },
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
   },
   "/blog-438": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blogd-21-02e",
+    "component": "a6aa9e1f",
+    "sidebar": "d21d045c",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/hello-world-3de": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-21-02e",
-    "content": "content---blog-hello-worldd-61-086"
+    "component": "ccc49370",
+    "sidebar": "d21d045c",
+    "content": "d610846f"
   },
   "/blog/hola-f60": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-21-02e",
-    "content": "content---blog-holabdd-150"
+    "component": "ccc49370",
+    "sidebar": "d21d045c",
+    "content": "bdd709f1"
   },
   "/blog/tags-eca": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---blogd-21-02e",
-    "tags": "tags---blog-tagsa-70-da2"
+    "component": "01a85c17",
+    "sidebar": "d21d045c",
+    "tags": "a7023ddc"
   },
   "/blog/tags/docusaurus-c2e": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-21-02e",
+    "component": "6875c492",
+    "sidebar": "d21d045c",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-docusaurusa-80-728"
+    "metadata": "a80da1cf"
   },
   "/blog/tags/facebook-466": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-21-02e",
+    "component": "6875c492",
+    "sidebar": "d21d045c",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-facebook-031-c52"
+    "metadata": "031793e1"
   },
   "/blog/tags/hello-c79": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-21-02e",
+    "component": "6875c492",
+    "sidebar": "d21d045c",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       }
     ],
-    "metadata": "metadata---blog-tags-hello-30-a-bed"
+    "metadata": "30a24c52"
   },
   "/blog/tags/hola-908": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blogd-21-02e",
+    "component": "6875c492",
+    "sidebar": "d21d045c",
     "items": [
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-holae-16-18a"
+    "metadata": "e16015ca"
   },
   "/blog/welcome-905": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blogd-21-02e",
-    "content": "content---blog-welcome-286-e55"
+    "component": "ccc49370",
+    "sidebar": "d21d045c",
+    "content": "2868cdab"
   },
   "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+    "component": "1f391b9e",
+    "content": "393be207"
   },
-  "/docs-19c": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-935-398"
+  "/docs-8c4": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/docs/adapter/cli-43a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-clibb-8-262"
+    "component": "17896441",
+    "content": "bb8b42f5"
   },
   "/docs/adapter/config-347": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-config-024-98e"
+    "component": "17896441",
+    "content": "024eaca6"
   },
   "/docs/adapter/extending-f43": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-extendingf-3-e-1e2"
+    "component": "17896441",
+    "content": "f3e8e883"
   },
   "/docs/adapter/index-211": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-index-9-b-5-c51"
+    "component": "17896441",
+    "content": "9b5d7d25"
   },
   "/docs/adapter/misc/scheduling-364": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-misc-schedulingc-88-3e9"
+    "component": "17896441",
+    "content": "c88b75af"
   },
   "/docs/adapter/misc/self-signed-e22": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-misc-self-signede-31-49a"
+    "component": "17896441",
+    "content": "e3143216"
   },
   "/docs/adapter/native-plugins/dds-6e0": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-native-plugins-ddsd-6-c-f67"
+    "component": "17896441",
+    "content": "d6ca1975"
   },
   "/docs/adapter/native-plugins/mqtt-9cd": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-native-plugins-mqtt-900-bff"
+    "component": "17896441",
+    "content": "9009ec41"
   },
   "/docs/adapter/native-plugins/nats-b81": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-native-plugins-nats-4-c-5-18b"
+    "component": "17896441",
+    "content": "4c5330f9"
   },
   "/docs/adapter/other-plugins/capture-replay-a01": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-other-plugins-capture-replay-208-5cd"
+    "component": "17896441",
+    "content": "208d1973"
   },
   "/docs/adapter/other-plugins/log-828": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-other-plugins-logd-6-f-0a2"
+    "component": "17896441",
+    "content": "d6f3de85"
   },
   "/docs/adapter/protocol-plugins/dnp3/master-222": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-protocol-plugins-dnp-3-masterb-44-bb9"
+    "component": "17896441",
+    "content": "b444bd65"
   },
   "/docs/adapter/protocol-plugins/dnp3/outstation-532": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-protocol-plugins-dnp-3-outstationcff-311"
-  },
-  "/docs/adapter/protocol-plugins/goose-15e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-protocol-plugins-goose-7-fb-951"
+    "component": "17896441",
+    "content": "cff60dce"
   },
   "/docs/adapter/protocol-plugins/modbus/master-0a5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-protocol-plugins-modbus-master-9-ab-520"
+    "component": "17896441",
+    "content": "9ab5b4b3"
   },
   "/docs/adapter/protocol-plugins/modbus/outstation-af2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-protocol-plugins-modbus-outstatione-96-7e2"
+    "component": "17896441",
+    "content": "e9677cb7"
   },
   "/docs/adapter/protos-256": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-protos-1-a-4-7a6"
+    "component": "17896441",
+    "content": "1a4ce780"
   },
   "/docs/adapter/schemas-434": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-adapter-schemas-86-f-a0d"
+    "component": "17896441",
+    "content": "86f47c8e"
   },
   "/docs/intro-e84": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "component": "17896441",
+    "content": "0e384e19"
   },
-  "/docs/tutorial/congratulations-1f7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-congratulationsead-bf7"
-  },
-  "/docs/tutorial/create-a-blog-post-666": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-create-a-blog-post-292-859"
-  },
-  "/docs/tutorial/create-a-document-2a7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-create-a-document-69-f-8c9"
-  },
-  "/docs/tutorial/create-a-page-aba": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-create-a-page-21-e-5a7"
-  },
-  "/docs/tutorial/deploy-your-site-613": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-deploy-your-sitef-3-a-9b8"
-  },
-  "/docs/tutorial/markdown-features-4f3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-markdown-featuresbcd-0bd"
+  "/docs/tutorial/intro-800": {
+    "component": "17896441",
+    "content": "2e854b47"
   }
 }

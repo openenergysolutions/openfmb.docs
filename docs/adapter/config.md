@@ -9,8 +9,8 @@ read first. (see [Running the adapter](./cli#running-the-adapter)).
 
 It consists of two main sections:
 
-- [Logging](./#logging) - application-level logging parameters
-- [Plugins](./#plugins) - detailed plugin-specific configuration
+- [Logging](#logging) - application-level logging parameters
+- [Plugins](#plugins) - detailed plugin-specific configuration
 
 ## Logging
 

@@ -76,11 +76,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "adapter/protocol-plugins/goose",
-              "path": "/docs/adapter/protocol-plugins/goose",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "adapter/protocol-plugins/modbus/master",
               "path": "/docs/adapter/protocol-plugins/modbus/master",
               "sidebar": "tutorialSidebar"
@@ -106,33 +101,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial/congratulations",
-              "path": "/docs/tutorial/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial/create-a-blog-post",
-              "path": "/docs/tutorial/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial/create-a-document",
-              "path": "/docs/tutorial/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial/create-a-page",
-              "path": "/docs/tutorial/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial/deploy-your-site",
-              "path": "/docs/tutorial/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial/markdown-features",
-              "path": "/docs/tutorial/markdown-features",
+              "id": "tutorial/intro",
+              "path": "/docs/tutorial/intro",
               "sidebar": "tutorialSidebar"
             }
           ]

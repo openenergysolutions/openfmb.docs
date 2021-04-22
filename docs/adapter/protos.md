@@ -108,4 +108,4 @@ There are four profile types recognized by the adapter:
 - Status profiles: are used for rapidly gathered values
 - Event profiles: report only the changes since the most recent status
 - Control/Discrete Control profiles: control a device. This includes executing
-  schedules as described in the [scheduling section](/misc/scheduling)
+  schedules as described in the [scheduling section](misc/scheduling.md)

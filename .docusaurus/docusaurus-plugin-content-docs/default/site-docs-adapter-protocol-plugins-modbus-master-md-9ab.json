@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "GOOSE",
-    "permalink": "/docs/adapter/protocol-plugins/goose"
+    "title": "DDS",
+    "permalink": "/docs/adapter/native-plugins/dds"
   },
   "next": {
     "title": "Modbus Outstation",

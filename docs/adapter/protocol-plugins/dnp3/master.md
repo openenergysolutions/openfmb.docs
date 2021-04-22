@@ -55,7 +55,7 @@ The interval specifies the delay between two polls.
 Non-control profiles (reading, status, etc) are mapped from DNP3 measurement points.
 
 A `poll-name` parameter is required and must point to a valid poll defined the
-[Polls Configuration](./#polls-configuration) section. An OpenFMB profile
+[Polls Configuration](#polls-configuration) section. An OpenFMB profile
 will be generated on every non-empty response of the poll.
 
 ### Boolean
@@ -151,7 +151,7 @@ mappings. The first element in the list has the highest priority, and will be
 sent first to the outstation.
 
 The `tolerance-ms` parameter is used to specify the tolerance for schedule
-parameters. See the [Scheduling](/misc/scheduling) page for more details.
+parameters. See the [Scheduling](../../misc/scheduling.md) page for more details.
 
 ### Boolean
 
@@ -266,7 +266,7 @@ outputs:
 ### Enum
 
 Each enumeration variant can be mapped to DNP3 commands in the same manner as
-[Boolean](./#boolean_1) fields.
+[Boolean](#boolean_1) fields.
 
 ```yaml
 enum-field-type: mapped
@@ -291,8 +291,8 @@ mapping:
 ### Schedule parameters
 
 Each schedule parameter can be mapped to DNP3 Analog Output commands in the same
-manner as [Int32, Int64 and Float](./#int32-int64-and-float) fields. Schedules
-will be executed as described in [Scheduling](/misc/scheduling) page.
+manner as [Int32, Int64 and Float](#int32-int64-and-float) fields. Schedules
+will be executed as described in [Scheduling](../../misc/scheduling.md) page.
 
 ```yaml
 - scheduleParameter:  # A sequence of schedule parameters w/ enum + value. Each plugin specifies what to do with each enumeration value

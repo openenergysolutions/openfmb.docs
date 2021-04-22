@@ -42,7 +42,7 @@ mqtt:
 | server-address         | Connection address of the MQTT server. The protocol can be `tcp` or `ssl`.               |
 | client-id              | Client ID. Must be **unique** per client and broker.                                     |
 | connect-retry-delay-ms | Number of milliseconds to wait before trying to re-establish a connection to the server. |
-| security               | See [Security](./#security).                                                             |
+| security               | See [Security](#security).                                                             |
 | publish                | List of profiles to publish to MQTT network (from the internal bus to MQTT)              |
 | subscribe              | List of profiles to subscribe from the MQTT network (from MQTT to the internal bus)      |
 

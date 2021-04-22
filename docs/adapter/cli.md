@@ -47,7 +47,7 @@ Options
 ## Generate top-level configuration
 
 A default top-level configuration may be generated using the `-g` flag. This is the file that will be needed when
-running the adapter (see [Running the adapter](./#running-the-adapter)).
+running the adapter (see [Running the adapter](#running-the-adapter)).
 
 ```bash
 > openfmb-adapter -g config.yml

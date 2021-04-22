@@ -45,7 +45,7 @@ nats:
 | max-queued-messages   | Number of messages to keep in the publishing queue before discarding the oldest.    |
 | connect-url           | Connection address of the NATS server. The protocol can be `nats` or `tls`.         |
 | connect-retry-seconds | Number of seconds to wait before trying to re-establish a connection to the server. |
-| security              | See [Security](./#security).                                                        |
+| security              | See [Security](#security).                                                        |
 | publish               | List of profiles to publish to NATS server (from the internal bus to NATS)          |
 | subscribe             | List of profiles to subscribe from the NATS server (from NATS to the internal bus)  |
 

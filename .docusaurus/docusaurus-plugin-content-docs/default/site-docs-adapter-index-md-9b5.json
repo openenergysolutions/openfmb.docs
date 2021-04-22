@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Congratulations!",
-    "permalink": "/docs/tutorial/congratulations"
+    "title": "Introduction to OpenFMB (Open Field Message Bus)",
+    "permalink": "/docs/tutorial/intro"
   },
   "next": {
     "title": "Protos",

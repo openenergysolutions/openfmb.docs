@@ -17,7 +17,7 @@
     "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
   },
   "next": {
-    "title": "GOOSE",
-    "permalink": "/docs/adapter/protocol-plugins/goose"
+    "title": "Capture and Replay plugins",
+    "permalink": "/docs/adapter/other-plugins/capture-replay"
   }
 }

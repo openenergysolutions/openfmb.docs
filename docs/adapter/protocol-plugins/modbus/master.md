@@ -429,7 +429,7 @@ scale: 1
 ### Enum
 
 For each enum variant, a list of actions are specified. The syntax and usage is
-the exact same as the [Boolean](./#boolean) values. Here is an example of a
+the exact same as the [Boolean](#boolean) values. Here is an example of a
 valid configuration:
 
 ```yaml
@@ -461,8 +461,8 @@ mapping:
 ### Schedule parameters
 
 Each schedule parameter can be mapped to DNP3 Analog Output commands exactly
-like [Int32, Int64 and Float](./#int32-int64-and-float) fields. Schedules will
-be executed as described in [Scheduling](/misc/scheduling) page.
+like [Int32, Int64 and Float](#int32-int64-and-float) fields. Schedules will
+be executed as described in [Scheduling](../../misc/scheduling.md) page.
 
 ```yaml
 - scheduleParameter:  # A sequence of schedule parameters w/ enum + value. Each plugin specifies what to do with each enumeration value

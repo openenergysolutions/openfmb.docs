@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "DDS",
-    "permalink": "/docs/adapter/native-plugins/dds"
+    "title": "Modbus Outstation",
+    "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
   },
   "next": {
     "title": "DNP3 Outstation",

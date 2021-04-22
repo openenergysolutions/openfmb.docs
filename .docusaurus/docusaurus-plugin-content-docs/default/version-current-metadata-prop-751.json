@@ -16,33 +16,8 @@
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial/congratulations"
+            "label": "Introduction to OpenFMB (Open Field Message Bus)",
+            "href": "/docs/tutorial/intro"
           }
         ],
         "collapsed": true
@@ -104,29 +79,7 @@
             "items": [
               {
                 "type": "category",
-                "label": "dnp3",
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "DNP3 Master",
-                    "href": "/docs/adapter/protocol-plugins/dnp3/master"
-                  },
-                  {
-                    "type": "link",
-                    "label": "DNP3 Outstation",
-                    "href": "/docs/adapter/protocol-plugins/dnp3/outstation"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "link",
-                "label": "GOOSE",
-                "href": "/docs/adapter/protocol-plugins/goose"
-              },
-              {
-                "type": "category",
-                "label": "modbus",
+                "label": "Modbus",
                 "items": [
                   {
                     "type": "link",
@@ -137,6 +90,23 @@
                     "type": "link",
                     "label": "Modbus Outstation",
                     "href": "/docs/adapter/protocol-plugins/modbus/outstation"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "DNP3",
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "DNP3 Master",
+                    "href": "/docs/adapter/protocol-plugins/dnp3/master"
+                  },
+                  {
+                    "type": "link",
+                    "label": "DNP3 Outstation",
+                    "href": "/docs/adapter/protocol-plugins/dnp3/outstation"
                   }
                 ],
                 "collapsed": true
@@ -202,17 +172,11 @@
     "/docs/adapter/other-plugins/log": "tutorialSidebar",
     "/docs/adapter/protocol-plugins/dnp3/master": "tutorialSidebar",
     "/docs/adapter/protocol-plugins/dnp3/outstation": "tutorialSidebar",
-    "/docs/adapter/protocol-plugins/goose": "tutorialSidebar",
     "/docs/adapter/protocol-plugins/modbus/master": "tutorialSidebar",
     "/docs/adapter/protocol-plugins/modbus/outstation": "tutorialSidebar",
     "/docs/adapter/protos": "tutorialSidebar",
     "/docs/adapter/schemas": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
-    "/docs/tutorial/congratulations": "tutorialSidebar",
-    "/docs/tutorial/create-a-blog-post": "tutorialSidebar",
-    "/docs/tutorial/create-a-document": "tutorialSidebar",
-    "/docs/tutorial/create-a-page": "tutorialSidebar",
-    "/docs/tutorial/deploy-your-site": "tutorialSidebar",
-    "/docs/tutorial/markdown-features": "tutorialSidebar"
+    "/docs/tutorial/intro": "tutorialSidebar"
   }
 }

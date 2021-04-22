@@ -20,7 +20,7 @@
     "permalink": "/docs/adapter/native-plugins/mqtt"
   },
   "next": {
-    "title": "DNP3 Master",
-    "permalink": "/docs/adapter/protocol-plugins/dnp3/master"
+    "title": "Modbus Master",
+    "permalink": "/docs/adapter/protocol-plugins/modbus/master"
   }
 }

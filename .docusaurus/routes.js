@@ -8,41 +8,6 @@ export default [
   exact: true,
 },
 {
-  path: '/__docusaurus/debug',
-  component: ComponentCreator('/__docusaurus/debug','3d6'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/config',
-  component: ComponentCreator('/__docusaurus/debug/config','914'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/content',
-  component: ComponentCreator('/__docusaurus/debug/content','c28'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/globalData',
-  component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/metadata',
-  component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/registry',
-  component: ComponentCreator('/__docusaurus/debug/registry','0da'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/routes',
-  component: ComponentCreator('/__docusaurus/debug/routes','244'),
-  exact: true,
-},
-{
   path: '/blog',
   component: ComponentCreator('/blog','438'),
   exact: true,
@@ -94,7 +59,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','19c'),
+  component: ComponentCreator('/docs','8c4'),
   
   routes: [
 {
@@ -163,11 +128,6 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/adapter/protocol-plugins/goose',
-  component: ComponentCreator('/docs/adapter/protocol-plugins/goose','15e'),
-  exact: true,
-},
-{
   path: '/docs/adapter/protocol-plugins/modbus/master',
   component: ComponentCreator('/docs/adapter/protocol-plugins/modbus/master','0a5'),
   exact: true,
@@ -193,33 +153,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/tutorial/congratulations',
-  component: ComponentCreator('/docs/tutorial/congratulations','1f7'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial/create-a-blog-post',
-  component: ComponentCreator('/docs/tutorial/create-a-blog-post','666'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial/create-a-document',
-  component: ComponentCreator('/docs/tutorial/create-a-document','2a7'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial/create-a-page',
-  component: ComponentCreator('/docs/tutorial/create-a-page','aba'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial/deploy-your-site',
-  component: ComponentCreator('/docs/tutorial/deploy-your-site','613'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial/markdown-features',
-  component: ComponentCreator('/docs/tutorial/markdown-features','4f3'),
+  path: '/docs/tutorial/intro',
+  component: ComponentCreator('/docs/tutorial/intro','800'),
   exact: true,
 },
 ]

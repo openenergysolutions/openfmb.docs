@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Create a Page",
-    "permalink": "/docs/tutorial/create-a-page"
+    "title": "Introduction to OpenFMB (Open Field Message Bus)",
+    "permalink": "/docs/tutorial/intro"
   }
 }
