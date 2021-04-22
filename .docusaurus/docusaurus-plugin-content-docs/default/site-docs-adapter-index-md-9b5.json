@@ -7,7 +7,7 @@
   "source": "@site/docs/adapter/index.md",
   "sourceDirName": "adapter",
   "slug": "/adapter/index",
-  "permalink": "/docs/adapter/index",
+  "permalink": "/openfmb.docs/docs/adapter/index",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/index.md",
   "version": "current",
   "sidebarPosition": 1,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction to OpenFMB (Open Field Message Bus)",
-    "permalink": "/docs/tutorial/intro"
+    "permalink": "/openfmb.docs/docs/tutorial/intro"
   },
   "next": {
     "title": "Protos",
-    "permalink": "/docs/adapter/protos"
+    "permalink": "/openfmb.docs/docs/adapter/protos"
   }
 }

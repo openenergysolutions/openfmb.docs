@@ -7,7 +7,7 @@
   "source": "@site/docs/adapter/schemas.md",
   "sourceDirName": "adapter",
   "slug": "/adapter/schemas",
-  "permalink": "/docs/adapter/schemas",
+  "permalink": "/openfmb.docs/docs/adapter/schemas",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/schemas.md",
   "version": "current",
   "sidebarPosition": 4,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "CLI",
-    "permalink": "/docs/adapter/cli"
+    "permalink": "/openfmb.docs/docs/adapter/cli"
   },
   "next": {
     "title": "Configuration",
-    "permalink": "/docs/adapter/config"
+    "permalink": "/openfmb.docs/docs/adapter/config"
   }
 }

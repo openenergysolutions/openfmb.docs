@@ -7,13 +7,13 @@
   "source": "@site/docs/adapter/misc/self-signed.md",
   "sourceDirName": "adapter/misc",
   "slug": "/adapter/misc/self-signed",
-  "permalink": "/docs/adapter/misc/self-signed",
+  "permalink": "/openfmb.docs/docs/adapter/misc/self-signed",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/misc/self-signed.md",
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Scheduling",
-    "permalink": "/docs/adapter/misc/scheduling"
+    "permalink": "/openfmb.docs/docs/adapter/misc/scheduling"
   }
 }

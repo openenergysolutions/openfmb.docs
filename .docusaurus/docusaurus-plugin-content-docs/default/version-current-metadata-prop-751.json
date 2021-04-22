@@ -6,18 +6,13 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro"
-      },
-      {
         "type": "category",
         "label": "Tutorial",
         "items": [
           {
             "type": "link",
             "label": "Introduction to OpenFMB (Open Field Message Bus)",
-            "href": "/docs/tutorial/intro"
+            "href": "/openfmb.docs/docs/tutorial/intro"
           }
         ],
         "collapsed": true
@@ -29,27 +24,27 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/adapter/index"
+            "href": "/openfmb.docs/docs/adapter/index"
           },
           {
             "type": "link",
             "label": "Protos",
-            "href": "/docs/adapter/protos"
+            "href": "/openfmb.docs/docs/adapter/protos"
           },
           {
             "type": "link",
             "label": "CLI",
-            "href": "/docs/adapter/cli"
+            "href": "/openfmb.docs/docs/adapter/cli"
           },
           {
             "type": "link",
             "label": "Schemas",
-            "href": "/docs/adapter/schemas"
+            "href": "/openfmb.docs/docs/adapter/schemas"
           },
           {
             "type": "link",
             "label": "Configuration",
-            "href": "/docs/adapter/config"
+            "href": "/openfmb.docs/docs/adapter/config"
           },
           {
             "type": "category",
@@ -58,17 +53,17 @@
               {
                 "type": "link",
                 "label": "NATS",
-                "href": "/docs/adapter/native-plugins/nats"
+                "href": "/openfmb.docs/docs/adapter/native-plugins/nats"
               },
               {
                 "type": "link",
                 "label": "MQTT",
-                "href": "/docs/adapter/native-plugins/mqtt"
+                "href": "/openfmb.docs/docs/adapter/native-plugins/mqtt"
               },
               {
                 "type": "link",
                 "label": "DDS",
-                "href": "/docs/adapter/native-plugins/dds"
+                "href": "/openfmb.docs/docs/adapter/native-plugins/dds"
               }
             ],
             "collapsed": true
@@ -84,12 +79,12 @@
                   {
                     "type": "link",
                     "label": "Modbus Master",
-                    "href": "/docs/adapter/protocol-plugins/modbus/master"
+                    "href": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/master"
                   },
                   {
                     "type": "link",
                     "label": "Modbus Outstation",
-                    "href": "/docs/adapter/protocol-plugins/modbus/outstation"
+                    "href": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/outstation"
                   }
                 ],
                 "collapsed": true
@@ -101,12 +96,12 @@
                   {
                     "type": "link",
                     "label": "DNP3 Master",
-                    "href": "/docs/adapter/protocol-plugins/dnp3/master"
+                    "href": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/master"
                   },
                   {
                     "type": "link",
                     "label": "DNP3 Outstation",
-                    "href": "/docs/adapter/protocol-plugins/dnp3/outstation"
+                    "href": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation"
                   }
                 ],
                 "collapsed": true
@@ -121,12 +116,12 @@
               {
                 "type": "link",
                 "label": "Capture and Replay plugins",
-                "href": "/docs/adapter/other-plugins/capture-replay"
+                "href": "/openfmb.docs/docs/adapter/other-plugins/capture-replay"
               },
               {
                 "type": "link",
                 "label": "Log plugin",
-                "href": "/docs/adapter/other-plugins/log"
+                "href": "/openfmb.docs/docs/adapter/other-plugins/log"
               }
             ],
             "collapsed": true
@@ -134,7 +129,7 @@
           {
             "type": "link",
             "label": "Extending",
-            "href": "/docs/adapter/extending"
+            "href": "/openfmb.docs/docs/adapter/extending"
           },
           {
             "type": "category",
@@ -143,12 +138,12 @@
               {
                 "type": "link",
                 "label": "Scheduling",
-                "href": "/docs/adapter/misc/scheduling"
+                "href": "/openfmb.docs/docs/adapter/misc/scheduling"
               },
               {
                 "type": "link",
                 "label": "Self-signed certificates",
-                "href": "/docs/adapter/misc/self-signed"
+                "href": "/openfmb.docs/docs/adapter/misc/self-signed"
               }
             ],
             "collapsed": true
@@ -159,24 +154,23 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/adapter/cli": "tutorialSidebar",
-    "/docs/adapter/config": "tutorialSidebar",
-    "/docs/adapter/extending": "tutorialSidebar",
-    "/docs/adapter/index": "tutorialSidebar",
-    "/docs/adapter/misc/scheduling": "tutorialSidebar",
-    "/docs/adapter/misc/self-signed": "tutorialSidebar",
-    "/docs/adapter/native-plugins/dds": "tutorialSidebar",
-    "/docs/adapter/native-plugins/mqtt": "tutorialSidebar",
-    "/docs/adapter/native-plugins/nats": "tutorialSidebar",
-    "/docs/adapter/other-plugins/capture-replay": "tutorialSidebar",
-    "/docs/adapter/other-plugins/log": "tutorialSidebar",
-    "/docs/adapter/protocol-plugins/dnp3/master": "tutorialSidebar",
-    "/docs/adapter/protocol-plugins/dnp3/outstation": "tutorialSidebar",
-    "/docs/adapter/protocol-plugins/modbus/master": "tutorialSidebar",
-    "/docs/adapter/protocol-plugins/modbus/outstation": "tutorialSidebar",
-    "/docs/adapter/protos": "tutorialSidebar",
-    "/docs/adapter/schemas": "tutorialSidebar",
-    "/docs/intro": "tutorialSidebar",
-    "/docs/tutorial/intro": "tutorialSidebar"
+    "/openfmb.docs/docs/adapter/cli": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/config": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/extending": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/index": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/misc/scheduling": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/misc/self-signed": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/native-plugins/dds": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/native-plugins/mqtt": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/native-plugins/nats": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/other-plugins/capture-replay": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/other-plugins/log": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/master": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/protocol-plugins/modbus/master": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/protocol-plugins/modbus/outstation": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/protos": "tutorialSidebar",
+    "/openfmb.docs/docs/adapter/schemas": "tutorialSidebar",
+    "/openfmb.docs/docs/tutorial/intro": "tutorialSidebar"
   }
 }

@@ -7,17 +7,17 @@
   "source": "@site/docs/adapter/other-plugins/capture-replay.md",
   "sourceDirName": "adapter/other-plugins",
   "slug": "/adapter/other-plugins/capture-replay",
-  "permalink": "/docs/adapter/other-plugins/capture-replay",
+  "permalink": "/openfmb.docs/docs/adapter/other-plugins/capture-replay",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/other-plugins/capture-replay.md",
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "DNP3 Outstation",
-    "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
+    "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation"
   },
   "next": {
     "title": "Log plugin",
-    "permalink": "/docs/adapter/other-plugins/log"
+    "permalink": "/openfmb.docs/docs/adapter/other-plugins/log"
   }
 }

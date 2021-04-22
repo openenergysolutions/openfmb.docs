@@ -1,8 +1,8 @@
 export default {
   "title": "OpenFMB",
   "tagline": "OpenFMB from Open Energy Solutions",
-  "url": "https://openenergysolutions.com/openfmb",
-  "baseUrl": "/",
+  "url": "https://openenergysolutions.github.io/openfmb.docs/",
+  "baseUrl": "/openfmb.docs/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
@@ -18,7 +18,7 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "tutorial/intro",
           "position": "left",
           "label": "Tutorial",
           "activeSidebarClassName": "navbar__link--active"
@@ -46,7 +46,7 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "/docs/intro"
+              "to": "/docs/tutorial/intro"
             }
           ]
         },

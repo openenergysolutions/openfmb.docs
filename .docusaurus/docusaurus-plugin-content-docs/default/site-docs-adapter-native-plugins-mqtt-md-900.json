@@ -7,7 +7,7 @@
   "source": "@site/docs/adapter/native-plugins/mqtt.md",
   "sourceDirName": "adapter/native-plugins",
   "slug": "/adapter/native-plugins/mqtt",
-  "permalink": "/docs/adapter/native-plugins/mqtt",
+  "permalink": "/openfmb.docs/docs/adapter/native-plugins/mqtt",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/native-plugins/mqtt.md",
   "version": "current",
   "sidebarPosition": 2,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "NATS",
-    "permalink": "/docs/adapter/native-plugins/nats"
+    "permalink": "/openfmb.docs/docs/adapter/native-plugins/nats"
   },
   "next": {
     "title": "DDS",
-    "permalink": "/docs/adapter/native-plugins/dds"
+    "permalink": "/openfmb.docs/docs/adapter/native-plugins/dds"
   }
 }

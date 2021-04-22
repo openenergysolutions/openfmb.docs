@@ -7,17 +7,17 @@
   "source": "@site/docs/adapter/protocol-plugins/dnp3/master.md",
   "sourceDirName": "adapter/protocol-plugins/dnp3",
   "slug": "/adapter/protocol-plugins/dnp3/master",
-  "permalink": "/docs/adapter/protocol-plugins/dnp3/master",
+  "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/master",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/protocol-plugins/dnp3/master.md",
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Modbus Outstation",
-    "permalink": "/docs/adapter/protocol-plugins/modbus/outstation"
+    "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/modbus/outstation"
   },
   "next": {
     "title": "DNP3 Outstation",
-    "permalink": "/docs/adapter/protocol-plugins/dnp3/outstation"
+    "permalink": "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation"
   }
 }

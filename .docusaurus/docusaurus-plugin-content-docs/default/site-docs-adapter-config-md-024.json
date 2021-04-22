@@ -7,7 +7,7 @@
   "source": "@site/docs/adapter/config.md",
   "sourceDirName": "adapter",
   "slug": "/adapter/config",
-  "permalink": "/docs/adapter/config",
+  "permalink": "/openfmb.docs/docs/adapter/config",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/config.md",
   "version": "current",
   "sidebarPosition": 5,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Schemas",
-    "permalink": "/docs/adapter/schemas"
+    "permalink": "/openfmb.docs/docs/adapter/schemas"
   },
   "next": {
     "title": "NATS",
-    "permalink": "/docs/adapter/native-plugins/nats"
+    "permalink": "/openfmb.docs/docs/adapter/native-plugins/nats"
   }
 }

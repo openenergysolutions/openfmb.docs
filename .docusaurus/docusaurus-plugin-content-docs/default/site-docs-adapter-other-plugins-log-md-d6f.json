@@ -7,17 +7,17 @@
   "source": "@site/docs/adapter/other-plugins/log.md",
   "sourceDirName": "adapter/other-plugins",
   "slug": "/adapter/other-plugins/log",
-  "permalink": "/docs/adapter/other-plugins/log",
+  "permalink": "/openfmb.docs/docs/adapter/other-plugins/log",
   "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/docs/adapter/other-plugins/log.md",
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Capture and Replay plugins",
-    "permalink": "/docs/adapter/other-plugins/capture-replay"
+    "permalink": "/openfmb.docs/docs/adapter/other-plugins/capture-replay"
   },
   "next": {
     "title": "Creating a new plugin",
-    "permalink": "/docs/adapter/extending"
+    "permalink": "/openfmb.docs/docs/adapter/extending"
   }
 }

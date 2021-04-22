@@ -1,9 +1,9 @@
 {
-  "/-deb": {
+  "/openfmb.docs/-bd8": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   },
-  "/blog-438": {
+  "/openfmb.docs/blog-d08": {
     "component": "a6aa9e1f",
     "sidebar": "d21d045c",
     "items": [
@@ -17,24 +17,24 @@
         "content": "8e9f0a8a"
       }
     ],
-    "metadata": "b2b675dd"
+    "metadata": "7adbe2b5"
   },
-  "/blog/hello-world-3de": {
+  "/openfmb.docs/blog/hello-world-903": {
     "component": "ccc49370",
     "sidebar": "d21d045c",
     "content": "d610846f"
   },
-  "/blog/hola-f60": {
+  "/openfmb.docs/blog/hola-a8b": {
     "component": "ccc49370",
     "sidebar": "d21d045c",
     "content": "bdd709f1"
   },
-  "/blog/tags-eca": {
+  "/openfmb.docs/blog/tags-125": {
     "component": "01a85c17",
     "sidebar": "d21d045c",
-    "tags": "a7023ddc"
+    "tags": "c1bfc525"
   },
-  "/blog/tags/docusaurus-c2e": {
+  "/openfmb.docs/blog/tags/docusaurus-b89": {
     "component": "6875c492",
     "sidebar": "d21d045c",
     "items": [
@@ -48,9 +48,9 @@
         "content": "8e9f0a8a"
       }
     ],
-    "metadata": "a80da1cf"
+    "metadata": "8b0202ba"
   },
-  "/blog/tags/facebook-466": {
+  "/openfmb.docs/blog/tags/facebook-227": {
     "component": "6875c492",
     "sidebar": "d21d045c",
     "items": [
@@ -58,9 +58,9 @@
         "content": "af172acd"
       }
     ],
-    "metadata": "031793e1"
+    "metadata": "88c91f8e"
   },
-  "/blog/tags/hello-c79": {
+  "/openfmb.docs/blog/tags/hello-ac0": {
     "component": "6875c492",
     "sidebar": "d21d045c",
     "items": [
@@ -71,9 +71,9 @@
         "content": "3570154c"
       }
     ],
-    "metadata": "30a24c52"
+    "metadata": "83455425"
   },
-  "/blog/tags/hola-908": {
+  "/openfmb.docs/blog/tags/hola-1dc": {
     "component": "6875c492",
     "sidebar": "d21d045c",
     "items": [
@@ -81,94 +81,90 @@
         "content": "8e9f0a8a"
       }
     ],
-    "metadata": "e16015ca"
+    "metadata": "90086b2d"
   },
-  "/blog/welcome-905": {
+  "/openfmb.docs/blog/welcome-2b9": {
     "component": "ccc49370",
     "sidebar": "d21d045c",
     "content": "2868cdab"
   },
-  "/markdown-page-be1": {
+  "/openfmb.docs/markdown-page-2e3": {
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/docs-8c4": {
+  "/openfmb.docs/docs-33f": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs/adapter/cli-43a": {
+  "/openfmb.docs/docs/adapter/cli-20e": {
     "component": "17896441",
     "content": "bb8b42f5"
   },
-  "/docs/adapter/config-347": {
+  "/openfmb.docs/docs/adapter/config-37e": {
     "component": "17896441",
     "content": "024eaca6"
   },
-  "/docs/adapter/extending-f43": {
+  "/openfmb.docs/docs/adapter/extending-a11": {
     "component": "17896441",
     "content": "f3e8e883"
   },
-  "/docs/adapter/index-211": {
+  "/openfmb.docs/docs/adapter/index-818": {
     "component": "17896441",
     "content": "9b5d7d25"
   },
-  "/docs/adapter/misc/scheduling-364": {
+  "/openfmb.docs/docs/adapter/misc/scheduling-6e3": {
     "component": "17896441",
     "content": "c88b75af"
   },
-  "/docs/adapter/misc/self-signed-e22": {
+  "/openfmb.docs/docs/adapter/misc/self-signed-c1f": {
     "component": "17896441",
     "content": "e3143216"
   },
-  "/docs/adapter/native-plugins/dds-6e0": {
+  "/openfmb.docs/docs/adapter/native-plugins/dds-37f": {
     "component": "17896441",
     "content": "d6ca1975"
   },
-  "/docs/adapter/native-plugins/mqtt-9cd": {
+  "/openfmb.docs/docs/adapter/native-plugins/mqtt-0b9": {
     "component": "17896441",
     "content": "9009ec41"
   },
-  "/docs/adapter/native-plugins/nats-b81": {
+  "/openfmb.docs/docs/adapter/native-plugins/nats-750": {
     "component": "17896441",
     "content": "4c5330f9"
   },
-  "/docs/adapter/other-plugins/capture-replay-a01": {
+  "/openfmb.docs/docs/adapter/other-plugins/capture-replay-c04": {
     "component": "17896441",
     "content": "208d1973"
   },
-  "/docs/adapter/other-plugins/log-828": {
+  "/openfmb.docs/docs/adapter/other-plugins/log-10b": {
     "component": "17896441",
     "content": "d6f3de85"
   },
-  "/docs/adapter/protocol-plugins/dnp3/master-222": {
+  "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/master-2a0": {
     "component": "17896441",
     "content": "b444bd65"
   },
-  "/docs/adapter/protocol-plugins/dnp3/outstation-532": {
+  "/openfmb.docs/docs/adapter/protocol-plugins/dnp3/outstation-d8c": {
     "component": "17896441",
     "content": "cff60dce"
   },
-  "/docs/adapter/protocol-plugins/modbus/master-0a5": {
+  "/openfmb.docs/docs/adapter/protocol-plugins/modbus/master-cdc": {
     "component": "17896441",
     "content": "9ab5b4b3"
   },
-  "/docs/adapter/protocol-plugins/modbus/outstation-af2": {
+  "/openfmb.docs/docs/adapter/protocol-plugins/modbus/outstation-5cf": {
     "component": "17896441",
     "content": "e9677cb7"
   },
-  "/docs/adapter/protos-256": {
+  "/openfmb.docs/docs/adapter/protos-c9f": {
     "component": "17896441",
     "content": "1a4ce780"
   },
-  "/docs/adapter/schemas-434": {
+  "/openfmb.docs/docs/adapter/schemas-007": {
     "component": "17896441",
     "content": "86f47c8e"
   },
-  "/docs/intro-e84": {
-    "component": "17896441",
-    "content": "0e384e19"
-  },
-  "/docs/tutorial/intro-800": {
+  "/openfmb.docs/docs/tutorial/intro-2ce": {
     "component": "17896441",
     "content": "2e854b47"
   }
