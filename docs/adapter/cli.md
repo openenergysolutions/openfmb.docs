@@ -116,8 +116,6 @@ capture           - captures published OpenFMB messages to a replayable file for
 dds-rti           - publish/subscribe to DDS using RTI bindings (requires run-time license)
 dnp3-master       - maps openFMB to the master side of the DNP3 protocol
 dnp3-outstation   - maps openFMB to the outstation side of the DNP3 protocol
-goose-pub         - maps GOOSE protocol messages to OpenFMB
-goose-sub         - maps OpenFMB messages to the GOOSE protocol
 log               - pretty prints profiles to the log
 modbus-master     - maps OpenFMB to the Modbus protocol
 modbus-outstation - maps the Modbus protocol to OpenFMB
