@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Projects\\openfmb.docs\\sidebars.js",
-          "contentPath": "C:\\Projects\\openfmb.docs\\docs",
-          "contentPathLocalized": "C:\\Projects\\openfmb.docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "/code/tburdick/src/openfmb.docs/sidebars.js",
+          "contentPath": "/code/tburdick/src/openfmb.docs/docs",
+          "contentPathLocalized": "/code/tburdick/src/openfmb.docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "tutorial/intro",
           "sidebars": {
             "tutorialSidebar": [

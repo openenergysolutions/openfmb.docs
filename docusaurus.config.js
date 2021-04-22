@@ -30,6 +30,18 @@ module.exports = {
           label: 'Adapter',
         },
         {
+          type: 'doc',
+          docId: 'adapter-config-tool/index',
+          position: 'left',
+          label: 'Adapter Config Tool',
+        },
+        {
+          type: 'doc',
+          docId: 'hmi/index',
+          position: 'left',
+          label: 'HMI',
+        },
+        {
           href: 'https://github.com/openenergysolutions/openfmb.docs',
           label: 'GitHub',
           position: 'right',

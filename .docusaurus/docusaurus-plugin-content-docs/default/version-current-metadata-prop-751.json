@@ -48,7 +48,7 @@
           },
           {
             "type": "category",
-            "label": "Native Plugins",
+            "label": "Publish-Subscribe Protocols",
             "items": [
               {
                 "type": "link",
@@ -70,7 +70,7 @@
           },
           {
             "type": "category",
-            "label": "Protocol Plugins",
+            "label": "Device Protocols",
             "items": [
               {
                 "type": "category",
@@ -111,7 +111,7 @@
           },
           {
             "type": "category",
-            "label": "Other Plugins",
+            "label": "Other Modules",
             "items": [
               {
                 "type": "link",

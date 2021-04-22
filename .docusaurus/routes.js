@@ -8,83 +8,48 @@ export default [
   exact: true,
 },
 {
-  path: '/openfmb.docs/__docusaurus/debug',
-  component: ComponentCreator('/openfmb.docs/__docusaurus/debug','064'),
-  exact: true,
-},
-{
-  path: '/openfmb.docs/__docusaurus/debug/config',
-  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/config','939'),
-  exact: true,
-},
-{
-  path: '/openfmb.docs/__docusaurus/debug/content',
-  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/content','73c'),
-  exact: true,
-},
-{
-  path: '/openfmb.docs/__docusaurus/debug/globalData',
-  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/globalData','613'),
-  exact: true,
-},
-{
-  path: '/openfmb.docs/__docusaurus/debug/metadata',
-  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/metadata','ef4'),
-  exact: true,
-},
-{
-  path: '/openfmb.docs/__docusaurus/debug/registry',
-  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/registry','a6c'),
-  exact: true,
-},
-{
-  path: '/openfmb.docs/__docusaurus/debug/routes',
-  component: ComponentCreator('/openfmb.docs/__docusaurus/debug/routes','2c5'),
-  exact: true,
-},
-{
   path: '/openfmb.docs/blog',
-  component: ComponentCreator('/openfmb.docs/blog','dfa'),
+  component: ComponentCreator('/openfmb.docs/blog','d08'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/hello-world',
-  component: ComponentCreator('/openfmb.docs/blog/hello-world','c8d'),
+  component: ComponentCreator('/openfmb.docs/blog/hello-world','903'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/hola',
-  component: ComponentCreator('/openfmb.docs/blog/hola','a48'),
+  component: ComponentCreator('/openfmb.docs/blog/hola','a8b'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags',
-  component: ComponentCreator('/openfmb.docs/blog/tags','6ce'),
+  component: ComponentCreator('/openfmb.docs/blog/tags','125'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags/docusaurus',
-  component: ComponentCreator('/openfmb.docs/blog/tags/docusaurus','086'),
+  component: ComponentCreator('/openfmb.docs/blog/tags/docusaurus','b89'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags/facebook',
-  component: ComponentCreator('/openfmb.docs/blog/tags/facebook','eef'),
+  component: ComponentCreator('/openfmb.docs/blog/tags/facebook','227'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags/hello',
-  component: ComponentCreator('/openfmb.docs/blog/tags/hello','e7c'),
+  component: ComponentCreator('/openfmb.docs/blog/tags/hello','ac0'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/tags/hola',
-  component: ComponentCreator('/openfmb.docs/blog/tags/hola','ce5'),
+  component: ComponentCreator('/openfmb.docs/blog/tags/hola','1dc'),
   exact: true,
 },
 {
   path: '/openfmb.docs/blog/welcome',
-  component: ComponentCreator('/openfmb.docs/blog/welcome','259'),
+  component: ComponentCreator('/openfmb.docs/blog/welcome','2b9'),
   exact: true,
 },
 {

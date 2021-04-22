@@ -31,6 +31,20 @@ export default {
           "activeSidebarClassName": "navbar__link--active"
         },
         {
+          "type": "doc",
+          "docId": "adapter-config-tool/index",
+          "position": "left",
+          "label": "Adapter Config Tool",
+          "activeSidebarClassName": "navbar__link--active"
+        },
+        {
+          "type": "doc",
+          "docId": "hmi/index",
+          "position": "left",
+          "label": "HMI",
+          "activeSidebarClassName": "navbar__link--active"
+        },
+        {
           "href": "https://github.com/openenergysolutions/openfmb.docs",
           "label": "GitHub",
           "position": "right"
@@ -104,7 +118,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Projects\\openfmb.docs\\sidebars.js",
+          "sidebarPath": "/code/tburdick/src/openfmb.docs/sidebars.js",
           "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/"
         },
         "blog": {
@@ -112,7 +126,7 @@ export default {
           "editUrl": "https://github.com/openenergysolutions/openfmb.docs/edit/develop/website/blog/"
         },
         "theme": {
-          "customCss": "C:\\Projects\\openfmb.docs\\src\\css\\custom.css"
+          "customCss": "/code/tburdick/src/openfmb.docs/src/css/custom.css"
         }
       }
     ]
