@@ -24,6 +24,13 @@ export default {
           "activeSidebarClassName": "navbar__link--active"
         },
         {
+          "type": "doc",
+          "docId": "adapter/index",
+          "position": "left",
+          "label": "Adapter",
+          "activeSidebarClassName": "navbar__link--active"
+        },
+        {
           "href": "https://github.com/openenergysolutions/openfmb.docs",
           "label": "GitHub",
           "position": "right"

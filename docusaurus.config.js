@@ -24,6 +24,12 @@ module.exports = {
           label: 'Tutorial',
         },
         {
+          type: 'doc',
+          docId: 'adapter/index',
+          position: 'left',
+          label: 'Adapter',
+        },
+        {
           href: 'https://github.com/openenergysolutions/openfmb.docs',
           label: 'GitHub',
           position: 'right',
