@@ -40,8 +40,6 @@ To ease the editing of configuration files, here's the suggested setup.
     "schemas/dnp3-outstation.json": ["config/dnp3-outstation*.yml"],
     "schemas/modbus-master.json": ["config/modbus-master*.yml"],
     "schemas/modbus-outstation.json": ["config/modbus-outstation*.yml"],
-    "schemas/goose-pub.json": ["config/goose-pub*.yml"],
-    "schemas/goose-sub.json": ["config/goose-sub*.yml"]
 },
 ```
 You can customize the configuration here to your particular setup. The first

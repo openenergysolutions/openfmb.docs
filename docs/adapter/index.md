@@ -12,8 +12,9 @@ as NATS, MQTT, and DDS. The sections below describe these two primary use cases.
 ## Protocol translator
 
 The adapter can act as a protocol translator for equipment communicating with
-other, protocols such as DNP3 (IEEE 1815-2012), Modbus TCP, and GOOSE (part of
-IEC 61850).
+other, protocols such as DNP3 (IEEE 1815-2012), and Modbus TCP. Several
+other protocols are supported by Open Energy Solutions but require a license as
+they use licensed protocol libraries.
 
 The mapping from the other protocol to OpenFMB is configured using a YAML model
 of a specific OpenFMB profile, and protocol specific metadata. The adapter then
