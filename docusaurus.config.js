@@ -2,8 +2,8 @@
 module.exports = {
   title: 'OpenFMB',
   tagline: 'OpenFMB from Open Energy Solutions',
-  url: 'https://openenergysolutions.com/openfmb',
-  baseUrl: '/',
+  url: 'https://openenergysolutions.github.io/openfmb.docs/',
+  baseUrl: '/openfmb.docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
