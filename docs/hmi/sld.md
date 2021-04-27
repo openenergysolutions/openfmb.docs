@@ -6,45 +6,31 @@ sidebar_position: 5
 
 A single-line diagram, also sometimes called one-line diagram, gives you an overview or part of an electrical power system.  In this section, you'll learn how to use OpenFMB HMI tool to build a single-line diagram that represents a very simple micrgrid.  
 
-A typical scheme of an electrical based microgrid with solar as renewable energy resource would be:
+In this section, you will be setting up the signle-line diagram based on the [Referenced Setup](../tutorial/reference).
 
 ![](img/microgrid.png)
-
-There are four electrical equipment to represent on the single-line diagram.  Not that for simplicity, we don't need to draw any of the transformers nor AC/DC converters.
-
-- Building Load: power consumption
-- Solar PV: power production from solar panels
-- Battery Energy Storage: charge from solar and discharge to supply power
-- Circuit Breaker at PCC (Point of Common Coupling): connect and disconnect to larger distribution grid
-
-We want to design our single-line diagram such that an operator can:
-
-- Monitor the power consumption
-- Monitor the power production from solar
-- Monitor the State of Charge (SOC) of the battery
-- Island or reconnect to distribution grid
 
 ## To Build The Diagram
 
 1. First, we need to add the four equipment that we identified above.  On OpenFMB HMI side navigator menu, click on Settings, then click on Devices
 
 2. For each equpment, click on "ADD DEVICE" to bring up the add device dialog and enter the following information
-    - Building Load: 
-        - Name: load
-        - Device Type: load
-        - MRID: Generate new MRID
+    - Building Load (using Meter as measurement equipment)
+        - Name: Meter
+        - Device Type: meter
+        - MRID: `0648ef71-cb63-4347-921a-9dbf178da687`
     - Solar PV:
         - Name: Solar
         - Device Type: solar
-        - MRID: Generate new MRID   
+        - MRID: `540b292a-e600-4ae4-b077-40b892ae6970`   
     - Battery Energy Storage:
         - Name: Battery
         - Device Type: ess
-        - MRID: Generate new MRID
-    - Circuit Breaker at PCC:
-        - Name: Breaker
-        - Device Type: breaker
-        - MRID: Generate new MRID 
+        - MRID: `836a8638-b448-4961-8258-47aa18e05f65`
+    - Switch at PCC:
+        - Name: Switch
+        - Device Type: switch
+        - MRID: `e6768784-48ad-40e9-af2a-9676413d4d6a`
     
    The device list shall look like this:
 
@@ -61,16 +47,23 @@ We want to design our single-line diagram such that an operator can:
     ![](img/design-mode.png)
 
 7. Drag and drop symbols (on left panel) onto the canvas.  We need:
-    - A Controllable Load symbol (for build load)
+    - A Uncontrollable Load symbol (for build load) 
+      - ![](img/uncontrollable-load.png)
     - A Solar Panel symbol
+      - ![](img/solar.png)
     - A Battery Energy Storage System (ESS) symbol
-    - A Circuit Breaker symbol
+      - ![](img/ess.png)
+    - A Breaker(or Switch) symbol
+      - ![](img/breaker.png)
     - A Feeder symbol to represent distribution grid (for completeness)
+      - ![](img/feeder.png)
 
 8. We need to assign the symbol with its MRID for identification purpose.  For each symbols that we just dropped onto the canvas:
     - **Double click** on the symbol to bring up `Symbol Property Dialog`
     - On the dialog name drop down, select the appropriate device to assign to the symbol.  Note that the MRID is automatically populated according to the selection
     - On label text box, enter label text to be display on the diagram (optional)
+    
+    ![](img/assign-mrid.png)
     
 8. To connect the symbols, select "Connect" menu on top panel.  For each symbol we want to connect:
     - hover your mouse over the symbol connection port (the connection port is highlighted in green when hovered over) 
@@ -104,18 +97,18 @@ We want to design our single-line diagram such that an operator can:
         - Filter or navigate to `essStatus.essStatusZBAT.Soc.mag` and click `+` button to add to left panel 
             ![](img/diagram2.png)           
 
-11. We now have the measurement boxes for monitoring reading and status.  One more step we need to do is to `data connect` the Circuit Breaker (PCC) so that it shows correct position (Open/Close) and allows trip/close operations
+11. We now have the measurement boxes for monitoring reading and status.  One more step we need to do is to `data connect` on the Switch (PCC) so that it shows correct position (Open/Close) and allows trip/close operations
 
-    - **Double click** on the breaker symble to bring up `Symbol Property Dialog`
+    - **Double click** on the switch/breaker symbol to bring up `Symbol Property Dialog`
     - Click on "Data Connection" to go to "Data Connection" screen
-    - To map the breaker position:
+    - To map the switch position:
         - Select `Event, Reading, or Status` tab on left panel
-        - On right panel, select `breakermodule` module, the select `BreakerStatusProfile`
-        - Filter or navigate to `breakerStatus.statusAndEventXCBR.Pos.phs3.stVal` and click `+` button to add to left panel
-    - To map the breaker control for trip/close operations:
+        - On right panel, select `switchmodule` module, the select `SwitchStatusProfile`
+        - Filter or navigate to `switchStatus.statusAndEventXCBR.Pos.phs3.stVal` and click `+` button to add to left panel
+    - To map the switch control for trip/close operations:
         - Select `Control` tab on left panel
-        - On right panel, select `breakermodule` module, the select `BreakerDiscreteControlProfile`
-        - Filter or navigate to `breakerDisc...eControlXCBR.discreteControlXCBR.Pos.phs3.ctlVal` and click `+` button to add to left panel
+        - On right panel, select `switchmodule` module, the select `SwitchDiscreteControlProfile`
+        - Filter or navigate to `switchDisc...eControlXCBR.discreteControlXCBR.Pos.phs3.ctlVal` and click `+` button to add to left panel
     
 ## Run The Diagram
 
