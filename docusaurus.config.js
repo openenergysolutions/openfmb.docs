@@ -40,7 +40,7 @@ module.exports = {
           docId: 'hmi/index',
           position: 'left',
           label: 'HMI',
-        },        
+        },
         {
           href: 'https://github.com/openenergysolutions/openfmb.docs',
           label: 'GitHub',
@@ -112,4 +112,12 @@ module.exports = {
       },
     ],
   ],
+  plugins: ['@docusaurus/plugin-google-analytics'],
+  themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-195209973-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+  },
 };
