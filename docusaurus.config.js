@@ -19,9 +19,9 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'tutorial/intro',
+          docId: 'openfmb/intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Introduction',
         },
         {
           type: 'doc',
