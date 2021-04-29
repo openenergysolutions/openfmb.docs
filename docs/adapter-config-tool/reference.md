@@ -4,9 +4,9 @@ sidebar_position: 7
 
 # Referenced Setup
 
-In this section, you will learn how to use the [OpenFMB Adapter Config tool](index) to create configuration files for the [OpenFMB Adapter](../adapter/index) used by the [Referenced Setup](../tutorial/reference).
+In this section, you will learn how to use the [OpenFMB Adapter Config tool](index) to create configuration files for the [OpenFMB Adapter](../adapter/index) used by the [Referenced Setup](../openfmb/reference).
 
-As specified in the [Referenced Setup](../tutorial/reference), there are four electrical equipment:
+As specified in the [Referenced Setup](../openfmb/reference), there are four electrical equipment:
 
 - **Building Load**: meter device speaking DNP3
 - **Solar PV**: solar system speaking MODBUS
@@ -55,7 +55,7 @@ We use `MeterReadingProfile` for the building load.
 6. For this reference setup, you need to enable `NATS` and `dnp3-master`.  Click on `plugins` node and check `NATS` and `dnp3-master`
 
 7. To do the protocol mapping between DNP3 and OpenFMB MeterReadingProfile, expand `dnp3-master` node, session, then select `MeterReadingProfile` 
-    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `0648ef71-cb63-4347-921a-9dbf178da687` as the [mRID](../tutorial/reference#device-mrid).
+    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `0648ef71-cb63-4347-921a-9dbf178da687` as the [mRID](../openfmb/reference#device-mrid).
     - You need to map DNP3 `analog input index 0` to `W` of the `readingMMXU` in the MeterReadingProfile
         - Type `W` in the search box (middle screen).  A list of available `W` data item is showing.  Select `W total (mag)` since we want the total power consumption (mag).
           ![](img/search-box.png)
@@ -97,7 +97,7 @@ We use `SolarReadingProfile` for the solar power production and `SolarStatusProf
 5. For this reference setup, you need to enable `NATS` and `modbus-master`.  Click on `plugins` node and check `NATS` and `modbus-master`
 
 6. To do the protocol mapping between MODBUS and OpenFMB SolarReadingProfile, expand `modbus-master` node, session, then select `SolarReadingProfile` 
-    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `540b292a-e600-4ae4-b077-40b892ae6970` as the [mRID](../tutorial/reference#device-mrid).
+    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `540b292a-e600-4ae4-b077-40b892ae6970` as the [mRID](../openfmb/reference#device-mrid).
     - You need to map MODBUS `Holding Register Pair [0, 1]` to `W` of the `readingMMXU` in the SolarReadingProfile
         - Type `W` in the search box (middle screen).  A list of available `W` data item is showing.  Select `W total (mag)` since we want the total power consumption (mag).
           ![](img/search-box.png)
@@ -113,7 +113,7 @@ We use `SolarReadingProfile` for the solar power production and `SolarStatusProf
           ![](img/solar-reading.png)
 
 7. To do the protocol mapping between MODBUS and OpenFMB SolarStatusProfile, expand `modbus-master` node, session, then select `SolarStatusProfile` 
-    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `540b292a-e600-4ae4-b077-40b892ae6970` as the [mRID](../tutorial/reference#device-mrid).
+    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `540b292a-e600-4ae4-b077-40b892ae6970` as the [mRID](../openfmb/reference#device-mrid).
     - You need to map MODBUS `Coil 0` to `state` of the `PointStatus` in the SolarStatusProfile
         - On the right profile navigator tree, drill down to `state` with the following path:
         ```
@@ -158,7 +158,7 @@ We use `ESSReadingProfile` for the solar power charge/discharge and `ESSStatusPr
 5. For this reference setup, you need to enable `NATS` and `modbus-master`.  Click on `plugins` node and check `NATS` and `modbus-master`
 
 6. To do the protocol mapping between MODBUS and OpenFMB SolarReadingProfile, expand `modbus-master` node, session, then select `ESSReadingProfile` 
-    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `836a8638-b448-4961-8258-47aa18e05f65` as the [mRID](../tutorial/reference#device-mrid).
+    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `836a8638-b448-4961-8258-47aa18e05f65` as the [mRID](../openfmb/reference#device-mrid).
     - You need to map MODBUS `Holding Register Pair [0, 1]` to `W` of the `readingMMXU` in the ESSReadingProfile
         - Type `W` in the search box (middle screen).  A list of available `W` data item is showing.  Select `W total (mag)` since we want the total power consumption (mag).
           ![](img/search-box.png)
@@ -172,7 +172,7 @@ We use `ESSReadingProfile` for the solar power charge/discharge and `ESSStatusPr
         - You now complete the mapping of `Holding Register Pair [0, 1]` to `essReading.readingMMXU.W.net.cVal.mag` with `scale factor 0.01`        
 
 7. To do the protocol mapping between MODBUS and OpenFMB ESSStatusProfile, expand `modbus-master` node, session, then select `ESSStatusProfile` 
-    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `836a8638-b448-4961-8258-47aa18e05f65` as the [mRID](../tutorial/reference#device-mrid).
+    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `836a8638-b448-4961-8258-47aa18e05f65` as the [mRID](../openfmb/reference#device-mrid).
     - You need to map MODBUS `Coil 0` to `state` of the `PointStatus` in the ESSStatusProfile
         - On the right profile navigator tree, drill down to `state` with the following path:
         ```
@@ -248,7 +248,7 @@ We use `SwitchReadingProfile` for the total kW reading, `SwitchStatusProfile` fo
 5. For this reference setup, you need to enable `NATS` and `dnp3-master`.  Click on `plugins` node and check `NATS` and `dnp3-master`
 
 6. To do the protocol mapping between DNP3 and OpenFMB SwitchReadingProfile, expand `dnp3-master` node, session, then select `SwitchReadingProfile` 
-    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `e6768784-48ad-40e9-af2a-9676413d4d6a` as the [mRID](../tutorial/reference#device-mrid).
+    - Assign MRID of the metering device to the profile by clicking on the `mRID` on top right corner, then click on `...` button.  Enter `e6768784-48ad-40e9-af2a-9676413d4d6a` as the [mRID](../openfmb/reference#device-mrid).
     - You need to map DNP3 `analog input index 0` to `W` of the `readingMMXU` in the SwitchReadingProfile
         - Type `W` in the search box (middle screen).  A list of available `W` data item is showing.  Select `W total (mag)` since we want the total power consumption (mag).
             ![](img/search-box.png)

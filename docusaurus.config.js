@@ -60,8 +60,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/tutorial/intro',
+              label: 'Introduction',
+              to: '/docs/openfmb/intro',
             },
           ],
         },
