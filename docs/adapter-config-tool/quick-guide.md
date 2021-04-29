@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Overview
+# Getting Started
 
 Follow these steps to configure your first OpenFMB Adapter
 

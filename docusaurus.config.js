@@ -40,13 +40,7 @@ module.exports = {
           docId: 'hmi/index',
           position: 'left',
           label: 'HMI',
-        },
-        {
-          type: 'doc',
-          docId: 'message-inspector/index',
-          position: 'left',
-          label: 'Message Inspector',
-        },
+        },        
         {
           href: 'https://github.com/openenergysolutions/openfmb.docs',
           label: 'GitHub',

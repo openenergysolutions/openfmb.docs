@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Single-Line Diagram
+# Referenced Setup
 
 A single-line diagram, also sometimes called one-line diagram, gives you an overview or part of an electrical power system.  In this section, you'll learn how to use OpenFMB HMI tool to build a single-line diagram that represents a very simple micrgrid.  
 
@@ -14,7 +14,7 @@ In this section, you will be setting up the signle-line diagram based on the [Re
 
 1. First, we need to add the four equipment that we identified above.  On OpenFMB HMI side navigator menu, click on Settings, then click on Devices
 
-2. For each equpment, click on "ADD DEVICE" to bring up the add device dialog and enter the following information
+2. For each equipment, click on "ADD DEVICE" to bring up the add device dialog and enter the following information
     - Building Load (using Meter as measurement equipment)
         - Name: Meter
         - Device Type: meter
