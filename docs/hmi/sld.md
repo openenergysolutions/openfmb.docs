@@ -6,7 +6,7 @@ sidebar_position: 5
 
 A single-line diagram, also sometimes called one-line diagram, gives you an overview or part of an electrical power system.  In this section, you'll learn how to use OpenFMB HMI tool to build a single-line diagram that represents a very simple micrgrid.  
 
-In this section, you will be setting up the signle-line diagram based on the [Referenced Setup](../tutorial/reference).
+In this section, you will be setting up the signle-line diagram based on the [Referenced Setup](../openfmb/reference).
 
 ![](img/microgrid.png)
 
