@@ -10,6 +10,11 @@ module.exports = {
   organizationName: 'openenergysolutions', // Usually your GitHub org/user name.
   projectName: 'openfmb.docs', // Usually your repo name.
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-195209973-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'OpenFMB',
       logo: {
@@ -111,13 +116,5 @@ module.exports = {
         },
       },
     ],
-  ],
-  plugins: ['@docusaurus/plugin-google-analytics'],
-  themeConfig: {
-    googleAnalytics: {
-      trackingID: 'UA-195209973-1',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
-  },
+  ]
 };
