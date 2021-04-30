@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'OpenFMB',
-  tagline: 'OpenFMB from Open Energy Solutions',
+  tagline: 'Open source for OpenFMB from Open Energy Solutions',
   url: 'https://openenergysolutions.github.io/openfmb.docs/',
   baseUrl: '/openfmb.docs/',
   onBrokenLinks: 'throw',
