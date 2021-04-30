@@ -27,7 +27,7 @@ const FeatureList = [
     Svg: require('../../static/img/osi_logo.svg').default,
     description: (
       <>
-        Licensed under Apache 2.0, an OSI Approved license..
+        Licensed under Apache 2.0, an OSI Approved license.
       </>
     ),
   },
