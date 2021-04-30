@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Unified Datamodel',
-    img: require('@site/static/img/openfmb_logo.png').default,
+    img: require('@site/static/img/OpenFMB_Logo-UCA-Colors-1.png').default,
     description: (
       <>
         Unified and open datamodel with OpenFMB.
