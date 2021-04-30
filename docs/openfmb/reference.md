@@ -7,32 +7,20 @@ sidebar_position: 2
 In this reference setup you will see how to use OpenFMB with open source software
 from [Open Energy Solutions Inc](https://openenergysolutionsinc.com).
 
-A [nats](https://nats.io) message broker, the [openfmb.adapter](https;//github.com/openenergysolutions/openfmb.adapters)
-which replays a pre-recorded set of messages, and the [openfmb.hmi](https://github.com/openenergysolutions/openfmb.hmi) which provides
-a graphical display showing the live data being broadcast over nats.
+The reference setup is run using Docker and Docker Compose and runs several
+pre-built docker images containing open source software.
 
-The demo uses Docker and Docker Compose to easily run everything in a single
-simple command.
+1. A [nats](https://nats.io) message broker
+2. A [openfmb.adapter](https://github.com/openenergysolutions/openfmb.adapters) replaying pre-recorded data
+3. A [openfmb.hmi](https://github.com/openenergysolutions/openfmb.hmi) HMI for visualizing and displaying the data coming from the adapter over NATS.
 
-We will walk through briefly installing Docker and Docker Compose, obtaining
-the openfmb.demo configuration, running through the demo configuration, and 
-describe whats going on.
+## Installing Docker Compose
 
-- Monitor measurement and status from electrical devices
-- Send control to electrical devices
+_TODO_
 
-There are several components and/or tools that involve in this referenced setup:
+## Get The Demo Configuration
 
-- OpenFMB Adapter:
-    - Translate legacy protocols such as DNP3, MODBUS into OpenFMB
-    
-- OpenFMB Adapter Config Tool:
-    - Prepare configuration files that instruct OpenFMB Adapter on how to map between legacy protocol's data points to OpenFMB data items
-    
-- OpenFMB HMI:
-    - A visualization app used to monitor measurement/status and control the underlined electrical devices
-    
-For publish/scribe protocol in this referenced setup, we will use [NATS](https://nats.io).
+_TODO_
 
 ## Overview
 
