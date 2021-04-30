@@ -2,9 +2,21 @@
 sidebar_position: 2
 ---
 
-# Referenced Setup
+# Reference Setup
 
-In this referenced setup section, using a basic microgrid scheme, you will learn how to use OpenFMB to achieve the follwing use cases:
+In this reference setup you will see how to use OpenFMB with open source software
+from [Open Energy Solutions Inc](https://openenergysolutionsinc.com).
+
+A [nats](https://nats.io) message broker, the [openfmb.adapter](https;//github.com/openenergysolutions/openfmb.adapters)
+which replays a pre-recorded set of messages, and the [openfmb.hmi](https://github.com/openenergysolutions/openfmb.hmi) which provides
+a graphical display showing the live data being broadcast over nats.
+
+The demo uses Docker and Docker Compose to easily run everything in a single
+simple command.
+
+We will walk through briefly installing Docker and Docker Compose, obtaining
+the openfmb.demo configuration, running through the demo configuration, and 
+describe whats going on.
 
 - Monitor measurement and status from electrical devices
 - Send control to electrical devices

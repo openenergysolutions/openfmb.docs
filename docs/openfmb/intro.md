@@ -2,17 +2,35 @@
 sidebar_position: 1
 ---
 
-# Introduction to OpenFMB (Open Field Message Bus)
+# OpenFMB 
 
-[OpenFMB](https://openfmb.io) is a publish/subscribe protocol with a common data
-model derived from IEC 61850. The data model is developed by a coalition and
-defined in UML using Enterprise Architect. It is rightly named the Platform
-Independent Model (PIM). OpenFMB provides several potential message encodings
-called Platform Specific Models (PSM) (protobufs and DDS currently), and
-supports several publish/subscribe protocols (MQTT, NATs, DDS).
+[OpenFMB](https://openfmb.io) or Open Field Message Bus is a publish/subscribe
+protocol with a common data model derived from IEC 61850. The data model is
+developed by a coalition and defined in UML using Enterprise Architect. It is
+rightly named the Platform Independent Model (PIM). OpenFMB provides several
+potential message encodings called Platform Specific Models (PSM) (protobufs and
+DDS currently), and supports several publish/subscribe protocols (MQTT, NATs,
+DDS).
 
 The coalition consists of industry leaders, national labs, and independent
 software and hardware vendors.
+
+
+## Goals of OpenFMB
+
+One of the broad goals of OpenFMB is to allow for localized peer to peer communication
+as opposed to the centralized communication that occurs today.
+
+![](/img/MoreDataInTheGridThanWeWant-20180414a.png)
+
+Another is to allow for layered coordination allowing for localized control and
+monitoring.
+
+![](/img/LayeredCoordination-20180918a.png)
+
+These are important ideas for the future of power grids as more distributed green
+power comes about along ever greater power demands as our dependence on dead
+plant goo wanes.
 
 ## Topic Structure
 
