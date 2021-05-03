@@ -1,6 +1,6 @@
-# Modbus Outstation
+# Modbus Server
 
-The `modbus-outstation` plugin exposes OpenFMB measurements as a Modbus slave
+The `modbus-outstation` plugin exposes OpenFMB measurements as a Modbus server
 for non-control OpenFMB profiles. It also maps Modbus write commands to OpenFMB
 control messages.
 
@@ -11,7 +11,7 @@ control messages.
 - `adapter`: Network adapter to use to establish a TCP connection (typically
   0.0.0.0)
 - `port`: TCP port on which the outstation will be listening
-- `unit-identifier`: Modbus unit identifier of the outstation (aka slave address)
+- `unit-identifier`: Modbus unit identifier of the outstation (aka address)
 - `max-num-connections`: Maximum number of concurrent TCP connections to the
   server
 

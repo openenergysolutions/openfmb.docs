@@ -1,6 +1,6 @@
-# Modbus Master
+# Modbus Client 
 
-The `modbus-master` plugin acts as a Modbus client (master) that can read and
+The `modbus-master` plugin acts as a Modbus client that can read and
 write Modbus coils, discrete inputs, input registers and holding registers.
 
 The adapter automatically determines what to poll based on the types and indices
