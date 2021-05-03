@@ -35,71 +35,38 @@ Once you have the demo zip file, unzip it in a place of your choosing.
 
 In Linux or Mac open a terminal. On windows open the command line. cd into the unzipped demo directory and simply run
 
-docker-compose up
+```docker-compose up```
 
 At this point the demo setup should be running.
 
-## Overview
+## Browse to the HMI
 
-The following steps are progressed to the referenced setup:
+At this point, with the demo running in a console much like the screenshot below
+shows
 
-1. Identify the electrical equipment and how they are connected (see [below](reference#basic-microgrid))
+![](img/demo_console_running.png)
 
-2. Identify the OpenFMB profiles to be used (see [below](reference#openfmb-profiles))
+You should be able to browse to
 
-3. Gather DNP3/MODBUS point list for each equipment 
+http://0.0.0.0:32771
 
-4. Configure the adapters (see [Adapter Config Tool](../adapter-config-tool/reference))
+And see the HMI. What it should look like is shown here
 
-5. Build the single-line diagram (see [HMI](../hmi/sld))
+![](img/demo_hmi_initial.png)
 
-6. Stand up a [NATS](https://nats.io) broker
+You should be able to browse to diagrams which will list the microgrid diagrams
 
-7. Run the adapters (see [Adapter](../adapter/index))
+![](img/demo_hmi_diagrams.png)
 
-8. Run the HMI (see [HMI](../hmi/run))
+And finally view the microgrid diagram
 
-## Basic Microgrid
+![](img/demo_hmi_microgrid.png)
 
-A typical scheme of an electrical based microgrid with solar as renewable energy resource would be:
+## Whats Happening in the Background
 
-![](img/microgrid.png)
+Now that we can see the microgrid values will be updating. Whats really going on
+here?
 
-There are four electrical equipment to represent on the single-line diagram.  Note that for simplicity, we don't need to draw any of the transformers nor AC/DC converters.
-
-- Building Load: power consumption
-- Solar PV: power production from solar panels
-- Battery Energy Storage: charge from solar and discharge to supply power
-- Switch (isolator) at PCC (Point of Common Coupling): connect and disconnect to larger distribution grid
-
-We want to design our single-line diagram such that an operator can:
-
-- Monitor the power consumption
-- Monitor the power production from solar
-- Monitor the State of Charge (SOC) of the battery
-- Island or reconnect to distribution grid
-
-## OpenFMB Profiles
-
-The following OpenFMB profiles are being used for this referenced setup:
-
-- Build Load:
-    - <ins>MeterReadingProfile</ins>: provides kW being consumed by the building 
-- Solar PV:
-    - <ins>SolarStatusProfile</ins>: provides the current state of the solar system (either On or Off)
-    - <ins>SolarReadingProfile</ins>: provides kW being produced by the solar system
-- Battery Energy Storage:
-    - <ins>ESSStatusProfile</ins>: provides current state (On/Off) and mode (ISO/PQ) of the battery
-    - <ins>ESSReadingProfile</ins>: provides charge/discharge kW by the battery
-- Switch (Isolator): 
-    - <ins>SwitchStatusProfile</ins>: provides current switch position (Open/Close)
-    - <ins>SwitchReadingProfile</ins>: provides kW being imported or exported to the distributed grid
-
-## Device MRID
-
-In this referenced setup, we use the following MRIDs:
-
-- Building Load Metering: `0648ef71-cb63-4347-921a-9dbf178da687`
-- Solar PV: `540b292a-e600-4ae4-b077-40b892ae6970`
-- Battery Energy Storage: `836a8638-b448-4961-8258-47aa18e05f65`
-- Switch (isolator) at PCC: `e6768784-48ad-40e9-af2a-9676413d4d6a`
+The replay_1 log messages in the console are coming from th [openfmb.adapter](https://github.com/openenergysolutions/openfmb.adapters) as
+it starts its configured to connect to [nats](https://nats.io) for 
+publish/subscribe of openfmb messages encoded as [protocol buffers](https://developers.google.com/protocol-buffers/)
