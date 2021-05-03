@@ -7,8 +7,9 @@ sidebar_position: 2
 In this reference setup you will see how to use OpenFMB with open source software
 from [Open Energy Solutions Inc](https://openenergysolutionsinc.com).
 
-The reference setup is run using Docker and Docker Compose and runs several
-pre-built docker images containing open source software.
+The reference setup uses Docker and Docker Compose to run several
+pre-built docker images containing open source software developed by Open Energy
+Solutions and others.
 
 1. A [nats](https://nats.io) message broker
 2. A [openfmb.adapter](https://github.com/openenergysolutions/openfmb.adapters) replaying pre-recorded data
@@ -16,11 +17,27 @@ pre-built docker images containing open source software.
 
 ## Installing Docker Compose
 
-_TODO_
+In order to run the demonstration you will need Docker and Docker Compose
+
+Installing Docker Compose can be done by following the instructions at
+
+[Install Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Get The Demo Configuration
 
-_TODO_
+Next an archive of the demonstration setup can be obtained 
+
+[Download Archive](https://github.com/openenergysolutions/openfmb.demo/archive/refs/heads/develop.zip)
+
+## Running the Demo
+
+Once you have the demo zip file, unzip it in a place of your choosing.
+
+In Linux or Mac open a terminal. On windows open the command line. cd into the unzipped demo directory and simply run
+
+docker-compose up
+
+At this point the demo setup should be running.
 
 ## Overview
 

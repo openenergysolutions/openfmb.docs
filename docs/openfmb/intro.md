@@ -18,21 +18,23 @@ software and hardware vendors.
 
 ## Goals of OpenFMB
 
-One of the broad goals of OpenFMB is to allow for localized peer to peer communication
+The goal of OpenFMB is to allow for localized peer to peer communication
 as opposed to the centralized communication that occurs today.
 
 ![](/img/MoreDataInTheGridThanWeWant-20180414a.png)
 
-Another is to allow for layered coordination allowing for localized control and
-monitoring.
+Allowing for localized peer to peer communication brings another use case, 
+using OpenFMB for layered coordination.
 
 ![](/img/LayeredCoordination-20180918a.png)
 
-These are important ideas for the future of power grids as more distributed green
-power comes about along ever greater power demands as our dependence on dead
-plant goo wanes.
+These are important ideas for the future of power grids as distributed power with
+renewable sources becomes the norm.
 
-## Topic Structure
+## Publish Subscribe Topic Structure
+
+OpenFMB provides a common data model and prescribes the use of a publish
+and subscribe bus with structured topics
 
 The topic structure of OpenFMB consists of a common OpenFMB prefix followed
 by the module, message profile, and finally the device id (mRID/UUID).
@@ -76,7 +78,10 @@ of a device.
 
 ## Modules
 
-A good number of profiles exist today and are likely to be expanded on to
+Common data models are grouped into modules which encompass commonly exchanged
+information by a family of devices.
+
+A good number of modules exist today and are likely to be expanded on to
 encompass the modern world power grids live in. A variety of loads, sources,
 storage, switching, controls and more.
 
@@ -99,7 +104,9 @@ Some of the useful modules that OpenFMB provides
 Exploring the messages, their UML and attributes is highly encouraged to get a
 sense of what each can do.
 
-## OpenFMB in a Nutshell
+## Additional Reading
 
-A data model to support sharing information among devices and controllers with
-common message formats and protocols.
+More information on OpenFMB can be found at
+
+* [OpenFMB Site](https://openfmb.io)
+* [UCA OpenFMB Site](https://openfmb.ucaiug.org/)
