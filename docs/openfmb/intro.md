@@ -4,16 +4,9 @@ sidebar_position: 1
 
 # OpenFMB 
 
-[OpenFMB](https://openfmb.io) or Open Field Message Bus is a publish/subscribe
-protocol with a common data model derived from IEC 61850. The data model is
-developed by a coalition and defined in UML using Enterprise Architect. It is
-rightly named the Platform Independent Model (PIM). OpenFMB provides several
-potential message encodings called Platform Specific Models (PSM) (protobufs and
-DDS currently), and supports several publish/subscribe protocols (MQTT, NATs,
-DDS).
+[OpenFMB](https://openfmb.io) or Open Field Message Bus is a reference architecture for interoperability with a common data model derived from IEC 61968/61970 (CIM) and IEC 61850. OpenFMB is developed by a coalition and defined in UML using Enterprise Architect.
 
-The coalition consists of industry leaders, national labs, and independent
-software and hardware vendors.
+The coalition consists of industry leaders, national labs, and independent software and hardware vendors.
 
 
 ## Goals of OpenFMB
@@ -58,7 +51,11 @@ uniquely identify the message. Additionally every message requires a timestamp.
 
 ## Message Types
 
-Messages are of 3 generalized types, Status, Event, and Control.
+Messages are of 5 generalized types, Reading, Status, Event, Control, and DiscreteControl.
+
+### Reading
+
+Commonly provides meter like readings.
 
 ### Status
 
@@ -68,21 +65,23 @@ storage state of charge.
 
 ### Event
 
-A device may autonomously change its state or be asked to do so through a control
-message. Event messages are meant to be published upon state changes.
+A device may autonomously change its state or be asked to do so through a (discrete) control
+message. Event messages are intended to be published upon state changes.
 
 ### Control
 
-Control messages are aptly named, they are meant to control or modify the state
-of a device.
+Control messages commonly describe a schedule of requested state changes.
+
+### Discrete Control
+
+Discrete control messages are immediate requests to change device state.
 
 ## Modules
 
 Common data models are grouped into modules which encompass commonly exchanged
 information by a family of devices.
 
-A good number of modules exist today and are likely to be expanded on to
-encompass the modern world power grids live in. A variety of loads, sources,
+A good number of modules exist today and are likely to be expanded on. A variety of loads, sources,
 storage, switching, controls and more.
 
 Some of the useful modules that OpenFMB provides
