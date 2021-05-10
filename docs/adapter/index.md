@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Introduction
 
-The OpenFMB Adapter is a portable C++ application which can both translate
+The [OpenFMB Adapter](https://github.com/openenergysolutions/openfmb.adapters) is a portable C++ application which can both translate
 non-OpenFMB protocols into OpenFMB, and bridge various OpenFMB transports such
 as NATS, MQTT, and DDS. The sections below describe these two primary use cases.
 
@@ -16,7 +16,7 @@ other, protocols such as DNP3 (IEEE 1815-2012), and Modbus TCP. Several
 other protocols are supported by Open Energy Solutions but require a license as
 they use licensed protocol libraries.
 
-The mapping from the other protocol to OpenFMB is configured using a YAML model
+The mapping from the other protocols to OpenFMB is configured using a YAML model
 of a specific OpenFMB profile, and protocol specific metadata. The adapter then
 communicates with the device using the other protocol to obtain the values. It
 fills in a protobuf representation of the profile and publishes it to an
