@@ -2,16 +2,16 @@
 sidebar_position: 2
 ---
 
-# Protos
+# Protocol Buffers
 
-The protos used in this adapter are those defined in this repository:
+The protocol buffer definitions used in this adapter are those defined in this repository:
 [openenergysolutions/openfmb-schemas](https://github.com/openenergysolutions/openfmb-schemas)
 
-The protos are essential to the adapter and the same version across devices
+The protocol bufferss are essential to the adapter and the same version across devices
 should be used (although protobufs provides some level of
 backward-compatibility).
 
-The standard protos are designed in UML. A custom exporter for Enterprise
+The standard protobufs are designed in UML. A custom exporter for Enterprise
 Architect is used to generate both Google Protobuf definitions and an IDL file.
 Some custom code generation is used to generate C++ code used in this adapter.
 When the protos are changed or if you want to use custom protos, changes to the
