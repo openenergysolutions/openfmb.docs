@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OpenFMB',
-  tagline: 'Open source for OpenFMB from Open Energy Solutions',
+  title: 'OpenFMB Adapter Toolset',
+  tagline: 'Open Source from Open Energy Solutions',
   url: 'https://openenergysolutions.github.io/openfmb.docs/',
   baseUrl: '/openfmb.docs/',
   onBrokenLinks: 'throw',
@@ -16,7 +16,7 @@ module.exports = {
       anonymizeIP: true, // Should IPs be anonymized?
     },
     navbar: {
-      title: 'OpenFMB',
+      title: 'OpenFMB Adapter Toolset',
       logo: {
         alt: 'Open Energy Solutions Inc - OpenFMB',
         src: 'img/logo.png',

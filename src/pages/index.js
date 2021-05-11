@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/openfmb/intro">
-            OpenFMB Introduction - 10min ⏱️
+            Introduction - 10min ⏱️
           </Link>
         </div>
       </div>
