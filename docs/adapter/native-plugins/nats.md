@@ -5,7 +5,7 @@ sidebar_position: 1
 # NATS
 
 [NATS](https://nats.io/) is a lightweight messaging protocol that can used can
-be used to publish/suscribe OpenFMB profiles to/from a NATS broker.
+be used to publish/suscribe OpenFMB profiles to/from a NATS server.
 
 NATS uses the a topic hierarchy delimited by periods. Within the context of
 OpenFMB, the topic name takes the follwing form:
@@ -13,11 +13,8 @@ OpenFMB, the topic name takes the follwing form:
 `openfmb.<module name>.<profile name>.<subject name>`
 
 The `<subject name>` may be a the `*` wildcard or the ConductingEquipment
-`mRID`. All messages published to the NATs broker will use the fully qualified
+`mRID`. All messages published to the NATS server will use the fully qualified
 topic name including the mRID.
-
-!!! warning "NATS 2.0" The adapter currently uses NATS 2.0. If your server is
-    running the 1.x release series, please update to the latest 2.0.
 
 ## Configuration
 
@@ -56,7 +53,7 @@ profiles, or a specific ConductingEquipment mRID.
 
 ## Security
 
-The connection to the NATS broker may optionally be secured using TLS.
+The connection to a NATS server may optionally be secured using TLS.
 
 The required contents of the `security` section depends on the value of
 `security-type`.
@@ -148,24 +145,20 @@ nats:
   # ...
 ```
 
-!!! note
+:::note
+The username/password is not required when using TLS mutual authentication to be secure, but the two modes are also not mutually exclusive. You can do server-only authentication without any credentials (client not authenticated) and you can require username/password server-side even with TLS mutual authentication.
+:::
 
-    The username/password is not required when using TLS mutual authentication to be secure, but the two modes are also not 
-    mutually exclusive. You can do server-only authentication without any credentials (client not authenticated) and you can
-    require username/password brokder-side even with TLS mutual authentication.
+### JWTs
 
-### JWT
-
-!!! important "NATS 2.0 only" This feature requires a NATS 2.0 server.
-
-A NATS client can prove its permission to the broker by providing a JSON Web
+A NATS client can prove its permission to the server by providing a JSON Web
 Token (JWT). It is possible to specify the token with the `jwt-creds-file`
 parameter. This feature can be used alone, with server-only authentication, or
 with mutual authentication.
 
-!!! warning Using JWT only ensures that the client has permissions attested to
-    with the token. It does not protect the communications from tampering or
-    inspection in the same way that TLS does.
+:::note
+Using JWT only ensures that the client has permissions attested to with the token. It does not protect the communications from tampering or inspection in the same way that TLS does.
+:::
 
 ```yaml
 nats:

@@ -4,8 +4,6 @@ sidebar_position: 4
 
 # Schemas
 
-## Introduction
-
 JSON schema is a standardised way to describe the content of JSON documents. Since
 YAML is a superset of JSON, it can also be used to describe YAML so long as advanced YAML
 functionality is not used. The standard for JSON schemas are defined in this

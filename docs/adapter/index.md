@@ -1,9 +1,10 @@
 ---
 sidebar_position: 1
+sidebar_label: Introduction
 ---
 
 
-# Introduction
+# Adapter
 
 The [OpenFMB Adapter](https://github.com/openenergysolutions/openfmb.adapters) is a portable C++ application which can both translate
 non-OpenFMB protocols into OpenFMB, and bridge various OpenFMB transports such
