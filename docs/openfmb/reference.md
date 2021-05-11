@@ -33,7 +33,7 @@ Next an archive of the demonstration setup can be obtained
 
 Once you have the demo zip file, unzip it in a place of your choosing.
 
-On Linux or Mac open a terminal. On windows open the command line. cd into the unzipped demo directory and simply run
+On Linux or Mac open a terminal. On windows open a cmd or powershell. Next cd into the unzipped demo directory and run the following command.
 
 ```docker-compose up```
 
@@ -48,7 +48,7 @@ below.
 
 While docker-compose is still running the HMI is accessible locally.
 
-http://0.0.0.0:32771
+http://localhost:32771
 
 Login with the username 'admin' and the password 'hm1admin'
 
