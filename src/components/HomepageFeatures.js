@@ -23,6 +23,26 @@ const FeatureList = [
     ),
   },
   {
+    title: 'Graphical Configuration Tool',
+    img: require('../../docs/adapter-config-tool/img/dnp3-meterreading.png').default,
+    description: (
+      <>
+        A native desktop tool to generate configuration files for the adapter
+        to map devices providing protocols such as DNP3 or Modbus to OpenFMB.
+      </>
+    ),
+  },
+  {
+    title: 'HMI',
+    img: require('../../docs/hmi/img/microgrid.png').default,
+    description: (
+      <>
+        An HMI to connect devices to circuit drawings and see live readings.
+      </>
+    ),
+  },
+
+  {
     title: 'Open Source Approved License ',
     Svg: require('../../static/img/osi_logo.svg').default,
     description: (
