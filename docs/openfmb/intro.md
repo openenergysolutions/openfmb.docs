@@ -11,11 +11,11 @@ The coalition consists of industry leaders, national labs, and independent softw
 
 ## Peer to Peer
 
-OpenFMB enables peer to peer communication of a heterogeneous ecosystem of vendors, devices, and software. The grid as it stands today is built upon a centralized, hierarchical control and monitoring scheme. This scheme has served the world well while power generation has been relatively static, consistent, and slow to ramp up or down. As power generation and demand becomes more dynamic, inconsistent, and fast to change, distributing the computational demands and encapsulating intelligence into layer is critical.
+OpenFMB enables semantically useful peer to peer communication in a heterogeneous ecosystem of vendors, devices, and software. The grid today is primarily centralized using messaging without semantic meaning. A centralized, semantic-free communications scheme worked well while power generation and demand remained relatively static and consistent. Power generation and demand is increasingly dynamic and inconsistent. This change in power generation and demand means a change is needed in the way devices communicate.
 
 ![](/img/MoreDataInTheGridThanWeWant-20180414a.png)
 
-By enabling peer to peer communication distributed, layer control and monitoring becomes possible.
+By enabling peer to peer communication distributed, layered control and monitoring becomes possible.
 
 ![](/img/LayeredCoordination-20180918a.png)
 
