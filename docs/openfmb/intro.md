@@ -15,7 +15,7 @@ OpenFMB enables semantically useful peer to peer communication in a heterogeneou
 
 ![](/img/MoreDataInTheGridThanWeWant-20180414a.png)
 
-By enabling peer to peer communication distributed, layered control and monitoring becomes possible.
+Layered control and monitoring is enabled with peer to peer communications using OpenFMB.
 
 ![](/img/LayeredCoordination-20180918a.png)
 
