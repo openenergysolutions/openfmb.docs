@@ -9,20 +9,17 @@ sidebar_position: 1
 The coalition consists of industry leaders, national labs, and independent software and hardware vendors.
 
 
-## Goals of OpenFMB
+## Peer to Peer
 
-The goal of OpenFMB is to allow for localized peer to peer communication
-as opposed to the centralized communication that occurs today.
+OpenFMB enables peer to peer communication of a heterogeneous ecosystem of vendors, devices, and software. The grid as it stands today is built upon a centralized, hierarchical control and monitoring scheme. This scheme has served the world well while power generation has been relatively static, consistent, and slow to ramp up or down. As power generation and demand becomes more dynamic, inconsistent, and fast to change, distributing the computational demands and encapsulating intelligence into layer is critical.
 
 ![](/img/MoreDataInTheGridThanWeWant-20180414a.png)
 
-Allowing for localized peer to peer communication brings another use case, 
-using OpenFMB for layered coordination.
+By enabling peer to peer communication distributed, layer control and monitoring becomes possible.
 
 ![](/img/LayeredCoordination-20180918a.png)
 
-These are important ideas for the future of power grids as distributed power with
-renewable sources becomes the norm.
+This is seen as critical enabling technology for the future of power grids. With increased proliferation of distributed power, renewable sources, and other novel capabilities as well as increased consumer requirements, the electrical grid (especially at the edge) will need to be more proficient/adept, nimble, and responsive. It just isn’t possible with today’s centralized systems.
 
 ## Publish Subscribe Topic Structure
 
