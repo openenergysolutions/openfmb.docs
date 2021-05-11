@@ -3,15 +3,7 @@ import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
-  {
-    title: 'Unified Datamodel',
-    img: require('@site/static/img/OpenFMB_Logo-UCA-Colors-1.png').default,
-    description: (
-      <>
-        Unified and open datamodel with OpenFMB.
-      </>
-    ),
-  },
+
   {
     title: 'Adapter for Existing Protocols',
     img: require('../../static/img/universal_converter_box.png').default,
@@ -41,7 +33,15 @@ const FeatureList = [
       </>
     ),
   },
-
+  {
+    title: 'Unified Datamodel',
+    img: require('@site/static/img/OpenFMB_Logo-UCA-Colors-1.png').default,
+    description: (
+      <>
+        Unified and open datamodel with OpenFMB.
+      </>
+    ),
+  },
   {
     title: 'Open Source Approved License ',
     Svg: require('../../static/img/osi_logo.svg').default,
