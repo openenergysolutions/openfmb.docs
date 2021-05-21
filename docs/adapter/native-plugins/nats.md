@@ -4,11 +4,9 @@ sidebar_position: 1
 
 # NATS
 
-[NATS](https://nats.io/) is a lightweight messaging protocol that can used can
-be used to publish/suscribe OpenFMB profiles to/from a NATS server.
+[NATS](https://nats.io/)is a lightweight messaging protocol used to publish/subscribe OpenFMB profiles to/from a NATS server. 
 
-NATS uses the a topic hierarchy delimited by periods. Within the context of
-OpenFMB, the topic name takes the follwing form:
+NATS uses a topic hierarchy delimited by periods. Within the context of OpenFMB, the topic name takes the following form: 
 
 `openfmb.<module name>.<profile name>.<subject name>`
 
@@ -42,7 +40,7 @@ nats:
 | max-queued-messages   | Number of messages to keep in the publishing queue before discarding the oldest.    |
 | connect-url           | Connection address of the NATS server. The protocol can be `nats` or `tls`.         |
 | connect-retry-seconds | Number of seconds to wait before trying to re-establish a connection to the server. |
-| security              | See [Security](#security).                                                        |
+| security              | See [Security](#security).                                                          |
 | publish               | List of profiles to publish to NATS server (from the internal bus to NATS)          |
 | subscribe             | List of profiles to subscribe from the NATS server (from NATS to the internal bus)  |
 
@@ -82,26 +80,21 @@ If no security is needed, the `security-type` can be set to `none`.
 To learn how to produce self-signed certificates with OpenSSL, check
 [Self-signed certificates](../misc/self-signed.md).
 
-### Server authentication + user/password
+### Server Authentication + User/Password
 
-In this mode, the client authenticates the server using a certificate, and then
-the server authenticates the client using a user name and password sent over the
-encrypted TLS channel.
+In this mode, the client authenticates the server using a certificate, and then the server authenticates the client using a username and password sent over the encrypted TLS channel. 
 
-Authorization for each user can be specified in the config file of the NATS
-server. See [this page](https://docs.nats.io/nats-server/configuration/securing_nats/authorization)
+Authorization for each user can be specified in the config file of the NATS server. See [this page](https://docs.nats.io/nats-server/configuration/securing_nats/authorization)
 for more details.
 
 The server must run with a TLS certificate, a username and a password in this
 mode:
 
 ```bash
-> nats-server --tls --tlscert ~/certs/server_cert.pem --tlskey ~/certs/server_key.pem --user username --pass password
+nats-server --tls --tlscert ~/certs/server_cert.pem --tlskey ~/certs/server_key.pem --user username --pass password
 ```
 
-The adapter is configured to authenticate the server using a trusted root
-certificate or self-signed certificate of the broker. The username and the
-password are embedded in the connection URL.
+The Adapter is configured to authenticate the server using a trusted root certificate or self-signed certificate of the broker. The username and the password are embedded in the connection URL. 
 
 ```yaml
 nats:
@@ -127,9 +120,7 @@ certificate.
 nats-server --tlsverify --tlscert ~/certs/server_cert.pem --tlskey ~/certs/server_key.pem --tlscacert ~/certs/client_cert.pem
 ```
 
-The adapter is configured to perform mutual authentication and provided with the
-paths to the server cert, the client's private key, and a certificate chain file
-that, at a minimum, contains the client's self-signed certificate.
+The Adapter is configured to perform mutual authentication and is provided with the paths to the server certificate, the client's private key, and a certificate chain file that, at a minimum, contains the client's self-signed certificate. 
 
 ```yaml
 nats:
@@ -146,18 +137,16 @@ nats:
 ```
 
 :::note
-The username/password is not required when using TLS mutual authentication to be secure, but the two modes are also not mutually exclusive. You can do server-only authentication without any credentials (client not authenticated) and you can require username/password server-side even with TLS mutual authentication.
+The username/password is not required when using TLS mutual authentication, but the two modes are not mutually exclusive, either. You can do server-only authentication without any credentials (client not authenticated), and you can require username/password server-side even with TLS mutual authentication. 
 :::
 
 ### JWTs
 
-A NATS client can prove its permission to the server by providing a JSON Web
-Token (JWT). It is possible to specify the token with the `jwt-creds-file`
-parameter. This feature can be used alone, with server-only authentication, or
-with mutual authentication.
+A NATS client can prove its permission to the server by providing a JSON Web Token (JWT). It is possible to specify the token with the `jwt-creds-file`
+parameter. This feature can be used alone, with server-only authentication, or with mutual authentication.
 
 :::note
-Using JWT only ensures that the client has permissions attested to with the token. It does not protect the communications from tampering or inspection in the same way that TLS does.
+Using JWT only ensures that the client has permissions attested to with the token. It does not protect the communications from tampering or inspection in the same way that TLS does. 
 :::
 
 ```yaml
@@ -171,12 +160,11 @@ nats:
     jwt-creds-file: C:/Users/johndoe/.nkeys/OperatorName/accounts/AccountName/users/UserName.creds
 ```
 
-The NATS server must be configured to authenticate the JWT with the appropriate
-key and know all the accounts that exist.
+The NATS server must be configured to authenticate the JWT with the appropriate key and know all the accounts that exist. 
 
 #### Static accounts configuration
 
-To statically list all the accounts, run the following:
+To statically list all the accounts, run the following: 
 
 ```bash
 nsc generate config --mem-resolver --config-file auth.conf --operator-jwt operator.jwt
