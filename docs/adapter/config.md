@@ -15,7 +15,7 @@ It consists of two main sections:
 ## Logging
 
 The logger name is used for messages not related to a particular plugin. It can
-be useful to distinguish multiple instances of the adapter running on a machine.
+be useful to distinguish multiple instances of the Adapter running on a machine.
 
 Console logging can be enabled to print everything to `stdout`.
 
@@ -50,12 +50,9 @@ overriden by a templating system.
 
 ## Templating
 
-It is common to have multiple devices sharing the same protocol configuration
-except for a few fields (e.g. the conducting equipment mRID). In order to be
-able to reuse the same configuration file, a simple templating engine is
-available.
+It’s common for multiple devices to share the same protocol configuration except for a few fields (e.g., the conducting equipment mRID). A simple templating engine makes it easy to reuse the same configuration file. 
 
-In the configuration file for a device, it is possible to use the special value
+In the device’s configuration file, it’s possible to use the special value
 `"?"`. In the `overrides` parameter of the main configuration file, a path to
 the `"?"` value is specified for each device with the appropriate value to
 replace.
@@ -99,9 +96,7 @@ This configures communication to two DNP3 devices using a single template. One w
 `8ad421eb-b0ad-457b-8813-41ab5e47bc1e`, with the exact same mappings and
 configurations.
 
-For configurations with multiple profiles, indexing is used to specify which
-profile. For example, if a the `dnp3-master.yml` has a second profile that is
-templated, then it can be accessed like this:
+For configurations with multiple profiles, indexing is used to specify which profile. For example, if the dnp3-master.yml has a second profile that is templated, it can be accessed as follows: 
 
 ```yaml
 # ...
