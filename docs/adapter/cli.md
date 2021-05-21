@@ -1,23 +1,25 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # CLI
 
-The command-line interface (CLI) to the adapter provides some helpful commands including:
+The command-line interface (CLI) to the Adapter provides some helpful commands, including: 
 
 * show all available commands (help)
-* run the adapter
+* run the Adapter
 * generate a default top-level config file
 * generate a default protocol-specific config file for specified profiles
 * list all the provided protocol plugins
 
 ## Help
 
-Prints a short description of all the available commands and parameters.
+Prints a short description of all the available commands and parameters. 
+
+Result: 
 
 ```bash
-> openfmb-adapter -h
+openfmb-adapter -h
 ```
 
 Result:
@@ -46,57 +48,47 @@ Options
 
 ## Generate top-level configuration
 
-A default top-level configuration may be generated using the `-g` flag. This is the file that will be needed when
-running the adapter (see [Running the adapter](#running-the-adapter)).
+A default top-level configuration may be generated using the -g flag. This file is needed when running the Adapter (see [Running the adapter](#running-the-adapter)).
 
 ```bash
-> openfmb-adapter -g config.yml
+openfmb-adapter -g config.yml
 ```
 
 ## Generate configuration for a plugin
+Some plugins, notably the Adapter-type protocol plugins, need extra configuration in separate files. The output file is specified with the -g argument. The plugin for which the config is generated is specified with the -p argument. The desired profile is specified with the -f argument. 
 
-Some plugins, notably the adapter-type protocol plugins, need extra configuration in
-separate files. The output file is specified with the `-g` argument, the plugin
-for which the config is generated is specified with the `-p` argument and the
-desired profile is specified with the `-f` argument.
-
-Note that multiple profiles can be generated for a single configuration file by providing
-multiple `-f` parameters:
+:::note Multiple profiles can be generated for a single configuration file by providing multiple -f parameters:
 
 ```bash
-> openfmb-adapter -g dnp3-master.yml -p dnp3-master -f SolarReadingProfile -f SolarStatusProfile
+openfmb-adapter -g dnp3-master.yml -p dnp3-master -f SolarReadingProfile -f SolarStatusProfile
 ```
+:::
 
 ## Generate configuration JSON schemas
+Each YAML configuration file has JSON schemas that can be printed to a file to help with writing valid configurations. 
 
-Each YAML configuration file has JSON schemas that can be printed to a file to
-help writing valid configurations.
 
-To generate the top-level schema, run the following:
-
+To generate the top-level schema, run the following: 
 ```bash
-> openfmb-adapter -s config.json
+openfmb-adapter -s config.json
 ```
 
-To generate the schema for a particular plugin, run the following:
+To generate the schema for a particular plugin, run the following: 
 
 ```bash
-> openfmb-adapter -s dnp3-master.json -p dnp3-master
+openfmb-adapter -s dnp3-master.json -p dnp3-master
 ```
 
-The `--pretty-print` argument can also be used to produce human-readable schema
-files. Note that these files are particularly large for plugins and
-pretty-printing should be used only for debugging purposes.
+The `--pretty-print` argument can also be used to produce human-readable schema files. Note that these files are particularly large for plugins and pretty-printing should be used only for debugging purposes. 
 
-To learn how to leverage these schemas in your editing environment, see the
-[Schemas](./schemas.md) page.
+To learn how to leverage these schemas in your editing environment, see the [Schemas](./schemas.md) page.
 
 ## Running the adapter
 
 The adapter is run using the `-c` flag. To stop the adapter, hit Ctrl-C on the keyboard.
 
 ```bash
-> openfmb-adapter -c [config.yml]
+openfmb-adapter -c [config.yml]
 ```
 
 ## List plugins
@@ -104,7 +96,7 @@ The adapter is run using the `-c` flag. To stop the adapter, hit Ctrl-C on the k
 All available plugins compiled in this instance of the adapter can be listed using the `-l` flag.
 
 ```bash
-> openfmb-adapter -l
+openfmb-adapter -l
 ```
 
 Result:
