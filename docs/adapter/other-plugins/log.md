@@ -1,4 +1,4 @@
-# Log plugin
+# Log Plugin
 
 The `log` plugin enables the user to monitor the messages that are sent to the
 internal bus by printing them to the console or to a file. It can be useful for
@@ -13,14 +13,14 @@ debugging purposes.
 - `filters`: a list of profiles to print
   - `profile`: name of the profile to monitor
   - `name`: conducting equipment identifier
-  - `path`: path of the file to which values will be appended to
+  - `path`: path of the file to which values will be appended
   - `print_alias`: if `true`, the alias of the values will be printed to the file
   - `log_all_values`: if `true`, all the value of this conducting equipment will
     be printed to `stdout`.
   - `values`: list of values to extract from the profile
     - `tag`: path of the value in the profile. e.g. "meterReading.readingMMXU.W.net.cVal.mag.f.value"
     - `alias`: alias that will optionally be printed with the value
-    - `digits`: Number of digits to keeps
+    - `digits`: number of digits to keep
 
 Here's an example of a configuration:
 

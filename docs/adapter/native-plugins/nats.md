@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # NATS
 
-[NATS](https://nats.io/)is a lightweight messaging protocol used to publish/subscribe OpenFMB profiles to/from a NATS server. 
+[NATS](https://nats.io/) is a lightweight messaging protocol used to publish/subscribe OpenFMB profiles to/from a NATS server. 
 
 NATS uses a topic hierarchy delimited by periods. Within the context of OpenFMB, the topic name takes the following form: 
 
@@ -44,17 +44,14 @@ nats:
 | publish               | List of profiles to publish to NATS server (from the internal bus to NATS)          |
 | subscribe             | List of profiles to subscribe from the NATS server (from NATS to the internal bus)  |
 
-The `publish` and `subscribe` section specify lists of profiles. The profile
-name (`profile`) and which equipment you want to publish/subscribe to
-(`subject`). The subject name can either be `*` to publish/subscribe to all the
+The `publish` and `subscribe` section specify lists of profiles, the profile name (`profile`), and which equipment you want to publish/subscribe to (`subject`). The subject name can either be `*` to publish/subscribe to all the
 profiles, or a specific ConductingEquipment mRID.
 
 ## Security
 
 The connection to a NATS server may optionally be secured using TLS.
 
-The required contents of the `security` section depends on the value of
-`security-type`.
+The required contents of the `security` section depends on the value of `security-type`.
 
 ``` yaml tab="none"
 security:
@@ -108,7 +105,7 @@ nats:
   # ...
 ```
 
-### TLS mutual authentication
+### TLS Mutual Authentication
 
 In this mode, the client and the server mutually authenticate one another using
 certificates.
@@ -188,8 +185,7 @@ include ./auth.conf
 
 #### Using an external account resolver
 
-A ready-to-use HTTP account resolver is available here:
-(https://github.com/nats-io/nats-account-server)
+A ready-to-use HTTP account resolver is [available](https://github.com/nats-io/nats-account-server).
 
 In the NATS config file, add the following lines:
 

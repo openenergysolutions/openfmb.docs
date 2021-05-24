@@ -3,7 +3,7 @@
 The `modbus-master` plugin acts as a Modbus client that can read and
 write Modbus coils, discrete inputs, input registers and holding registers.
 
-The adapter automatically determines what to poll based on the types and indices
+The Adapter automatically determines what to poll based on the types and indices
 referenced in detailed mapping.
 
 ## General configuration
@@ -16,9 +16,9 @@ referenced in detailed mapping.
 - `response_timeout_ms`: timeout value in milliseconds for responses
 - `always-write-multiple-registers`: when set to `true`, even if only a single
   register must be written, a "Write Multiple Registers" (0x10) is used.
-- `auto_polling`: when deciding what polling requests are needed to get all the
+- `auto_polling`: When deciding what polling requests are needed to get all the
   necessary values, this parameter configures the number of unnecessary values
-  we are willing to accept for the benefit of fewer Modbus requests. A value of
+  you are willing to accept for the benefit of fewer Modbus requests. A value of
   `0` means absolutely no unnecessary registers will be polled.
     - `auto_polling.max_bit_gaps`: maximum number of unnecessary bits that can
       be read when polling for coils and discrete inputs.
@@ -27,9 +27,9 @@ referenced in detailed mapping.
 
 ### Heartbeat
 
-Some devices require a periodic heartbeat message to remain in a remotely
-managed mode. Typically, a specific register must be read, some bits inverted
-and written back. The adapter can handle this functionality with the
+Some devices require a periodic heartbeat message to remain in remote
+management mode. Typically, a specific register must be read then some bits inverted
+and written back. The Adapter can handle this functionality with the
 `heartbeats` configuration parameter. A list of indices to perform the heartbeat
 on is specified, as well as the period and the mask to use for inverting the
 bits. Here is an example for a device with a single heartbeat register:
@@ -41,7 +41,7 @@ heartbeats:
     mask: 0x1  # Mask specifying the bits to invert
 ```
 
-## Non-control profiles
+## Non-control Profiles
 
 The non-control profiles can map Modbus coils, input, and holding registers to
 an OpenFMB message values.
@@ -57,9 +57,9 @@ value can be inverted.
 
 Boolean values may also be retrieved from holding registers and input registers.
 A mask is applied to the register value. If the value is not equal to 0, the
-boolean is `true`, otherwise it's `false`. It is possible to add an `invert:
+Boolean is `true`. Otherwise it's `false`. It is possible to add an `invert:
 true` parameter. In that case, if the masked value is different than 0, the
-boolean is `false`, otherwise it's `true`.
+Boolean is `false`. Otherwise it's `true`.
 
 ```yaml tab="coil"
 bool-field-type: mapped
@@ -101,21 +101,18 @@ There are multiple mapping types that can be used to derive the value. All of
 the mapping types can be scaled.
 
 All 16-bit mapping types require a single holding register, so a single `index`
-value is needed. All 32-bit mapping types require two indices. The `lower_index`
-identifies the register containing the two least significant bytes (LSBs). The
-`upper_index` identifies the register containing the two most significant bytes
-(MSBs). For example, if the 32-bit value that needs to be written is
+value is needed. All 32-bit mapping types require two indices:
+
+* The `lower_index` identifies the register containing the two least significant bytes (LSBs).
+* The `upper_index` identifies the register containing the two most significant bytes (MSBs).
+
+For example, if the 32-bit value that needs to be written is
 `0xAABBCCDD` and you set the `lower_index` to 10 and `upper_index` to 11, then
 `0xCCDD` would be written to register 10 and `0xAABB` would be written to
 register 11. If `lower_index` is 11 and `upper_index` is 10, then `0xAABB` would
-be written to register 10 and `0xCCDD` would be written to register 11.
-
-The mapping types starting with an "s" means they are signed (they are two's
-complement integers). The mapping types starting with a "u" are unsigned.
-
-The "with_modulus" mappings take an extra `modulus` parameter and allow for
+be written to register 10 and `0xCCDD` would be written to register 11. Mapping types that start with an "s" are signed (they are two's complement integers). Mapping types that start with a "u" are unsigned. The "with_modulus" mappings take an extra `modulus` parameter and allow for
 scaling the MSB register using a value other than 65536. Most users will never
-use this as it was added to accomodate a peculiar device.
+use this as it was added to accommodate a peculiar device.
 
 The "float" type reads an IEEE 754 floating-point value from two registers.
 
@@ -189,13 +186,13 @@ Enums can be retrieved from one or more registers.
 When retrieved from a single register, a mask is applied and each enum value is
 associated with a register value.
 
-When multiple registers are used, a list of indices and bit position is
-specified. The adapter will poll the the appropriate register and update a
-virtual value with each specified bit. Then, a list of pattern is specified
+When multiple registers are used, a list of indices and bit position are
+specified. The Adapter will poll the appropriate register and update a
+virtual value with each specified bit. Then, a list of pattern are specified
 where each bit pattern is associated with an enum value.
 
-Enums can also be mapped from coils and discrete inputs. A enum value is
-associated when the bit is `true` and another value is associated when the bit
+Enums can also be mapped from coils and discrete inputs. An enum value is
+associated when the bit is `true`, and another value is associated when the bit
 is `false`.
 
 ```yaml tab="single_bit"
@@ -238,7 +235,7 @@ mapping:
     value: DynamicTestKind_none
 ```
 
-## Control profiles
+## Control Profiles
 
 Control profiles can be translated to Modbus write requests.
 
@@ -251,15 +248,15 @@ Control profiles can be translated to Modbus write requests.
 
 ### Boolean
 
-For boolean fields, a `when-true` list of actions to perform when the boolean
-value is `true` is specified. Likewise, a `when-false` list of actions to
-perform when the boolean value is `false` is specified.
+For Boolean fields, a `when-true` list of actions to perform is specified when the Boolean
+value is `true`. Likewise, a `when-false` list of actions to
+perform is specified when the boolean value is `false`.
 
 Each action requires a `command-id` for prioritization of the commands. The name
 must fit with one the values in the `command-order` array.
 
 Multiple `output-type` are available. The `write_single_coil` takes an index and
-a boolean value and writes it to the coil. The `flip_single_coil` only takes an
+a Boolean value and writes it to the coil. The `flip_single_coil` only takes an
 index and performs a read followed by a write to flip the coil value.
 
 ```yaml tab="write_single_coil"
@@ -373,9 +370,9 @@ when-false:
     mask: 0x0F
 ```
 
-### Int32, Int64 and Float
+### Int32, Int64, and Float
 
-Int32, Int64 and Float values can be converted to values written to one or
+Int32, Int64, and Float values can be converted to values written to one or
 multiple Modbus registers. When writing to multiple registers, `lower_index`
 will contain the two LSB, and `upper_index` will contain the two MSB. Scaling
 can be applied on all types.
@@ -429,7 +426,7 @@ scale: 1
 ### Enum
 
 For each enum variant, a list of actions are specified. The syntax and usage is
-the exact same as the [Boolean](#boolean) values. Here is an example of a
+identical to [Boolean](#boolean) values. Here is an example of a
 valid configuration:
 
 ```yaml
@@ -458,11 +455,11 @@ mapping:
         value: 42
 ```
 
-### Schedule parameters
+### Schedule Parameters
 
 Each schedule parameter can be mapped to DNP3 Analog Output commands exactly
 like [Int32, Int64 and Float](#int32-int64-and-float) fields. Schedules will
-be executed as described in [Scheduling](../../misc/scheduling.md) page.
+be executed [as described on Scheduling](../../misc/scheduling.md) page.
 
 ```yaml
 - scheduleParameter:  # A sequence of schedule parameters w/ enum + value. Each plugin specifies what to do with each enumeration value

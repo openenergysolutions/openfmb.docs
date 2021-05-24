@@ -4,7 +4,7 @@ The `dnp3-outstation` plugin exposes OpenFMB measurements as a DNP3 outstation
 for non-control OpenFMB profiles. It also maps DNP3 commands to OpenFMB control
 messages.
 
-## General configuration
+## General Configuration
 
 - `name`: Name used in the logs to identify the communication session.
 - `channel`
@@ -14,9 +14,9 @@ messages.
     - `master-address`: DNP3 link-layer address of the master (the remote device)
     - `outstation-address`: DNP3 link-layer address of the outstation (the
       adapter)
-    - `enable-unsolicited`: Support for DNP3 unsolicited responses
+    - `enable-unsolicited`: support for DNP3 unsolicited responses
     - `confirm-timeout-ms`: DNP3 confirmation timeout (in milliseconds)
-    - `default-static-variations`: Default static variations
+    - `default-static-variations`: default static variations
         - `binary-input`: possible values:
             - `Group1Var1` (packed)
             - `Group1Var2` (with flags)
@@ -32,7 +32,7 @@ messages.
             - `Group20Var2` (16-bit with flags)
             - `Group20Var5` (32-bit without flags)
             - `Group20Var6` (16-bit without flags)
-    - `default-event-variations`: Default event variations
+    - `default-event-variations`: default event variations
         - `binary-input`:
             - `Group2Var1` (without time)
             - `Group2Var2` (with absolute time)
@@ -52,7 +52,7 @@ messages.
             - `Group22Var5` (32-bit with flags and time)
             - `Group22Var6` (16-bit with flags and time)
 
-## Non-control profiles
+## Non-control Profiles
 
 Non-control profiles (reading, status, etc) are mapped to DNP3 measurement
 points. When the message is received on the internal message bus, it updates the
@@ -61,7 +61,7 @@ points.
 
 ### Boolean
 
-OpenFMB boolean values can be mapped to DNP3 binary inputs. If `negate` is set
+OpenFMB Boolean values can be mapped to DNP3 binary inputs. If `negate` is set
 to `true`, the OpenFMB value is negated before updating the DNP3 outstation.
 
 ```yaml
@@ -74,7 +74,7 @@ negate: false
 ### Int32 and Int64
 
 OpenFMB `int32` and `int64` values can be mapped to a DNP3 analog input or a
-DNP3 counter. An scaling value can also be specified.
+DNP3 counter. A scaling value can also be specified.
 
 ```yaml tab="analog"
 int32-field-type: mapped
@@ -135,7 +135,7 @@ mapping:
   - DynamicTestKind_failed: 3
 ```
 
-## Control profiles
+## Control Profiles
 
 DNP3 commands can be translated to OpenFMB control profile messages.
 
@@ -148,7 +148,7 @@ There are three actions that can be specified for each point:
 ### Boolean
 
 Boolean values in control profiles can be mapped from DNP3 CROBs. A list of
-control codes is specified with the boolean value it should be associated to.
+control codes is specified with the Boolean value it should be associated to.
 
 The control codes are the following:
 
@@ -181,7 +181,7 @@ mapping:
     value: false
 ```
 
-### Int32, Int64 and Float
+### Int32, Int64, and Float
 
 Integer and floating point values can be mapped from Analog Output commands, with
 optional scaling.
@@ -214,6 +214,6 @@ mapping:
     value: 2
 ```
 
-### Schedule parameters
+### Schedule Parameters
 
-These are currently not supported.
+Schedule parameters are not currently supported.

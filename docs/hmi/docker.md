@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # Docker Image
 
-OpenFMB Docker image can be pulled from [Docker Hub](https://hub.docker.com/)
+OpenFMB Docker image can be pulled from [Docker Hub](https://hub.docker.com/repository/docker/oesinc/openfmb.hmi)
 
 ```bash
-> docker pull openfmb.hmi
+docker pull oesinc/openfmb.hmi
 ```
 

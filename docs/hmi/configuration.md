@@ -4,9 +4,9 @@ sidebar_position: 3
 
 # Setting up the HMI
 
-To setup the HMI, follow the following steps:
+To setup the HMI, dothe following:
 
-1. The first thing to do is to create an application configuration file.  For this tutorial, we name the file `app.toml`.  From your working directory, run the following command:
+1. First create an application configuration file.  For this tutorial, we name the file `app.toml`.  From your working directory, run the following command:
 
 ```bash
 > touch app.toml

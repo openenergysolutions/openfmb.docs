@@ -4,29 +4,29 @@ The `modbus-outstation` plugin exposes OpenFMB measurements as a Modbus server
 for non-control OpenFMB profiles. It also maps Modbus write commands to OpenFMB
 control messages.
 
-## General configuration
+## General Configuration
 
-- `name`: Name used in the logs to identify the communication session.
+- `name`: the name used in the logs to identify the communication session.
 - `log-level`: protocol log level to print to the logs
-- `adapter`: Network adapter to use to establish a TCP connection (typically
+- `adapter`: network adapter to use to establish a TCP connection (typically
   0.0.0.0)
 - `port`: TCP port on which the outstation will be listening
 - `unit-identifier`: Modbus unit identifier of the outstation (aka address)
-- `max-num-connections`: Maximum number of concurrent TCP connections to the
+- `max-num-connections`: maximum number of concurrent TCP connections to the
   server
 
-## Non-control profiles
+## Non-control Profiles
 
 Non-control profiles (reading, status, etc) are mapped to Modbus coils, discrete
 inputs, holding registers and input registers. When the message is received on
 the internal message bus, it updates the internal Modbus database. Then, masters
-polling the outstation will read the updated values.
+polling the outstation read the updated values.
 
 Each OpenFMB value can be mapped to multiple Modbus values.
 
 ### Boolean
 
-OpenFMB boolean values can be mapped to one or multiple coil and discrete input.
+OpenFMB Boolean values can be mapped to one or more coil and discrete input(s).
 If `negate` is set to `true`, the OpenFMB value is negated before updating the
 Modbus outstation.
 
@@ -49,10 +49,10 @@ actions:
 ### Int32, Int64 and Float
 
 OpenFMB `int32`, `int64` and `float` values can be mapped to a Modbus holding
-register or a Modbus input register. An scaling value can also be specified.
+register or a Modbus input register. A scaling value can also be specified.
 
-For 32-bit values, two indices are specified, one containing the the two LSBs
-and the other one containing the two MSBs.
+For 32-bit values, two indices are specified: one containing the two LSBs
+and the other containing the two MSBs.
 
 ```yaml tab="sint16"
 float-field-type: mapped
@@ -135,7 +135,7 @@ mapping:
           value: 76
 ```
 
-## Control profiles
+## Control Profiles
 
 Modbus write commands can be translated to OpenFMB control profile messages.
 
@@ -163,8 +163,8 @@ negate: false
 
 ### Int32, Int64 and Float
 
-Integer and floating point values can be mapped from one or multiple holding
-register writes. If multiple writes are required, be sure to use the `update`.
+Integer and floating point values can be mapped from one or more holding
+register writes. If multiple writes are required, be sure to use `update`.
 Otherwise, transient values will be published.
 
 ```yaml tab="sint16"

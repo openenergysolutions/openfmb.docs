@@ -4,11 +4,11 @@ sidebar_position: 2
 
 # MQTT
 
-[MQTT](http://mqtt.org/) is a lightweight m2m pub/sub messaging protocol mainly
+[MQTT](http://mqtt.org/) is a lightweight M2M pub/sub messaging protocol mainly
 used for IoT communication.
 
-The protocol uses a topic structure delimited by forward slahses `/`. OpenFMB
-topics names conform to the pattern:
+The protocol uses a topic structure delimited by forward slashes `/`. OpenFMB
+topics names conform to the following pattern:
 
 ```
 openfmb/<module name>/<profile name>/<subject name>
@@ -40,14 +40,14 @@ mqtt:
 | enabled                | `true` to enable MQTT plugin, `false` to disable.                                        |
 | max-queued-messages    | Number of messages to keep in the publishing queue before discarding the oldest.         |
 | server-address         | Connection address of the MQTT server. The protocol can be `tcp` or `ssl`.               |
-| client-id              | Client ID. Must be **unique** per client and broker.                                     |
+| client-id              | Client ID, which must be **unique** per client and broker.                                     |
 | connect-retry-delay-ms | Number of milliseconds to wait before trying to re-establish a connection to the server. |
 | security               | See [Security](#security).                                                             |
 | publish                | List of profiles to publish to MQTT network (from the internal bus to MQTT)              |
 | subscribe              | List of profiles to subscribe from the MQTT network (from MQTT to the internal bus)      |
 
 For the `publish` and `subscribe` parameters, a list of profiles is specified.
-You need to provide both the profile name (`profile`) and which equipment you
+Provide both the profile name (`profile`) and which equipment you
 want to publish/subscribe to (`subject`). The subject name can either be `*` to
 publish/subscribe to all the profiles, or a specific conducting equipment mRID.
 
@@ -81,7 +81,7 @@ If no security is needed, the `security-type` can be set to `none`.
 To learn how to produce self-signed certificates with OpenSSL, check
 [Self-signed certificates](../misc/self-signed.md).
 
-### Server authentication + user/password
+### Server Authentication + Username/Password
 
 The server must run with a TLS certificate, a username and a password. In the
 `mosquitto.conf`, add the following lines:
@@ -100,7 +100,7 @@ And generate the `passwd` file:
 > sudo mosquitto_passwd -c /etc/mosquitto/passwd username
 ```
 
-Finally, configure the adapter to establish a TLS encrypted session, accepting
+Finally, configure the Adapter to establish a TLS encrypted session, accepting
 only the certificate. The username and the password are embedded in the
 connection URL.
 
@@ -119,7 +119,7 @@ mqtt:
   # ...
 ```
 
-### Mutual authentication
+### Mutual Authentication
 
 The server must run with a TLS certificate and must validate the client
 certificate. In the `mosquitto.conf`, add the following lines:
@@ -136,7 +136,7 @@ require_certificate true
 If you want to require username/password in addition to mutual authentication,
 de-comment the last two lines.
 
-And configure the adapter to establish a TLS encrypted session with mutual
+And configure the Adapter to establish a TLS encrypted session with mutual
 authentication.
 
 ```yaml

@@ -1,28 +1,23 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # Configuration
 
-When the adapter application is started, the top level configuration file is
-read first. (see [Running the adapter](./cli#running-the-adapter)).
+When the Adapter application is started, the top-level configuration file is read first. (see [Running the adapter](./cli#running-the-adapter)).
 
-It consists of two main sections:
+The file consists of two main sections: 
 
 - [Logging](#logging) - application-level logging parameters
 - [Plugins](#plugins) - detailed plugin-specific configuration
 
 ## Logging
 
-The logger name is used for messages not related to a particular plugin. It can
-be useful to distinguish multiple instances of the Adapter running on a machine.
+he logger name is used for messages not related to a particular plugin. It can be useful to distinguish multiple instances of the Adapter running on a machine. 
 
-Console logging can be enabled to print everything to `stdout`.
+Console logging can be enabled to print everything to `stdout`. 
 
-Rotating file logging can be used to preserve most recent logs without filling
-the disk unnecessarily. When the `max-size` is reached, the file is closed,
-renamed and a new file is created to continue logging. Only the last `max-files`
-are kept.
+Rotating file logging can be used to preserve most recent logs without filling the disk unnecessarily. When the `max-size` is reached, the file is closed, renamed, and a new file is created to continue logging. Only the last `max-files` are kept. 
 
 ```yaml
 logging:
@@ -38,27 +33,19 @@ logging:
 
 ## Plugins
 
-In this section, each plugin can be enabled and configured. For details about
-each plugin configuration parameters, see the appropriate documentation page.
+In this section, each plugin can be enabled and configured. For details about each plugin configuration parameters, see the appropriate documentation page. 
 
-The `enabled` boolean parameter is used to enable/disable a particular plugin.
+The `enabled` Boolean parameter is used to enable/disable a particular plugin. 
 
-Non-OpenFMB plugins (e.g. DNP3), will have extra configuration files for each
-device with which it communicates. When another YAML file is needed, the `path`
-parameter points to the file and the `overrides` list defines parameters
-overriden by a templating system.
+Non-OpenFMB plugins (e.g., DNP3) will have extra configuration files for each device with which it communicates. When another YAML file is needed, the path parameter points to the file, and the `overrides` list defines parameters overridden by a templating system. 
 
 ## Templating
 
 It’s common for multiple devices to share the same protocol configuration except for a few fields (e.g., the conducting equipment mRID). A simple templating engine makes it easy to reuse the same configuration file. 
 
-In the device’s configuration file, it’s possible to use the special value
-`"?"`. In the `overrides` parameter of the main configuration file, a path to
-the `"?"` value is specified for each device with the appropriate value to
-replace.
+In the device’s configuration file, it’s possible to use the special value `"?"`. In the `overrides` parameter of the main configuration file, a path to the `"?"` value is specified for each device with the appropriate value to replace. 
 
-Here is an example with a DNP3 configuration. The device configuration contains
-the following field:
+Here is an example with a DNP3 configuration. The device configuration contains the following field: 
 
 ```yaml
 # ...
@@ -73,7 +60,7 @@ profiles:
             value: "?"
 ```
 
-In the top-level configuration, we have the following:
+In the top-level configuration, we have the following: 
 
 ```yaml
 # ...
@@ -91,12 +78,9 @@ dnp3-master:
               value: 8ad421eb-b0ad-457b-8813-41ab5e47bc1e
 ```
 
-This configures communication to two DNP3 devices using a single template. One with mRID
-`42e2c687-c55c-44a0-a734-9443edb46bfc`, the other with mRID
-`8ad421eb-b0ad-457b-8813-41ab5e47bc1e`, with the exact same mappings and
-configurations.
+This configures communication to two DNP3 devices using a single template. One device has mRID `42e2c687-c55c-44a0-a734-9443edb46bfc`, and the other has mRID `8ad421eb-b0ad-457b-8813-41ab5e47bc1e`. Otherwise, the devices have the exact same mappings and configurations. 
 
-For configurations with multiple profiles, indexing is used to specify which profile. For example, if the dnp3-master.yml has a second profile that is templated, it can be accessed as follows: 
+For configurations with multiple profiles, indexing is used to specify which profile. For example, if the `dnp3-master.yml` has a second profile that is templated, it can be accessed as follows: 
 
 ```yaml
 # ...

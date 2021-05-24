@@ -5,11 +5,11 @@ outstations. It maps DNP3 measurement values (binary, analog, etc) to OpenFMB
 non-control profiles and sends DNP3 commands (e.g. binary/analog output) in
 response to OpenFMB control profiles.
 
-## General configuration
+## General Configuration
 
-- `name`: Name used in the logs to identify the communication session.
+- `name`: name used in the logs to identify the communication session.
 - `channel`
-    - `adapter`: Network adapter to use to establish a TCP connection (typically 0.0.0.0)
+    - `adapter`: network adapter to use to establish a TCP connection (typically 0.0.0.0)
     - `outstation-ip`: IP address of the outstation. Can also be a domain name.
     - `port`: TCP port on which the outstation is listening.
 - `protocol`
@@ -21,16 +21,16 @@ response to OpenFMB control profiles.
 
 ## Poll configuration
 
-The `polls` parameter contains a list of polls to be executed by the adapter.
+The `polls` parameter contains a list of polls to be executed by the Adapter.
 Each poll has a name that might be referenced in the non-control profile
 mappings. This is particularly useful for event profiles, where you want to
 publish an event profile only when events are received, not on every message.
 
 There are two types of polls. `integrity` is a Class 1230, meaning it gets the
-sequence of events (and empties the event buffers) and it also gets all the
+sequence of events (and empties the event buffers) and all the
 static (current) values. This should be used for status and reading profiles.
 An `event` poll only asks for the sequence of events assigned to a specific
-class. It should be used for used for event profiles. In the configuration,
+class. It should be used for event profiles. In the configuration,
 it is possible to specify which classes to ask for.
 
 The interval specifies the delay between two polls.
@@ -50,17 +50,17 @@ The interval specifies the delay between two polls.
   class3: false
 ```
 
-## Non-control profiles
+## Non-control Profiles
 
 Non-control profiles (reading, status, etc) are mapped from DNP3 measurement points.
 
-A `poll-name` parameter is required and must point to a valid poll defined the
-[Polls Configuration](#polls-configuration) section. An OpenFMB profile
-will be generated on every non-empty response of the poll.
+A `poll-name` parameter is required and must point to a valid poll defined in
+[Polls Configuration](#polls-configuration). An OpenFMB profile
+is generated on every non-empty response of the poll.
 
 ### Boolean
 
-DNP3 binary inputs can be mapped directly to an OpenFMB boolean value.
+DNP3 binary inputs can be mapped directly to an OpenFMB Boolean value.
 
 ```yaml
 bool-field-type: mapped
@@ -140,23 +140,23 @@ mapping:
     name: DynamicTestKind_testing
 ```
 
-## Control profiles
+## Control Profiles
 
 OpenFMB control profiles are translated to DNP3 binary and analog output
 commands. All commands are executed with a Direct Operate function code
 (`0x05`).
 
-A `command-order` list is used to prior every command referenced in the detailed
+A `command-order` list is used to priortize every command referenced in the detailed
 mappings. The first element in the list has the highest priority, and will be
 sent first to the outstation.
 
 The `tolerance-ms` parameter is used to specify the tolerance for schedule
-parameters. See the [Scheduling](../../misc/scheduling.md) page for more details.
+parameters. See [Scheduling](../../misc/scheduling.md) for more details.
 
 ### Boolean
 
 Boolean values in control profiles can be mapped to one or more DNP3 commands. A
-list of commands is specified for when the boolean value is both true and false.
+list of commands is specified for when the Boolean value is both true and false.
 
 The possible commands are either Control Relay Output Block (`g12v1`) or an
 Analog Output command (`g41v1`, `g41v2`, `g41v3`, `g41v4`).
@@ -230,7 +230,7 @@ variations specify how the casting will be applied, as specified by IEEE
   value: 0.1234
 ```
 
-### Int32, Int64 and Float
+### Int32, Int64, and Float
 
 Integer and floating point values can be mapped to Analog Output commands, with
 optional scaling. A particular variation of Group 41 can be specified for proper
@@ -288,11 +288,11 @@ mapping:
         value: 25
 ```
 
-### Schedule parameters
+### Schedule Parameters
 
 Each schedule parameter can be mapped to DNP3 Analog Output commands in the same
 manner as [Int32, Int64 and Float](#int32-int64-and-float) fields. Schedules
-will be executed as described in [Scheduling](../../misc/scheduling.md) page.
+are executed as described in [Scheduling](../../misc/scheduling.md).
 
 ```yaml
 - scheduleParameter:  # A sequence of schedule parameters w/ enum + value. Each plugin specifies what to do with each enumeration value

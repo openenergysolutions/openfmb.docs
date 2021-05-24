@@ -1,4 +1,4 @@
-# Capture and Replay plugins
+# Capture and Replay Plugins
 
 The `capture` plugin saves all the messages sent to the internal message bus to a
 file along with the timestamp that they were sent. The `replay` plugin reads
@@ -10,7 +10,7 @@ Usually, the `capture` and the `replay` plugins are mutually exclusive.
 
 ## Configuration
 
-The `capture` plugin takes a single setting, the path of the file to save to.
+The `capture` plugin takes a single setting: the path of the file to save to.
 
 ```yaml
 capture:
@@ -18,7 +18,7 @@ capture:
   file: capture.txt
 ```
 
-The `replay` plugin takes a single setting, the path of the file to read from.
+The `replay` plugin takes a single setting: the path of the file to read from.
 
 ```yaml
 replay:
