@@ -2,8 +2,8 @@
 module.exports = {
   title: 'OpenFMB Adapter Toolset',
   tagline: 'Open Source from Open Energy Solutions',
-  url: 'https://openenergysolutions.github.io/openfmb.docs/',
-  baseUrl: '/openfmb.docs/',
+  url: 'https://openfmb.openenergysolutions.com',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
