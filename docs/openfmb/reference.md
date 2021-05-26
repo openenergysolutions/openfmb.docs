@@ -21,7 +21,7 @@ In order to run the demonstration, you will need to [install Docker and Docker C
 
 Next, [download an archive](https://github.com/openenergysolutions/openfmb.demo/archive/refs/heads/develop.zip) of the demonstration setup.
 
-## Runthe Demo
+## Run the Demo
 
 Unzip the demo zip file in a place of your choosing. 
 
