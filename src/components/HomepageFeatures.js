@@ -6,7 +6,7 @@ const FeatureList = [
 
   {
     title: 'Adapter for Existing Protocols',
-    img: require('../../static/img/universal_converter_box.png').default,
+    img: require('../../static/img/adapter.png').default,
     description: (
       <>
         Adapter software to communicate with common existing protocols such
