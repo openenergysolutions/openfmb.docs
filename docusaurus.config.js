@@ -10,11 +10,11 @@ module.exports = {
   organizationName: 'openenergysolutions', // Usually your GitHub org/user name.
   projectName: 'openfmb.docs', // Usually your repo name.
   themeConfig: {
-    googleAnalytics: {
-      trackingID: 'UA-195209973-1',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
+    // googleAnalytics: {
+    //   trackingID: 'UA-195209973-1',
+    //   // Optional fields.
+    //   anonymizeIP: true, // Should IPs be anonymized?
+    // },
     navbar: {
       title: 'OpenFMB Adapter Toolset',
       logo: {
@@ -45,6 +45,12 @@ module.exports = {
           docId: 'hmi/index',
           position: 'left',
           label: 'HMI',
+        },
+        {
+          type: 'doc',
+          docId: 'protobuf-exporter/index',
+          position: 'left',
+          label: 'Protobuf Exporter',
         },
         {
           href: 'https://github.com/openenergysolutions/openfmb.docs',
@@ -105,6 +111,11 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        googleAnalytics: {
+          trackingID: 'UA-195209973-1',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
         },
       },
     ],

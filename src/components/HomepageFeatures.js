@@ -51,6 +51,16 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'OpenFMB Protobuf Exporter',
+    img: require('../../docs/protobuf-exporter/img/new.png').default,
+    description: (
+      <>
+        The OpenFMB Protobuf Exporter is an Enterprise Architect Add-In to export OpenFMB UML 
+        modules or packages as Protocol Buffer definition (.proto) files
+      </>
+    ),
+  },
 ];
 
 function Feature({img, Svg, title, description}) {
