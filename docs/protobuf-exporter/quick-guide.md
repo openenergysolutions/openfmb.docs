@@ -18,6 +18,8 @@ sidebar_position: 4
 
     ![image](https://user-images.githubusercontent.com/43071770/154148027-246620b8-41bf-4499-b391-5d57dfb972e1.png)
 
+    By default, all the modules are checked.  Uncheck the modules that you do not want to be generated.
+
 4. Click on Export Protobuf button to start exporting
 
 5. When the generation process completes with no errors, the “Save Protobuf” button will be enabled. Clicking the “Save Protobuf” button will bring up a “Browse For Folder” window to allow the user to browse to the directory where the Protobuf files will be saved. When the save process completes, the right pane will display the Protobuf files saved with their absolute paths and the message “Save complete…”
@@ -29,9 +31,9 @@ sidebar_position: 4
 6. Errors during exporting protobuf
 
     If an error is encountered during processing, the following will be displayed after all error messages:
-    An error was encountered while generating the proto3 files.
-    The saving of the proto3 files has not been disabled.
-    Please correct the error(s) listed and regenerate the proto3 files.
+    - An error was encountered while generating the proto3 files.
+    - The saving of the proto3 files has been disabled.
+    - Please correct the error(s) listed and regenerate the proto3 files.
 
     At this point the user has the following options:
     - Reselect the nodes that do not have errors and generate the Protobuf information. This option will not export a full set of Protobuf files.

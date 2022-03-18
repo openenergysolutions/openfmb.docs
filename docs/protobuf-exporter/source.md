@@ -18,7 +18,7 @@ git clone https://github.com/openenergysolutions/openfmb.eaprotobufexporter.git
 
 ## Building
 
-The OpenFMB Protobuf Export is written in C# Winform.  Microsoft Visual Studio is needed to build the tool.
+The OpenFMB Protobuf Export is written in C# Winform.  Microsoft Visual Studio is needed to build the tool.  The output is the `EAProtobufExporter.dll` that can be manually installed in **Manual Installation** section below.
 
 ## Manual Installation
 
