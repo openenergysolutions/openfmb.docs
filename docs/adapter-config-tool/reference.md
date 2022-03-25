@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Referenced Setup
 
-In this section, you will learn how to use the [OpenFMB Adapter Config tool](index) to create configuration files for the [OpenFMB Adapter](../adapter/index) used by the [Referenced Setup](../openfmb/reference).
+In this section, you will learn how to use the [OpenFMB Adapter Config tool](/docs/adapter-config-tool) to create configuration files for the [OpenFMB Adapter](/docs/adapter) used by the [Referenced Setup](/docs/openfmb/reference).
 
 As specified in the [Referenced Setup](../openfmb/reference), there are four types of electrical equipment:
 
