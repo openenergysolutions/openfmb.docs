@@ -6,7 +6,23 @@ sidebar_label: Introduction
 
 # Adapter
 
-The [Adapter](https://github.com/openenergysolutions/openfmb.adapters) is a portable application that can translate non-OpenFMB protocols into OpenFMB and bridge various OpenFMB transports such as NATS, MQTT, and DDS. The sections below describe these two primary use cases.
+The [Adapter](https://github.com/openenergysolutions/openfmb.adapters) is a portable application that can translate non-OpenFMB protocols into OpenFMB and bridge various OpenFMB transports such as NATS, MQTT, and DDS.
+<br/>
+The following protocols are currently supported by the OpenFMB Adapter:
+
+- DNP3 master and outstation
+- MODBUS master and outstation
+- <i>OCPP 1.6*</i>
+- <i>ICCP client and server (IEC60870-6)*</i>
+- <i>IEC-61850 client and server, both GOOSE and MMS (IEC-61850)*</i>
+- <i>OpenADR*</i>
+- <i>SEP2.0 (IEEE 2030.5)*</i>
+
+:::info
+(*) Required licensing.  Please [contact us](mailto:support@openenergysolutionsinc.com?Subject=Adapter) for more information.
+:::
+
+The sections below describe these two primary use cases.
 
 ## Protocol translator
 

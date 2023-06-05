@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Configuration
@@ -13,7 +13,7 @@ The file consists of two main sections:
 
 ## Logging
 
-he logger name is used for messages not related to a particular plugin. It can be useful to distinguish multiple instances of the Adapter running on a machine. 
+The logger name is used for messages not related to a particular plugin. It can be useful to distinguish multiple instances of the Adapter running on a machine. 
 
 Console logging can be enabled to print everything to `stdout`. 
 

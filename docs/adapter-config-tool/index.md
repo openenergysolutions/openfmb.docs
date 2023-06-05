@@ -34,13 +34,21 @@ A main Adapter Configuration file consists of two sections:
   - Dnp3-outstation: exposes OpenFMB reading and status profiles as DNP3 outstation and translates DNP3 commands to OpenFMB control messages
   - Modbus-master: protocol plug-in that acquires measurement/status data from a MODBUS server and sends control data to MODBUS server
   - Modbus-outstation: exposes OpenFMB reading and status profiles as MODBUS server and translate MODBUS write commands to OpenFMB control messages
-  - Goose-pub: protocol plug-in that subscribes to GOOSE events and publishes OpenFMB message
-  - Goose-sub: protocol plug-in that subscribes to OpenFMB message and publishes GOOSE events
   - MQTT: pub/sub transport protocol used to publish and subscribe OpenFMB messages
   - NATS: pub/sub transport protocol used to publish and subscribe OpenFMB messages
   - TimescaleDB: time series database to store basic electrical measurements and/or to persist OpenFMB messages
 
- 
+:::note
+There are many more plugins for a variety of protocols that are supported by the OES' OpenFMB Adapter.  Please [contact us](mailto:support@openenergysolutionsinc.com?Subject=Adapter) for more information.
+Some of the currently available adapters are:
+- Open Charge Point Protocol (OCPP)
+- Inter-Control Center Communications Protocol (ICCP)
+- IEC-61850 (MMS and GOOSE)
+- Open Automated Demand Response (OpenADR)
+- SEP 2.0 or IEEE 2030.5
+- UDP protocol
+:::
+   
 
 ## Protocol Plug-in Configuration and its Sessions
 

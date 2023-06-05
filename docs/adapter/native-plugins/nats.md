@@ -10,7 +10,7 @@ NATS uses a topic hierarchy delimited by periods. Within the context of OpenFMB,
 
 `openfmb.<module name>.<profile name>.<subject name>`
 
-The `<subject name>` may be a the `*` wildcard or the ConductingEquipment
+The `<subject name>` may be a `*` wildcard or the ConductingEquipment
 `mRID`. All messages published to the NATS server will use the fully qualified
 topic name including the mRID.
 

@@ -53,6 +53,12 @@ module.exports = {
           label: 'Protobuf Exporter',
         },
         {
+          type: 'doc',
+          docId: 'adapter-extensions/index',
+          position: 'left',
+          label: '[New] Adapter Extensions',
+        },
+        {
           href: 'https://github.com/openenergysolutions/openfmb.docs',
           label: 'GitHub',
           position: 'right',
@@ -63,11 +69,11 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'About Us',
           items: [
             {
-              label: 'Introduction',
-              to: '/docs/openfmb/intro',
+              label: 'Open Energy Solutions',
+              to: 'https://openenergysolutions.com/about',
             },
           ],
         },

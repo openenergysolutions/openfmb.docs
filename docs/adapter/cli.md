@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # CLI
@@ -16,10 +16,14 @@ The command-line interface (CLI) to the Adapter provides some helpful commands, 
 
 Prints a short description of all the available commands and parameters. 
 
-Result: 
-
 ```bash
 openfmb-adapter -h
+```
+
+or with Docker:
+
+```bash
+docker run --rm oesinc/openfmb.adapters -h
 ```
 
 Result:
@@ -53,6 +57,11 @@ A default top-level configuration may be generated using the -g flag. This file 
 ```bash
 openfmb-adapter -g config.yml
 ```
+or with Docker:
+
+```bash
+docker run --rm -v $PWD:/openfmb oesinc/openfmb.adapters -g /openfmb/config.yml
+```
 
 ## Generate configuration for a plugin
 Some plugins, notably the Adapter-type protocol plugins, need extra configuration in separate files. The output file is specified with the -g argument. The plugin for which the config is generated is specified with the -p argument. The desired profile is specified with the -f argument. 
@@ -61,6 +70,12 @@ Some plugins, notably the Adapter-type protocol plugins, need extra configuratio
 
 ```bash
 openfmb-adapter -g dnp3-master.yml -p dnp3-master -f SolarReadingProfile -f SolarStatusProfile
+```
+
+or with Docker:
+
+```bash
+docker run --rm -v $PWD:/openfmb oesinc/openfmb.adapters -g /openfmb/dnp3-master.yml -p dnp3-master -f SolarReadingProfile -f SolarStatusProfile
 ```
 :::
 
@@ -73,10 +88,20 @@ To generate the top-level schema, run the following:
 openfmb-adapter -s config.json
 ```
 
+or with Docker:
+```bash
+docker run --rm -v $PWD:/openfmb oesinc/openfmb.adapters -s /openfmb/config.json
+```
+
 To generate the schema for a particular plugin, run the following: 
 
 ```bash
 openfmb-adapter -s dnp3-master.json -p dnp3-master
+```
+
+or with Docker:
+```bash
+docker run --rm -v $PWD:/openfmb oesinc/openfmb.adapters -s /openfmb/dnp3-master.json -p dnp3-master
 ```
 
 The `--pretty-print` argument can also be used to produce human-readable schema files. Note that these files are particularly large for plugins and pretty-printing should be used only for debugging purposes. 
@@ -91,12 +116,21 @@ The adapter is run using the `-c` flag. To stop the adapter, hit Ctrl-C on the k
 openfmb-adapter -c [config.yml]
 ```
 
+or with Docker:
+```bash
+docker run --rm -v $PWD:/openfmb oesinc/openfmb.adapters -c /openfmb/[config.yml]
+```
+
 ## List plugins
 
 All available plugins compiled in this instance of the adapter can be listed using the `-l` flag.
 
 ```bash
 openfmb-adapter -l
+```
+or with Docker:
+```bash
+docker run --rm oesinc/openfmb.adapters -l
 ```
 
 Result:
@@ -125,6 +159,11 @@ using the `-v` flag. The hash can be used on GitHub to retrieve the exact code u
 
 ```bash
 openfmb-adapter -v
+```
+
+or with Docker:
+```bash
+docker run --rm oesinc/openfmb.adapters -v
 ```
 
 Result:

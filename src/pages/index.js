@@ -18,7 +18,12 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/openfmb/intro">
             Introduction - 10min ⏱️
-          </Link>
+          </Link>          
+        </div>
+        <div style={{paddingTop: 3 + 'em'}}>          
+          <p className="hero__subtitle">New Release of OpenFMB Adapter 2.1</p>
+          <Link to="/docs/openfmb/features" className="button button--secondary button--sm">What's New in OpenFMB 2.1 Data Model</Link><br/><br/>
+          <Link to="/docs/adapter-extensions" className="button button--secondary button--sm">Extensible Adapters</Link>          
         </div>
       </div>
     </header>
@@ -30,7 +35,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="OpenFMB Adapter Toolset from Open Enery Solutions (OES)">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
