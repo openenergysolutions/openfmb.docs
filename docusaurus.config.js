@@ -59,6 +59,12 @@ module.exports = {
           label: '[New] Adapter Extensions',
         },
         {
+          type: 'doc',
+          docId: 'releases/index',
+          position: 'left',
+          label: 'Release Notes',
+        },
+        {
           href: 'https://github.com/openenergysolutions/openfmb.docs',
           label: 'GitHub',
           position: 'right',
