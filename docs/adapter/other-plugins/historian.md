@@ -32,7 +32,20 @@ To initialize the database with the plug-in schema, download `timescaledb.sql` f
   docker exec -it -u postgres  timescaledb  ash
   ```
   
-  Inside the containter, run the `timescaledb.sql` script:
+  Inside the containter, create a database name `openfmb` and run the `timescaledb.sql` script:
+  ```
+  psql -U postgres
+  ```
+
+  At postgres# prompt, creat database then exit:
+
+  ```
+  postgres# CREATE DATABASE openfmb;
+  CREATE DATABASE
+  postgres# exit
+  ```
+  Then execute the timescale.sql script to initialize database:
+
   ```
   cd /var/lib/postgresql/
   psql -U postgres -d openfmb -a -f timescaledb.sql
