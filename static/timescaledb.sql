@@ -57,8 +57,6 @@ SELECT create_hypertable('data', 'timestamp', chunk_time_interval => INTERVAL '1
 
 ALTER TABLE data OWNER to postgres;
 
-GRANT SELECT ON TABLE data TO grafana;
-
 GRANT ALL ON TABLE data TO postgres;
 
 CREATE INDEX data_device_uuid_asc
@@ -92,8 +90,6 @@ SELECT create_hypertable('raw_data', 'timestamp', chunk_time_interval => INTERVA
 
 ALTER TABLE raw_data
     OWNER to postgres;
-
-GRANT SELECT ON TABLE raw_data TO grafana;
 
 GRANT ALL ON TABLE raw_data TO postgres;
 
